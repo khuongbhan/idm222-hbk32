@@ -1,3 +1,55 @@
 /* =============
     Header
 ============= */
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 2%;
+    left: 0%;
+    z-index: 1000;
+
+    div {
+        // border: 1px solid red;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        #logo-container {
+            padding: 20px 20px;
+
+            // @include md {
+            //     padding: 20px;
+            // }
+
+            img {
+				width: 30px;
+
+				@include md {
+					width: 40px;
+				}
+				@include lg {
+					width: 50px;
+				}
+			}
+        }
+
+        #burger-container {
+            align-items: center;
+            // border: 1px solid blue;
+            display: flex; 
+            justify-content: flex-end;
+            margin-right: 15px;
+
+            @include md {
+                margin-right: 20px;
+            }
+
+            #burger {
+                // cursor: pointer;
+                // cursor: url(img/main-assets/default-cursor.png), auto;
+            }
+        }
+
+    }
+
+}

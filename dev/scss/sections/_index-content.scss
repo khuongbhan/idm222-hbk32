@@ -1,0 +1,180 @@
+/* =============
+    Index Content
+============= */
+
+#index-homepage {
+    background-color: $black;
+    background-image: url(img/main-assets/noise.png);
+    // background-image: url(https://ibb.co/WVc29n3);
+    background-repeat: repeat;
+
+    margin-top: 60px;
+
+    @include md {
+        margin-top: 90px;
+
+    }
+
+    @include lg {
+        margin-top: 90px;
+    }
+
+    #landing-screen {
+
+        // display: grid;
+        // grid-template-columns: 10px auto 10px;
+        // grid-template-areas: ". landing-screen-container .";
+
+        #hello-there {
+
+            margin-left: 20px;
+
+            @include lg {
+                margin-left: 25px;
+            }
+
+        }
+
+        #large-copy {
+
+            // grid-area: landing-screen-container;
+
+            margin-top: -15px;
+
+            display: grid;
+            grid-template-columns: 20px auto 20px;
+            grid-template-areas: ". large-text .";
+
+            @include lg {
+
+                margin-top: -30px;
+
+            }
+
+            #large-text {
+
+                font-weight: 400;
+                line-height: rem-calc(40);
+                font-size: rem-calc(24);
+                // font-size: rem-calc(50);
+                grid-area: large-text;
+
+                @include md {
+                    font-size: rem-calc(38);
+                    line-height: rem-calc(55);
+                }
+
+                @include lg {
+                    font-size: rem-calc(50);
+                    line-height: rem-calc(70);
+                }
+            }
+        }
+
+        #circle-name {
+            height: 55px;
+            // width: 190px;
+            // height: 100%;
+            margin-top: -10px;
+            margin-left: -30px;
+
+            @include md {
+
+                height: 80px;
+                margin-top: -10px;
+                margin-left: 50px;
+
+            }
+
+            @include lg {
+
+                height: 100px;
+                margin-top: -20px;
+                margin-left: 130px;
+
+            }
+        }
+
+        #line-brand {
+
+            width: 80px;
+            margin-top: 233px;
+            margin-left: -330px;
+
+            @include md {
+                width: 160px;
+                margin-top: 220px;
+                margin-left: -540px;
+            }
+
+            @include lg {
+                width: 230px;
+                margin-top: 205px;
+                margin-left: -300px;
+            }
+        }
+
+        #line-digital {
+            width: 100px;
+            margin-top: -207px;
+            margin-left: 180px;
+            // overflow: hidden;
+
+            @include md {
+                width: 150px;
+                margin-top: -170px;
+                margin-left: 480px;
+            }
+
+            @include lg {
+                width: 200px;
+                margin-top: -145px;
+                margin-left: 30px;
+            }
+
+        }
+
+        #rotate-button {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            margin-top: 10px;
+
+            @include md {
+                margin-top: 40px;
+            }
+
+            @include lg {
+                margin-top: 30px;
+            }
+
+            #image {
+
+                #rt-btn {
+
+                    align-items: center;
+                    animation: buttonRotate 25s linear infinite;
+
+                    @keyframes buttonRotate {
+                        from {
+                            transform: rotate(-360deg);
+                        }
+
+                        to {
+                            transform: rotate(360deg);
+                        }
+                    }
+                }
+            }
+
+            #arrow {
+
+                #arrow-rotate-button {
+                    margin-left: -75px;
+                }
+            }
+        }
+    }
+}

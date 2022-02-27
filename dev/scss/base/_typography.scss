@@ -6,12 +6,18 @@
 
 
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Space Mono', monospace;
+    color: $white;
 }
 
 h1,h2,h3,h4{
     margin: 0;
     padding: 0;
+}
+
+h6 {
+    font-size: rem-calc(20);
+    font-weight: 400;
 }
 
 p{
@@ -22,3 +28,11 @@ p{
 .section-title{
     font-weight: 300;
 }
+
+::selection {
+    background: $hue-blue;
+}
+
+::-moz-selection {
+    background: $hue-blue;
+  }
