@@ -134,6 +134,41 @@
 
         }
 
+        #line-front {
+            width: 40%;
+            margin-top: -120px;
+            margin-left: 180px;
+
+            @include md {
+                // width: 45%;
+                margin-top: -55px;
+                margin-left: 75px;
+            }
+
+            @include lg {
+                width: 90%;
+                margin-top: -70px;
+                margin-left: -380px;
+            }
+        }
+
+        #line-package {
+            width: 200px;
+            margin-top: -50px;
+            margin-left: -300px;
+
+            @include md {
+                width: 350px;
+                margin-top: 0;
+                margin-left: -700px;
+            }
+
+            @include lg { 
+                width: 400px;
+                margin-left: -1050px;
+            }
+        }
+
         #rotate-button {
 
             display: flex;
