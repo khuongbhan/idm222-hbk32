@@ -1,3 +1,177 @@
 /* =============
     Navigation
 ============= */
+
+#main-nav {
+    // display: none;
+
+    background-color: $black;
+    display: grid;
+    place-items: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 999;
+
+    @include md {
+        grid-template-columns: 5% auto 5%;
+        grid-template-areas: ". nav-content .";
+
+    }
+
+    #nav-container {
+        @include md {
+            grid-area: nav-content;
+            // margin-top: 100px;
+
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: "menu image"
+                "nav-footer nav-footer";
+
+            row-gap:40px;
+        }
+
+
+        #main-menu {
+            margin-bottom: 70px;
+
+            @include md {
+                margin-bottom: 0;
+            }
+
+            ul {
+
+                // margin-top: -30px;
+
+                @include md {
+                    display: grid;
+                    grid-area: menu;
+                }
+
+                li {
+                    text-decoration: none;
+                    color: $white;
+                    text-align: center;
+                    margin-bottom: 10px;
+
+                    @include md {
+                        text-align: left;
+                        margin-bottom: 30px;
+                    }
+
+                    a:link,
+                    a:visited {
+                        font-size: rem-calc(40);
+                        font-weight: 700;
+                        color: $black;
+                        // stroke: $yellow;
+                        -webkit-text-stroke: .5px $yellow;
+                        text-decoration: none;
+
+                        @include md {
+                            -webkit-text-stroke: 1px $yellow;
+                            font-size: rem-calc(60);
+                        }
+
+                        &:hover,
+                        &:active {
+                            color: $yellow;
+                            font-style: italic;
+                            // font-weight: 400;
+                            transition: .5s;
+                            border-bottom: 1.5px solid $yellow;
+
+                        }
+                    }
+
+                }
+            }
+        }
+
+        #nav-gif-container {
+
+            display: none;
+
+            @include md {
+                display: grid;
+                grid-area: image;
+
+            }
+
+            #nav-gif {
+
+                @include md {
+                    width: 90%;
+                }
+            }
+
+        }
+
+        #nav-footer {
+
+            position: absolute;
+            text-align: center;
+            // opacity: .6;
+            
+            @include md {
+
+                display: grid;
+                grid-area: nav-footer;
+                position: relative;
+                text-align: left;
+
+                grid-template-columns: 1fr 1fr;
+                grid-template-areas: "email socials";
+                
+            }
+
+            #nav-email {
+                color: $white;
+                font-size: rem-calc(16);
+                text-decoration: none;
+
+                @include md {
+                    grid-area: email;
+                    position: absolute;
+                    bottom: 10px;
+                }
+
+            }
+
+            ul {
+                padding-top: 10px;
+                color: $white;
+
+                @include md {
+                    grid-area: socials;
+                    text-align: right;
+                }
+
+                li {
+                    padding-bottom: 10px;
+
+                    a:link,
+                    a:visited {
+                        color: $white;
+                        font-size: rem-calc(16);
+                        text-decoration: none;
+
+                        &:hover,
+                        &:active {
+                            color: $yellow;
+                            cursor: url(https://www.linkpicture.com/q/link-cursor-yellow.png), pointer;
+
+                        }
+                    }
+                }
+            }
+
+        }
+
+    }
+}

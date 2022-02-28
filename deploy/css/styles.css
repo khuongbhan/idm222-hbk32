@@ -403,6 +403,11 @@ ul li {
   cursor: url(https://www.linkpicture.com/q/link-cursor-yellow.png), pointer;
 }
 
+.cursor-link-white:hover {
+  transition: opacity 0.5s ease-in 0.5s;
+  cursor: url(https://www.linkpicture.com/q/link-cursor-white_1.png), pointer;
+}
+
 .cursor-text:hover {
   cursor: url(https://www.linkpicture.com/q/text-cursor.png), text;
 }
@@ -466,6 +471,149 @@ textarea {
 /* =============
     Navigation
 ============= */
+#main-nav {
+  background-color: #000;
+  display: grid;
+  place-items: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 999;
+}
+@media (min-width: 768px) {
+  #main-nav {
+    grid-template-columns: 5% auto 5%;
+    grid-template-areas: ". nav-content .";
+  }
+}
+@media (min-width: 768px) {
+  #main-nav #nav-container {
+    grid-area: nav-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "menu image" "nav-footer nav-footer";
+    row-gap: 40px;
+  }
+}
+#main-nav #nav-container #main-menu {
+  margin-bottom: 70px;
+}
+@media (min-width: 768px) {
+  #main-nav #nav-container #main-menu {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 768px) {
+  #main-nav #nav-container #main-menu ul {
+    display: grid;
+    grid-area: menu;
+  }
+}
+#main-nav #nav-container #main-menu ul li {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  #main-nav #nav-container #main-menu ul li {
+    text-align: left;
+    margin-bottom: 30px;
+  }
+}
+#main-nav #nav-container #main-menu ul li a:link,
+#main-nav #nav-container #main-menu ul li a:visited {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #000;
+  -webkit-text-stroke: 0.5px #FFF200;
+  text-decoration: none;
+}
+@media (min-width: 768px) {
+  #main-nav #nav-container #main-menu ul li a:link,
+#main-nav #nav-container #main-menu ul li a:visited {
+    -webkit-text-stroke: 1px #FFF200;
+    font-size: 3.75rem;
+  }
+}
+#main-nav #nav-container #main-menu ul li a:link:hover, #main-nav #nav-container #main-menu ul li a:link:active,
+#main-nav #nav-container #main-menu ul li a:visited:hover,
+#main-nav #nav-container #main-menu ul li a:visited:active {
+  color: #FFF200;
+  font-style: italic;
+  transition: 0.5s;
+  border-bottom: 1.5px solid #FFF200;
+}
+#main-nav #nav-container #nav-gif-container {
+  display: none;
+}
+@media (min-width: 768px) {
+  #main-nav #nav-container #nav-gif-container {
+    display: grid;
+    grid-area: image;
+  }
+}
+@media (min-width: 768px) {
+  #main-nav #nav-container #nav-gif-container #nav-gif {
+    width: 90%;
+  }
+}
+#main-nav #nav-container #nav-footer {
+  position: absolute;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  #main-nav #nav-container #nav-footer {
+    display: grid;
+    grid-area: nav-footer;
+    position: relative;
+    text-align: left;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "email socials";
+  }
+}
+#main-nav #nav-container #nav-footer #nav-email {
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+}
+@media (min-width: 768px) {
+  #main-nav #nav-container #nav-footer #nav-email {
+    grid-area: email;
+    position: absolute;
+    bottom: 10px;
+  }
+}
+#main-nav #nav-container #nav-footer ul {
+  padding-top: 10px;
+  color: #fff;
+}
+@media (min-width: 768px) {
+  #main-nav #nav-container #nav-footer ul {
+    grid-area: socials;
+    text-align: right;
+  }
+}
+#main-nav #nav-container #nav-footer ul li {
+  padding-bottom: 10px;
+}
+#main-nav #nav-container #nav-footer ul li a:link,
+#main-nav #nav-container #nav-footer ul li a:visited {
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+}
+#main-nav #nav-container #nav-footer ul li a:link:hover, #main-nav #nav-container #nav-footer ul li a:link:active,
+#main-nav #nav-container #nav-footer ul li a:visited:hover,
+#main-nav #nav-container #nav-footer ul li a:visited:active {
+  color: #FFF200;
+  cursor: url(https://www.linkpicture.com/q/link-cursor-yellow.png), pointer;
+}
+
 /* =============
     Header
 ============= */
@@ -510,6 +658,89 @@ header div #burger-container {
 /* =============
     Footer
 ============= */
+footer {
+  background-color: #000;
+}
+footer #footer-container {
+  border-top: 1px solid #fff;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  footer #footer-container {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "email credits socials";
+  }
+}
+footer #footer-container #footer-email {
+  order: 2;
+}
+@media (min-width: 768px) {
+  footer #footer-container #footer-email {
+    grid-area: email;
+    margin-top: 80px;
+  }
+}
+footer #footer-container #footer-email #email-f {
+  font-size: 1rem;
+  font-weight: 400;
+  padding-bottom: 25px;
+  text-decoration: none;
+}
+footer #footer-container #footer-email a:link,
+footer #footer-container #footer-email a:visited {
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+}
+footer #footer-container #footer-email a:link:hover, footer #footer-container #footer-email a:link:active,
+footer #footer-container #footer-email a:visited:hover,
+footer #footer-container #footer-email a:visited:active {
+  color: #FFF200;
+  cursor: url(https://www.linkpicture.com/q/link-cursor-yellow.png), pointer;
+}
+footer #footer-container #credits {
+  order: 3;
+}
+@media (min-width: 768px) {
+  footer #footer-container #credits {
+    grid-area: credits;
+    text-align: center;
+    margin-top: 60px;
+  }
+}
+footer #footer-container #credits .creds {
+  opacity: 0.8;
+  font-size: 0.875rem;
+  padding-bottom: 10px;
+}
+@media (min-width: 768px) {
+  footer #footer-container #socials {
+    grid-area: socials;
+    text-align: end;
+  }
+}
+footer #footer-container #socials li {
+  padding-bottom: 25px;
+}
+footer #footer-container #socials a:link,
+footer #footer-container #socials a:visited {
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+}
+footer #footer-container #socials a:link:hover, footer #footer-container #socials a:link:active,
+footer #footer-container #socials a:visited:hover,
+footer #footer-container #socials a:visited:active {
+  color: #FFF200;
+  cursor: url(https://www.linkpicture.com/q/link-cursor-yellow.png), pointer;
+}
+
 /* =============
     Index Content
 ============= */
@@ -672,7 +903,7 @@ header div #burger-container {
 }
 @media (min-width: 992px) {
   #index-homepage #landing-screen #rotate-button {
-    margin-top: 30px;
+    margin-top: 20px;
   }
 }
 #index-homepage #landing-screen #rotate-button #image #rt-btn {

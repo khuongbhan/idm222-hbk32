@@ -21,11 +21,11 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/homepage\/arrow-rotate-btn.png" : {
+    "\/deploy\/img\/homepage\/landing\/arrow-rotate-btn.png" : {
       "ft" : 32768,
       "iS" : 223,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/homepage\/arrow-rotate-btn.png",
+      "oAP" : "\/deploy\/img\/homepage\/landing\/arrow-rotate-btn.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -49,6 +49,19 @@
       "iS" : 1121,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/main-assets\/default-cursor.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/main-assets\/link-cursor-white.png" : {
+      "ft" : 32768,
+      "iS" : 649,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/main-assets\/link-cursor-white.png",
       "oF" : 0,
       "oIPL" : 1,
       "opt" : 1,
@@ -106,6 +119,29 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/nav\/on-hover-nav.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/nav\/on-hover-nav.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/nav\/placeholder-gif.png" : {
+      "ft" : 32768,
+      "iS" : 1925,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/nav\/placeholder-gif.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -133,6 +169,14 @@
       "oAP" : "\/dev\/content\/index-content.html",
       "oF" : 0
     },
+    "\/dev\/global\/footer.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/global\/footer.html",
+      "oF" : 0
+    },
     "\/dev\/global\/head.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -147,6 +191,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/global\/header.html",
+      "oF" : 0
+    },
+    "\/dev\/global\/main-nav.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/global\/main-nav.html",
       "oF" : 0
     },
     "\/dev\/global\/scripts.kit" : {
