@@ -746,7 +746,6 @@ footer #footer-container #socials a:visited:active {
 ============= */
 #index-homepage {
   background-color: #000;
-  background-image: url(img/main-assets/noise.png);
   background-repeat: repeat;
   margin-top: 60px;
 }
@@ -924,7 +923,5 @@ footer #footer-container #socials a:visited:active {
 
 body {
   background-color: #000;
-  background-image: url(img/main-assets/noise.png);
-  background-repeat: repeat;
   cursor: url(https://www.linkpicture.com/q/default-cursor_1.png), auto;
 }
