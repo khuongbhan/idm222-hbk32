@@ -82,6 +82,8 @@ footer {
 
         #credits {
 
+            margin-top: 20px;
+
             @include md {
                 grid-area: credits;
 
@@ -93,12 +95,17 @@ footer {
             
             .creds {
                 opacity: .8;
-                font-size: rem-calc(14);
+                font-size: rem-calc(12);
                 padding-bottom: 10px;
+
+                @include md {
+                    font-size: rem-calc(14);
+                }
             }
         }
 
         #socials {
+            
 
             @include md {
                 grid-area: socials;

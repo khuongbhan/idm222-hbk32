@@ -472,8 +472,8 @@ textarea {
     Navigation
 ============= */
 #main-nav {
+  display: none;
   background-color: #000;
-  display: grid;
   place-items: center;
   position: fixed;
   top: 0;
@@ -705,6 +705,7 @@ footer #footer-container #footer-email a:visited:active {
   cursor: url(https://www.linkpicture.com/q/link-cursor-yellow.png), pointer;
 }
 footer #footer-container #credits {
+  margin-top: 20px;
   order: 3;
 }
 @media (min-width: 768px) {
@@ -716,8 +717,13 @@ footer #footer-container #credits {
 }
 footer #footer-container #credits .creds {
   opacity: 0.8;
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   padding-bottom: 10px;
+}
+@media (min-width: 768px) {
+  footer #footer-container #credits .creds {
+    font-size: 0.875rem;
+  }
 }
 @media (min-width: 768px) {
   footer #footer-container #socials {
@@ -921,6 +927,9 @@ footer #footer-container #socials a:visited:active {
   margin-left: -75px;
 }
 
+/* =============
+    Projects
+============= */
 body {
   background-color: #000;
   cursor: url(https://www.linkpicture.com/q/default-cursor_1.png), auto;
