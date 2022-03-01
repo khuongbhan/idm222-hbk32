@@ -472,7 +472,7 @@ textarea {
     Navigation
 ============= */
 #main-nav {
-  display: none;
+  display: grid;
   background-color: #000;
   place-items: center;
   position: fixed;

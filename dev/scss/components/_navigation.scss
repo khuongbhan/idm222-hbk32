@@ -3,10 +3,11 @@
 ============= */
 
 #main-nav {
-    display: none;
+    // display: none;
+
+    display: grid;
 
     background-color: $black;
-    // display: grid;
     place-items: center;
     position: fixed;
     top: 0;

@@ -1,8 +1,5 @@
 
-// gsap
 
-// import { gsap } from "gsap";
-// import { DrawSVGPlugin } from "gsap/DrawSVGPlugin";
+// @codekit-prepend "main-nav/burger-animation.js";
+// @codekit-prepend "main-nav/nav-global.js";
 
-// import {} from './main-nav/burger-animation'
-// import {} from './main-nav/nav-global'
