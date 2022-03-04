@@ -352,6 +352,10 @@ template {
 /* =============
     Base
 ============= */
+body {
+  scroll-behavior: smooth;
+}
+
 figure {
   padding: 0;
   margin: 0;
@@ -655,6 +659,10 @@ header div #burger-container {
     margin-right: 20px;
   }
 }
+header div #burger-container #burger-area #burger {
+  margin-right: -20px;
+}
+
 /* =============
     Footer
 ============= */
@@ -764,6 +772,9 @@ footer #footer-container #socials a:visited:active {
   #index-homepage {
     margin-top: 90px;
   }
+}
+#index-homepage #landing-screen {
+  min-height: 60vh;
 }
 #index-homepage #landing-screen #hello-there {
   margin-left: 20px;
@@ -926,13 +937,18 @@ footer #footer-container #socials a:visited:active {
 #index-homepage #landing-screen #rotate-button #arrow #arrow-rotate-button {
   margin-left: -75px;
 }
-#index-homepage #featured-projects #scroll-container-1 {
+
+#featured #featured-projects {
+  min-height: 60vh;
   overflow: hidden;
 }
-#index-homepage #featured-projects #scroll-container-1 #scroll-text-1 {
+#featured #featured-projects #scroll-container-1 #scroll-text-1 {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
   -webkit-text-stroke: 0.5px #FFF200;
   color: #000;
-  font-size: 1.875rem;
+  font-size: 2.5rem;
   font-weight: 700;
   display: inline-block;
   -moz-transform: translateX(100%);
@@ -941,6 +957,23 @@ footer #footer-container #socials a:visited:active {
   -moz-animation: myAnimation 15s linear infinite;
   -webkit-animation: myAnimation 15s linear infinite;
   animation: myAnimation 15s linear infinite;
+}
+@media (min-width: 768px) {
+  #featured #featured-projects #scroll-container-1 #scroll-text-1 {
+    -webkit-text-stroke: 1px #FFF200;
+    font-size: 3.4375rem;
+  }
+}
+@media (min-width: 992px) {
+  #featured #featured-projects #scroll-container-1 #scroll-text-1 {
+    -webkit-text-stroke: 1.25px #FFF200;
+    font-size: 3.75rem;
+  }
+}
+#featured #featured-projects #scroll-container-1 #scroll-text-1:hover {
+  transition: 0.25s;
+  font-style: italic;
+  color: #FFF200;
 }
 @-webkit-keyframes myAnimation {
   from {

@@ -22,21 +22,22 @@ header {
             // }
 
             img {
-				width: 30px;
+                width: 30px;
 
-				@include md {
-					width: 40px;
-				}
-				@include lg {
-					width: 50px;
-				}
-			}
+                @include md {
+                    width: 40px;
+                }
+
+                @include lg {
+                    width: 50px;
+                }
+            }
         }
 
         #burger-container {
             align-items: center;
             // border: 1px solid blue;
-            display: flex; 
+            display: flex;
             justify-content: flex-end;
             margin-right: 15px;
 
@@ -44,10 +45,21 @@ header {
                 margin-right: 20px;
             }
 
-            #burger {
-                // cursor: pointer;
-                // cursor: url(img/main-assets/default-cursor.png), auto;
+            #burger-area {
+                // height: 60px;
+                // display: flex;
+
+                #burger {
+                    margin-right: -20px;
+                    // padding-top: 30px;
+                    // padding-left: 20px;
+                    // justify-content: center;
+                    // align-items: center;
+                    // cursor: pointer;
+                    // cursor: url(img/main-assets/default-cursor.png), auto;
+                }
             }
+
         }
 
     }

@@ -1,6 +1,11 @@
 /* =============
     Base
 ============= */
+body {
+    scroll-behavior: smooth;
+}
+
+
 figure{
     padding: 0;
     margin: 0;
