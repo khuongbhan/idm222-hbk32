@@ -926,6 +926,42 @@ footer #footer-container #socials a:visited:active {
 #index-homepage #landing-screen #rotate-button #arrow #arrow-rotate-button {
   margin-left: -75px;
 }
+#index-homepage #featured-projects #scroll-container-1 {
+  overflow: hidden;
+}
+#index-homepage #featured-projects #scroll-container-1 #scroll-text-1 {
+  -webkit-text-stroke: 0.5px #FFF200;
+  color: #000;
+  font-size: 1.875rem;
+  font-weight: 700;
+  display: inline-block;
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  -moz-animation: myAnimation 15s linear infinite;
+  -webkit-animation: myAnimation 15s linear infinite;
+  animation: myAnimation 15s linear infinite;
+}
+@-webkit-keyframes myAnimation {
+  from {
+    -webkit-transform: translateX(100%);
+  }
+  to {
+    -webkit-transform: translateX(-100%);
+  }
+}
+@keyframes myAnimation {
+  from {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
 
 /* =============
     Projects
