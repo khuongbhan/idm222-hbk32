@@ -6,8 +6,9 @@ gsap.set(".lines",{transformOrigin:"center"});
 
 let burgerTimeline = gsap.timeline({pause:true});
 
-burgerTimeline.to("#long-line",{duration:burgerSpeed, rotation: -45,y:10},"burgerToX")
-              .to("#short-line",{duration:burgerSpeed, rotation: 45,y:-10},"burgerToX");
+burgerTimeline.addLabel("burgertoMinus")
+.to("#long-line",{duration:burgerSpeed, opacity:0,y:10},"burgertoMinus")
+              .to("#short-line",{duration:burgerSpeed,y:-10},"burgertoMinus");
 
 // $("#burger-container").on("click", function(){
 //     console.log("click on burger")

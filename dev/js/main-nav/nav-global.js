@@ -25,7 +25,7 @@ function hideShowMainNav(){
 
     if(canISeetheMenu === false){
 
-        burgerTimeline.play("burgertoX");
+        burgerTimeline.play("burgertoMinus");
         mainNavTimeline.play();
         canISeetheMenu = true;
 
