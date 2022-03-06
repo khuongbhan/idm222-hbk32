@@ -352,10 +352,6 @@ template {
 /* =============
     Base
 ============= */
-body {
-  scroll-behavior: smooth;
-}
-
 figure {
   padding: 0;
   margin: 0;
@@ -995,7 +991,6 @@ footer #footer-container #socials a:visited:active {
     transform: translateX(-100%);
   }
 }
-
 /* =============
     Projects
 ============= */
