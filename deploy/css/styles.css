@@ -995,53 +995,55 @@ footer #footer-container #socials a:visited:active {
     transform: translateX(-100%);
   }
 }
-#featured #horizontal-scroll #text-prescroll {
-  grid-area: text;
+#featured #featured-projects #horizontal-scroll {
+  overflow: hidden;
+}
+#featured #featured-projects #horizontal-scroll #text-prescroll {
   position: absolute;
   justify-self: center;
   margin-left: 60px;
   margin-top: 180px;
 }
-#featured #horizontal-scroll #text-prescroll h4 {
+#featured #featured-projects #horizontal-scroll #text-prescroll h4 {
   font-size: 1.25rem;
   font-weight: 400;
   padding-bottom: 20px;
 }
-#featured #horizontal-scroll #text-prescroll #name-with-doodle {
+#featured #featured-projects #horizontal-scroll #text-prescroll #name-with-doodle {
   margin-top: 40px;
 }
-#featured #horizontal-scroll #text-prescroll #name-with-doodle h4 {
+#featured #featured-projects #horizontal-scroll #text-prescroll #name-with-doodle h4 {
   font-style: italic;
   font-weight: 400;
 }
-#featured #horizontal-scroll #text-prescroll #name-with-doodle #arrow-right {
+#featured #featured-projects #horizontal-scroll #text-prescroll #name-with-doodle #arrow-right {
   display: none;
   width: 60px;
 }
 @media (min-width: 768px) {
-  #featured #horizontal-scroll #text-prescroll #name-with-doodle #arrow-right {
+  #featured #featured-projects #horizontal-scroll #text-prescroll #name-with-doodle #arrow-right {
     display: block !important;
   }
 }
 @media (min-width: 992px) {
-  #featured #horizontal-scroll #text-prescroll #name-with-doodle #arrow-right {
+  #featured #featured-projects #horizontal-scroll #text-prescroll #name-with-doodle #arrow-right {
     margin-left: 240px;
     margin-top: -40px;
   }
 }
-#featured #horizontal-scroll #text-prescroll #name-with-doodle #doodle {
+#featured #featured-projects #horizontal-scroll #text-prescroll #name-with-doodle #doodle {
   width: 250px;
   margin-top: -100px;
   margin-left: -30px;
 }
 @media (min-width: 992px) {
-  #featured #horizontal-scroll #text-prescroll #name-with-doodle #doodle {
+  #featured #featured-projects #horizontal-scroll #text-prescroll #name-with-doodle #doodle {
     width: 370px;
     margin-top: -60px;
     margin-left: -50px;
   }
 }
-#featured #horizontal-scroll #projects-home {
+#featured #featured-projects #horizontal-scroll #projects-home {
   overflow: hidden;
   display: flex;
   flex-direction: row;
@@ -1049,26 +1051,26 @@ footer #footer-container #socials a:visited:active {
   padding-left: 500px;
   z-index: 100;
 }
-#featured #horizontal-scroll #projects-home li {
+#featured #featured-projects #horizontal-scroll #projects-home li {
   padding-right: 200px;
 }
-#featured #horizontal-scroll #projects-home li a {
+#featured #featured-projects #horizontal-scroll #projects-home li a {
   text-decoration: none;
 }
-#featured #horizontal-scroll #projects-home li a .project-home-image {
+#featured #featured-projects #horizontal-scroll #projects-home li a .project-home-image {
   height: 60%;
 }
 @media (min-width: 768px) {
-  #featured #horizontal-scroll #projects-home li a .project-home-image {
+  #featured #featured-projects #horizontal-scroll #projects-home li a .project-home-image {
     height: 75%;
   }
 }
 @media (min-width: 992px) {
-  #featured #horizontal-scroll #projects-home li a .project-home-image {
+  #featured #featured-projects #horizontal-scroll #projects-home li a .project-home-image {
     height: 80%;
   }
 }
-#featured #horizontal-scroll #projects-home li a .home-proj-name {
+#featured #featured-projects #horizontal-scroll #projects-home li a .home-proj-name {
   margin-top: 20px;
   margin-bottom: 10px;
   color: #fff;
@@ -1076,18 +1078,17 @@ footer #footer-container #socials a:visited:active {
   font-weight: 700;
   font-style: italic;
 }
-#featured #horizontal-scroll #projects-home li a .home-proj-name:hover, #featured #horizontal-scroll #projects-home li a .home-proj-name:active {
+#featured #featured-projects #horizontal-scroll #projects-home li a .home-proj-name:hover, #featured #featured-projects #horizontal-scroll #projects-home li a .home-proj-name:active {
   color: #FFF200;
   transition: 0.5s;
 }
-#featured #horizontal-scroll #projects-home li a .home-proj-dscrpt {
+#featured #featured-projects #horizontal-scroll #projects-home li a .home-proj-dscrpt {
   color: #fff;
 }
-#featured #scroll-container-2 {
+#featured #featured-projects #scroll-container-2 {
   overflow: hidden;
-  margin-top: 80vh;
 }
-#featured #scroll-container-2 #scroll-text-2 {
+#featured #featured-projects #scroll-container-2 #scroll-text-2 {
   display: inline-block;
   white-space: nowrap;
   overflow: hidden;
@@ -1104,18 +1105,18 @@ footer #footer-container #socials a:visited:active {
   animation: myAnimation2 15s linear infinite;
 }
 @media (min-width: 768px) {
-  #featured #scroll-container-2 #scroll-text-2 {
+  #featured #featured-projects #scroll-container-2 #scroll-text-2 {
     -webkit-text-stroke: 1px #FFF200;
     font-size: 3.4375rem;
   }
 }
 @media (min-width: 992px) {
-  #featured #scroll-container-2 #scroll-text-2 {
+  #featured #featured-projects #scroll-container-2 #scroll-text-2 {
     -webkit-text-stroke: 1.25px #FFF200;
     font-size: 3.75rem;
   }
 }
-#featured #scroll-container-2 #scroll-text-2:hover {
+#featured #featured-projects #scroll-container-2 #scroll-text-2:hover {
   transition: 0.25s;
   font-style: italic;
   color: #FFF200;

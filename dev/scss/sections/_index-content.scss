@@ -286,10 +286,12 @@
                 }
             }
         }
-    }
+    
 
     #horizontal-scroll {
         // display: grid;
+
+        overflow: hidden;
 
         // grid-template-columns: 70% auto;
         // grid-template-areas: "text cards";
@@ -305,7 +307,7 @@
 
         #text-prescroll {
 
-            grid-area: text;
+            // grid-area: text;
             position: absolute;
             // align-items: center; 
             justify-self: center;
@@ -411,7 +413,7 @@
 
     #scroll-container-2 {
         overflow: hidden;
-        margin-top: 80vh;
+        // margin-top: 80vh;
         // object-fit: cover;
 
         #scroll-text-2  {
@@ -470,4 +472,5 @@
             }
         }
     }
+}
 }
