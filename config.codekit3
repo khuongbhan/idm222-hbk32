@@ -287,6 +287,17 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 2
     },
+    "\/dev\/js\/horizontal-scroll.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/horizontal-scroll-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/dev\/js\/main-nav\/burger-animation.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -294,17 +305,6 @@
       "mi" : 1,
       "oA" : 1,
       "oAP" : "\/dev\/js\/main-nav\/burger-animation-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/dev\/js\/main-nav\/nav-global-min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/dev\/js\/main-nav\/nav-global-min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0

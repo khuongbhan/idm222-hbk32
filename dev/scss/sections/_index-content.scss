@@ -1,5 +1,5 @@
 /* =============
-    Index Content
+    Index Content (fix)
 ============= */
 
 #index-homepage {
@@ -289,27 +289,28 @@
     }
 
     #horizontal-scroll {
-        display: grid;
+        // display: grid;
 
-        grid-template-columns: 70% auto;
-        grid-template-areas: "text cards";
-        column-gap: 50px;
+        // grid-template-columns: 70% auto;
+        // grid-template-areas: "text cards";
+        // column-gap: 50px;
         // grid-template-columns: 20px auto 20px;
         // grid-template-areas: ". text ."
         //                      ". cards .";
 
         @include md {
-            grid-template-columns: 1fr 1fr;
-            grid-template-areas: "text cards";
+            // grid-template-columns: 1fr 1fr;
+            // grid-template-areas: "text cards";
         }
 
         #text-prescroll {
 
             grid-area: text;
+            position: absolute;
             // align-items: center; 
             justify-self: center;
             margin-left: 60px;
-            margin-top: 80px;
+            margin-top: 180px;
 
             h4 {
                 font-size: rem-calc(20);
@@ -321,6 +322,11 @@
             #name-with-doodle {
                 margin-top: 40px;
 
+                h4 {
+                    font-style: italic;
+                    font-weight: 400;
+                }
+
                 #arrow-right {
                     display: none;
                     width: 60px;
@@ -328,47 +334,75 @@
                     @include md {
                         display: block !important;
                     }
-                    
-                    
+
+                    @include lg {
+                        margin-left: 240px;
+                        margin-top: -40px;
+                    }
+            
                 }
 
                 #doodle {
                     width: 250px;
                     margin-top: -100px;
                     margin-left: -30px;
+
+                    @include lg {
+                        width: 370px;
+                        margin-top: -60px;
+                        margin-left: -50px;
+                    }
                 }
             }
         }
 
         #projects-home {
-            grid-area: cards;
-
+            // grid-area: cards;
             overflow: hidden;
 
             display: flex;
             flex-direction: row;
             margin-top: 70px;
+            padding-left: 500px;
+            z-index: 100;
             // padding: 20px;
 
             li {
-                padding-right: 20px;
+                padding-right: 200px;
 
                 a {
+                    text-decoration: none;
 
                     .project-home-image {
                         height: 60%;
 
                         @include md {
-                            height: 80%;
+                            height: 75%;
                         }
 
                         @include lg {
-                            height: 85%;
+                            height: 80%;
                         }
                     }
 
                     .home-proj-name { 
+                        margin-top: 20px;
+                        margin-bottom: 10px;
                         color: $white;
+                        font-size: rem-calc(22);
+                        font-weight: 700;
+                        font-style: italic;
+
+                        &:hover,
+                        &:active {
+                            color: $yellow;
+                            transition: .5s;
+                        }
+                    }
+
+                    .home-proj-dscrpt {
+                        color: $white;
+                        // margin-bottom: 30px;
                     }
                 }
             }
