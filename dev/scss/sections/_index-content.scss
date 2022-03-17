@@ -424,7 +424,7 @@
 
             @include md {
                 -webkit-text-stroke: 1px $yellow;
-            font-size: rem-calc(55);
+                font-size: rem-calc(55);
             }
 
             @include lg {

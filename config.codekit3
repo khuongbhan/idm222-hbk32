@@ -77,6 +77,14 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/main-assets\/.noise.png.icloud" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/main-assets\/.noise.png.icloud",
+      "oF" : 0
+    },
     "\/deploy\/img\/main-assets\/default-cursor.png" : {
       "ft" : 32768,
       "iS" : 1121,
@@ -125,19 +133,6 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
-    },
-    "\/deploy\/img\/main-assets\/noise.png" : {
-      "ft" : 32768,
-      "iS" : 4002367,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/main-assets\/noise.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
     },
     "\/deploy\/img\/main-assets\/text-cursor.png" : {
       "ft" : 32768,
@@ -215,12 +210,12 @@
       "oAP" : "\/deploy\/work.html",
       "oF" : 0
     },
-    "\/design\/idm-222-hbk32-design.fig" : {
+    "\/design\/.idm-222-hbk32-design.fig.icloud" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/design\/idm-222-hbk32-design.fig",
+      "oAP" : "\/design\/.idm-222-hbk32-design.fig.icloud",
       "oF" : 0
     },
     "\/dev\/content\/index-content.kit" : {
