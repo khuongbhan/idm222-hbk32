@@ -212,27 +212,45 @@ ul {
         gap: 10px;
 
         @include md {
-            grid-template-columns: repeat(2,350px);
+            // grid-template-columns: repeat(2,350px);
+            // grid-template-rows: repeat(2,350px);
+            // grid-template-areas: "1 2"
+            // "3 4";
 
+            
         }
 
+        // .project-gallery {
+        //     img {
+        //         object-fit: cover;
+        //     }
+        // }
+
+        // .project-gallery-1 {
+        //     grid-area: 1;
+        //     overflow: hidden;
+        // }
+        // .project-gallery-2 {
+        //     grid-area: 2;
+        //     overflow: hidden;
+        // }
+        // .project-gallery-3 {
+        //     grid-area: 3;
+        //     overflow: hidden;
+        // }
+        // .project-gallery-4 {
+        //     grid-area: 4;
+        //     overflow: hidden;
+        // }
+
         .project-gallery {
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+                align-items: center;
             img {
                 object-fit: cover;
             }
-        }
-
-        .project-gallery-1 {
-            grid-area: 1;
-        }
-        .project-gallery-2 {
-            grid-area: 2;
-        }
-        .project-gallery-3 {
-            grid-area: 3;
-        }
-        .project-gallery-4 {
-            grid-area: 4;
         }
     }
 }

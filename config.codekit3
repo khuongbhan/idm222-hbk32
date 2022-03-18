@@ -249,6 +249,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/nav\/menu-img.png" : {
+      "ft" : 32768,
+      "iS" : 65679,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/nav\/menu-img.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/nav\/on-hover-nav.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -620,6 +633,14 @@
       "oAP" : "\/dev\/content\/projects-pages\/across-content.html",
       "oF" : 0
     },
+    "\/dev\/content\/projects-pages\/longstoryshort-content.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/projects-pages\/longstoryshort-content.html",
+      "oF" : 0
+    },
     "\/dev\/content\/work-content.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -719,6 +740,14 @@
       "oF" : 2,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/dev\/longstoryshort.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/longstoryshort.html",
+      "oF" : 2
     },
     "\/dev\/scss\/base\/_base.scss" : {
       "aP" : 0,
