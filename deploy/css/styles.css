@@ -1007,6 +1007,7 @@ footer #footer-container #socials a:visited:active {
 }
 #featured #featured-projects #horizontal-scroll {
   grid-area: horizontal-scroll;
+  height: 100%;
   overflow: hidden;
 }
 #featured #featured-projects #horizontal-scroll #text-prescroll {
@@ -1120,6 +1121,17 @@ footer #footer-container #socials a:visited:active {
 #featured #featured-projects #scroll-container-2 {
   overflow: hidden;
   grid-area: scroll-2;
+  margin-top: -200px;
+}
+@media (min-width: 768px) {
+  #featured #featured-projects #scroll-container-2 {
+    margin-top: -50px;
+  }
+}
+@media (min-width: 992px) {
+  #featured #featured-projects #scroll-container-2 {
+    margin-top: 0;
+  }
 }
 #featured #featured-projects #scroll-container-2 #scroll-text-2 {
   display: inline-block;
@@ -1173,6 +1185,28 @@ footer #footer-container #socials a:visited:active {
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
   }
+}
+
+@media (min-width: 768px) {
+  #home-intouch-container {
+    margin-top: 100px;
+  }
+}
+#home-intouch-container #home-intouch-content a {
+  text-decoration: none;
+}
+#home-intouch-container #home-intouch-content a h1 {
+  color: #000;
+  -webkit-text-stroke: 1px #FFF200;
+  font-size: 3.125rem;
+  line-height: 3.75rem;
+  font-weight: 700;
+  text-align: center;
+}
+#home-intouch-container #home-intouch-content a h1:hover, #home-intouch-container #home-intouch-content a h1:active {
+  transition: 0.25s;
+  color: #FFF200;
+  font-style: italic;
 }
 
 /* =============

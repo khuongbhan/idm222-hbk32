@@ -296,6 +296,7 @@
     #horizontal-scroll {
         // display: grid;
         grid-area: horizontal-scroll;
+        height: 100%;
 
         overflow: hidden;
 
@@ -441,8 +442,16 @@
     #scroll-container-2 {
         overflow: hidden;
         grid-area: scroll-2;
-        // margin-top: 80vh;
+        margin-top: -200px;
         // object-fit: cover;
+
+        @include md {
+            margin-top: -50px;
+        }
+
+        @include lg {
+            margin-top: 0;
+        }
 
         #scroll-text-2  {
 
@@ -501,4 +510,31 @@
         }
     }
 }
+}
+
+#home-intouch-container {
+    @include md {
+        margin-top: 100px;
+    }
+    
+    #home-intouch-content {
+        a {
+            text-decoration: none;
+            h1 {
+                color: $black;
+                -webkit-text-stroke: 1px $yellow;
+                font-size: rem-calc(50);
+                line-height: rem-calc(60);
+                font-weight: 700;
+                text-align: center;
+
+                &:hover,
+                &:active {
+                    transition: .25s;
+                    color: $yellow;
+                    font-style: italic;
+                }
+            }
+        }
+    }
 }
