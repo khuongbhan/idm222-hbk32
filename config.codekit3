@@ -50,6 +50,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/homepage\/featured\/across-home.png" : {
+      "ft" : 32768,
+      "iS" : 533076,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/homepage\/featured\/across-home.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/homepage\/featured\/arrow-right.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -70,11 +83,63 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/homepage\/featured\/kmrb-home.png" : {
+      "ft" : 32768,
+      "iS" : 446736,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/homepage\/featured\/kmrb-home.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/homepage\/featured\/lts-home.png" : {
+      "ft" : 32768,
+      "iS" : 435515,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/homepage\/featured\/lts-home.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/homepage\/featured\/mutter-home.png" : {
+      "ft" : 32768,
+      "iS" : 266481,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/homepage\/featured\/mutter-home.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/homepage\/featured\/proj-image-home.png" : {
       "ft" : 32768,
       "iS" : 2656,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/homepage\/featured\/proj-image-home.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/homepage\/featured\/ray-home.png" : {
+      "ft" : 32768,
+      "iS" : 503741,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/homepage\/featured\/ray-home.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -626,6 +691,25 @@
       "oF" : 0,
       "oO" : 0,
       "oS" : 1
+    },
+    "\/README.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/README.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
     }
   },
   "hooks" : [
