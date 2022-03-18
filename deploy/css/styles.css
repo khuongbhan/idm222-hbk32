@@ -1236,6 +1236,14 @@ footer #footer-container #socials a:visited:active {
 }
 @media (min-width: 768px) {
   #projects-full #projects-full-container #work-gallery-container #work-gallery-content {
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}
+@media (min-width: 992px) {
+  #projects-full #projects-full-container #work-gallery-container #work-gallery-content {
+    margin-left: 0;
     display: grid;
     grid-template-columns: 50% 50%;
     column-gap: 20px;
