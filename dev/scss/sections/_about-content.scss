@@ -1,0 +1,55 @@
+/* =============
+    About Section
+============= */
+
+#about-container-top {
+    margin-top: 100px;
+
+    #about-content {
+
+        #photo-area {
+            
+            p {
+                // font-size: rem-calc(14);
+                line-height: rem-calc(18);
+                padding-bottom: 20px;
+            }
+
+            svg {
+                position: absolute;
+                left: 280px;
+                top: 150px;
+                width: 40px;
+            }
+
+            img {
+                width: 100%;
+                align-self: center;
+            }
+        }
+
+        #about-me {
+            margin-top: 30px;
+
+            h2 {
+                font-size: rem-calc(32);
+                font-style: italic;
+                font-weight: 700;
+            }
+
+            svg {
+                width: 65%;
+                padding-bottom: 15px;
+            }
+
+            p {
+                line-height: rem-calc(24);
+                margin-bottom: 25px;
+
+                span {
+                    font-style: italic;
+                }
+            }
+        }
+    }
+}

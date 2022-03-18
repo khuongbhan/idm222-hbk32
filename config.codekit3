@@ -37,6 +37,19 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/img\/about\/me.png" : {
+      "ft" : 32768,
+      "iS" : 328067,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/about\/me.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/homepage\/featured\/arrow-right.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -509,6 +522,20 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/layout\/_header.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_about-content.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_about-content.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

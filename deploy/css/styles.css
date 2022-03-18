@@ -1242,6 +1242,46 @@ footer #footer-container #socials a:visited:active {
   transition: 0.5s;
 }
 /* =============
+    About Section
+============= */
+#about-container-top {
+  margin-top: 100px;
+}
+#about-container-top #about-content #photo-area p {
+  line-height: 1.125rem;
+  padding-bottom: 20px;
+}
+#about-container-top #about-content #photo-area svg {
+  position: absolute;
+  left: 280px;
+  top: 150px;
+  width: 40px;
+}
+#about-container-top #about-content #photo-area img {
+  width: 100%;
+  align-self: center;
+}
+#about-container-top #about-content #about-me {
+  margin-top: 30px;
+}
+#about-container-top #about-content #about-me h2 {
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 700;
+}
+#about-container-top #about-content #about-me svg {
+  width: 65%;
+  padding-bottom: 15px;
+}
+#about-container-top #about-content #about-me p {
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+}
+#about-container-top #about-content #about-me p span {
+  font-style: italic;
+}
+
+/* =============
     Contact Content 
 ============= */
 #contact-container {
