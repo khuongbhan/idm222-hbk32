@@ -7,12 +7,24 @@
 
     #about-content {
 
+        @include md {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-areas: "photo text";
+            gap: 40px;
+        }
+
         #photo-area {
-            
+            grid-area: photo;
+
             p {
                 // font-size: rem-calc(14);
                 line-height: rem-calc(18);
                 padding-bottom: 20px;
+
+                @include lg {
+                    padding-bottom: 40px;
+                }
             }
 
             svg {
@@ -20,21 +32,53 @@
                 left: 280px;
                 top: 150px;
                 width: 40px;
+
+                @include md {
+                    left: 280px;
+                    top: 130px;
+                }
+
+                @include lg {
+                    left: 440px;
+                    top: 150px;
+                }
             }
 
             img {
                 width: 100%;
                 align-self: center;
+
+                @include md {
+                    width: 90%;
+                }
             }
         }
 
         #about-me {
+            grid-area: text;
             margin-top: 30px;
+
+            @include md {
+                margin-top: 0;
+                width: 80%;
+            }
+
+            @include lg {
+                margin-top: 100px;
+            }
 
             h2 {
                 font-size: rem-calc(32);
                 font-style: italic;
                 font-weight: 700;
+
+                @include md {
+                    font-size: rem-calc(40);
+                }
+
+                @include lg {
+                    font-size: rem-calc(48);
+                }
             }
 
             svg {
@@ -46,8 +90,15 @@
                 line-height: rem-calc(24);
                 margin-bottom: 25px;
 
+                @include lg {
+                    font-size: rem-calc(18);
+                    line-height: rem-calc(27);
+                }
+
                 span {
                     font-style: italic;
+                    background-color: $yellow;
+                    color: $magenta;
                 }
             }
         }

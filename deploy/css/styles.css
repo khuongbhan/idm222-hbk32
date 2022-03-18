@@ -1247,9 +1247,25 @@ footer #footer-container #socials a:visited:active {
 #about-container-top {
   margin-top: 100px;
 }
+@media (min-width: 768px) {
+  #about-container-top #about-content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "photo text";
+    gap: 40px;
+  }
+}
+#about-container-top #about-content #photo-area {
+  grid-area: photo;
+}
 #about-container-top #about-content #photo-area p {
   line-height: 1.125rem;
   padding-bottom: 20px;
+}
+@media (min-width: 992px) {
+  #about-container-top #about-content #photo-area p {
+    padding-bottom: 40px;
+  }
 }
 #about-container-top #about-content #photo-area svg {
   position: absolute;
@@ -1257,17 +1273,56 @@ footer #footer-container #socials a:visited:active {
   top: 150px;
   width: 40px;
 }
+@media (min-width: 768px) {
+  #about-container-top #about-content #photo-area svg {
+    left: 280px;
+    top: 130px;
+  }
+}
+@media (min-width: 992px) {
+  #about-container-top #about-content #photo-area svg {
+    left: 440px;
+    top: 150px;
+  }
+}
 #about-container-top #about-content #photo-area img {
   width: 100%;
   align-self: center;
 }
+@media (min-width: 768px) {
+  #about-container-top #about-content #photo-area img {
+    width: 90%;
+  }
+}
 #about-container-top #about-content #about-me {
+  grid-area: text;
   margin-top: 30px;
+}
+@media (min-width: 768px) {
+  #about-container-top #about-content #about-me {
+    margin-top: 0;
+    width: 80%;
+  }
+}
+@media (min-width: 992px) {
+  #about-container-top #about-content #about-me {
+    margin-top: 100px;
+  }
 }
 #about-container-top #about-content #about-me h2 {
   font-size: 2rem;
   font-style: italic;
   font-weight: 700;
+}
+@media (min-width: 768px) {
+  #about-container-top #about-content #about-me h2 {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 992px) {
+  #about-container-top #about-content #about-me h2 {
+    font-size: 3rem;
+  }
 }
 #about-container-top #about-content #about-me svg {
   width: 65%;
@@ -1277,8 +1332,16 @@ footer #footer-container #socials a:visited:active {
   line-height: 1.5rem;
   margin-bottom: 25px;
 }
+@media (min-width: 992px) {
+  #about-container-top #about-content #about-me p {
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+  }
+}
 #about-container-top #about-content #about-me p span {
   font-style: italic;
+  background-color: #FFF200;
+  color: #FF0097;
 }
 
 /* =============
