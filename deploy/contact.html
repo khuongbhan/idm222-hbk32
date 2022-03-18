@@ -102,13 +102,36 @@
     <section id="contact-container" class="grid-container content-spacing">
         <div id="contact-content">
             <div id="contact-left">
-                <h1>let’s talk some more 😁</h1>
-                <p>i check my email very frequently, and you will usually get a reply in 1-2hours; but like a lot of designers, i’m a night owl 🦉 so please don’t be surprised when you receive an email from me at 3am 🤡</p>
-                <p>MAIL<br>khuongbhan@gmail.com</p>
+                <h1 class="cursor-text">let’s talk some more 😁</h1>
+                <p class="cursor-text">i check my email very frequently, and you will usually get a reply in 1-2 hours; but like a lot of designers, i’m a night owl 🦉 so please don’t be surprised when you receive an email from me at 3am 🤡</p>
+                <a href="mailto:khuongbhan@gmail.com" class="cursor-link">
+                    <p>MAIL<br>khuongbhan@gmail.com</p>
+                </a>
             </div>
     
             <div id="contact-form">
-    
+                <p class="cursor-text">or you can fill out this little form if you have any general questions 💌</p>
+                <div id="contact-form">
+                    <form id="form" action="https://formspree.io/f/mqknlyve" method="POST">
+                        <section><label>your name 🐤
+                            <input type="text" name="name" placeholder="firstname lastname" class="cursor-text">
+                        </label>
+                        </section>
+                        <section>
+                            <label>your email 📠
+                                <input type="email" name="email" placeholder="example@123.abc" class="cursor-text">
+                            </label>
+                        </section>
+                        <section>
+                            <label>your message 📬
+                                <textarea type="text" name="message" placeholder="let's play stardew valley together tomorrow!" class="cursor-text"></textarea>
+                            </label>
+                        </section>
+                        <section>
+                            <button type="submit" value="send" class="button cursor-link-white">SEND</button>
+                        </section>
+                    </form>
+                </div>
             </div>
         </div>
     </section> 

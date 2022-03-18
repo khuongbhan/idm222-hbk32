@@ -1244,6 +1244,183 @@ footer #footer-container #socials a:visited:active {
 /* =============
     Contact Content 
 ============= */
+#contact-container {
+  margin-top: 100px;
+}
+@media (min-width: 768px) {
+  #contact-container #contact-content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "info form";
+  }
+}
+#contact-container #contact-content #contact-left {
+  grid-area: info;
+}
+@media (min-width: 768px) {
+  #contact-container #contact-content #contact-left {
+    width: 80%;
+  }
+}
+#contact-container #contact-content #contact-left h1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+@media (min-width: 768px) {
+  #contact-container #contact-content #contact-left h1 {
+    font-size: 2.5rem;
+    line-height: 3.375rem;
+  }
+}
+@media (min-width: 992px) {
+  #contact-container #contact-content #contact-left h1 {
+    font-size: 3.25rem;
+    line-height: 4.375rem;
+    width: 80%;
+  }
+}
+#contact-container #contact-content #contact-left p {
+  margin-top: 20px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+@media (min-width: 768px) {
+  #contact-container #contact-content #contact-left p {
+    margin-top: 40px;
+  }
+}
+@media (min-width: 992px) {
+  #contact-container #contact-content #contact-left p {
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    width: 60%;
+  }
+}
+#contact-container #contact-content #contact-left a {
+  color: #fff;
+  text-decoration: none;
+}
+#contact-container #contact-content #contact-form {
+  grid-area: form;
+  margin-top: 50px;
+}
+#contact-container #contact-content #contact-form p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+@media (min-width: 768px) {
+  #contact-container #contact-content #contact-form p {
+    width: 80%;
+  }
+}
+@media (min-width: 992px) {
+  #contact-container #contact-content #contact-form p {
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    width: 70%;
+  }
+}
+#contact-container #contact-content #contact-form #contact-form #form {
+  display: grid;
+  gap: 40px;
+}
+@media (min-width: 768px) {
+  #contact-container #contact-content #contact-form #contact-form #form {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "name email" "message message" ". send";
+  }
+}
+#contact-container #contact-content #contact-form #contact-form #form section input {
+  margin-top: 10px;
+  border: 1px #fff solid;
+  border-radius: 8;
+  width: 90%;
+  padding: 4% 0 10px 10px;
+  background-color: #000;
+  color: #fff;
+}
+@media (min-width: 768px) {
+  #contact-container #contact-content #contact-form #contact-form #form section input {
+    width: 100%;
+  }
+}
+#contact-container #contact-content #contact-form #contact-form #form section textarea {
+  margin-top: 10px;
+  border: 1px #fff solid;
+  border-radius: 8;
+  width: 90%;
+  height: 100px;
+  padding: 4% 10px;
+  color: #fff;
+  background-color: #000;
+}
+@media (min-width: 768px) {
+  #contact-container #contact-content #contact-form #contact-form #form section textarea {
+    width: 100%;
+  }
+}
+#contact-container #contact-content #contact-form #contact-form #form section ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #CECECE;
+  opacity: 1;
+}
+#contact-container #contact-content #contact-form #contact-form #form section :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #CECECE;
+}
+#contact-container #contact-content #contact-form #contact-form #form section ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #CECECE;
+}
+@media (min-width: 768px) {
+  #contact-container #contact-content #contact-form #contact-form #form section:nth-child(1) {
+    grid-area: name;
+  }
+}
+@media (min-width: 768px) {
+  #contact-container #contact-content #contact-form #contact-form #form section:nth-child(2) {
+    grid-area: email;
+  }
+}
+@media (min-width: 768px) {
+  #contact-container #contact-content #contact-form #contact-form #form section:nth-child(3) {
+    grid-area: message;
+  }
+}
+#contact-container #contact-content #contact-form #contact-form #form section:nth-child(4) {
+  padding-bottom: 30px;
+}
+#contact-container #contact-content #contact-form #contact-form #form section:nth-child(4) .button {
+  background-color: #000;
+  border: 1px #fff solid;
+  border-radius: 26px;
+  color: #fff;
+  padding: 10px 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 768px) {
+  #contact-container #contact-content #contact-form #contact-form #form section:nth-child(4) .button {
+    font-size: 1.25rem;
+    padding: 10px 30px;
+    margin-left: 0;
+  }
+}
+#contact-container #contact-content #contact-form #contact-form #form section:nth-child(4) .button:hover {
+  transition: 0.25s;
+  background-color: #FFF200;
+  border: #FFF200;
+  color: #000;
+  font-style: italic;
+}
+@media (min-width: 768px) {
+  #contact-container #contact-content #contact-form #contact-form #form section:nth-child(4) {
+    margin-left: -70px;
+    grid-area: send;
+  }
+}
+
 body {
   background-color: #000;
   cursor: url(https://www.linkpicture.com/q/default-cursor_1.png), auto;
