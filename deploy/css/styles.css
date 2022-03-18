@@ -938,8 +938,18 @@ footer #footer-container #socials a:visited:active {
   margin-left: -75px;
 }
 
+/* =============
+    Featured
+============= */
 #featured #featured-projects {
   min-height: 60vh;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: "10px auto 10px";
+  grid-template-areas: ". scroll-1 ." ". horizontal-scroll ." ". scroll-2 .";
+}
+#featured #featured-projects #scroll-container-1 {
+  grid-area: scroll-1;
   overflow: hidden;
 }
 #featured #featured-projects #scroll-container-1 #scroll-text-1 {
@@ -996,6 +1006,7 @@ footer #footer-container #socials a:visited:active {
   }
 }
 #featured #featured-projects #horizontal-scroll {
+  grid-area: horizontal-scroll;
   overflow: hidden;
 }
 #featured #featured-projects #horizontal-scroll #text-prescroll {
@@ -1051,14 +1062,35 @@ footer #footer-container #socials a:visited:active {
   padding-left: 500px;
   z-index: 100;
 }
+@media (min-width: 768px) {
+  #featured #featured-projects #horizontal-scroll #projects-home {
+    padding-left: 350px;
+  }
+}
+@media (min-width: 992px) {
+  #featured #featured-projects #horizontal-scroll #projects-home {
+    padding-left: 500px;
+  }
+}
 #featured #featured-projects #horizontal-scroll #projects-home li {
-  padding-right: 200px;
+  width: 70vw;
+  padding-right: 120px;
+}
+@media (min-width: 768px) {
+  #featured #featured-projects #horizontal-scroll #projects-home li {
+    padding-right: 180px;
+  }
+}
+@media (min-width: 992px) {
+  #featured #featured-projects #horizontal-scroll #projects-home li {
+    padding-right: 200px;
+  }
 }
 #featured #featured-projects #horizontal-scroll #projects-home li a {
   text-decoration: none;
 }
 #featured #featured-projects #horizontal-scroll #projects-home li a .project-home-image {
-  height: 60%;
+  height: 40%;
 }
 @media (min-width: 768px) {
   #featured #featured-projects #horizontal-scroll #projects-home li a .project-home-image {
@@ -1087,6 +1119,7 @@ footer #footer-container #socials a:visited:active {
 }
 #featured #featured-projects #scroll-container-2 {
   overflow: hidden;
+  grid-area: scroll-2;
 }
 #featured #featured-projects #scroll-container-2 #scroll-text-2 {
   display: inline-block;
@@ -1144,6 +1177,72 @@ footer #footer-container #socials a:visited:active {
 
 /* =============
     Projects
+============= */
+#projects-full {
+  margin-top: 100px;
+}
+#projects-full #projects-full-container #work-gallery-container {
+  display: grid;
+  grid-template-columns: 2% auto 2%;
+  grid-template-areas: ". gallery-content .";
+}
+@media (min-width: 768px) {
+  #projects-full #projects-full-container #work-gallery-container {
+    grid-template-columns: 5% auto 5%;
+  }
+}
+@media (min-width: 992px) {
+  #projects-full #projects-full-container #work-gallery-container {
+    grid-template-columns: 30% auto;
+  }
+}
+#projects-full #projects-full-container #work-gallery-container #work-gallery-content {
+  grid-area: gallery-content;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  #projects-full #projects-full-container #work-gallery-container #work-gallery-content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 20px;
+  }
+}
+@media (min-width: 768px) {
+  #projects-full #projects-full-container #work-gallery-container #work-gallery-content .proj-right {
+    margin-top: 100px;
+  }
+}
+#projects-full #projects-full-container #work-gallery-container #work-gallery-content .projects {
+  padding-bottom: 60px;
+}
+#projects-full #projects-full-container #work-gallery-container #work-gallery-content .projects .proj-img a .thumbnail {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  #projects-full #projects-full-container #work-gallery-container #work-gallery-content .projects .proj-img a .thumbnail {
+    width: 80%;
+  }
+}
+@media (min-width: 768px) {
+  #projects-full #projects-full-container #work-gallery-container #work-gallery-content .projects .names-descriptions {
+    width: 90%;
+  }
+}
+#projects-full #projects-full-container #work-gallery-container #work-gallery-content .projects .names-descriptions .project-names {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 1.375rem;
+  line-height: 1.875rem;
+  font-weight: 700;
+  font-style: italic;
+}
+#projects-full #projects-full-container #work-gallery-container #work-gallery-content .projects .names-descriptions .project-names:hover, #projects-full #projects-full-container #work-gallery-container #work-gallery-content .projects .names-descriptions .project-names:active {
+  color: #FFF200;
+  transition: 0.5s;
+}
+/* =============
+    Contact Content 
 ============= */
 body {
   background-color: #000;

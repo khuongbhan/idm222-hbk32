@@ -3,9 +3,87 @@
 ============= */
 
 #projects-full {
-    #work-full-container {
-        #work-categories {
-            
+    margin-top: 100px;
+    #projects-full-container {
+        #work-gallery-container {
+
+            display: grid;
+            grid-template-columns: 2% auto 2%;
+            grid-template-areas: ". gallery-content .";
+
+            @include md {
+                grid-template-columns: 5% auto 5%;
+            }
+
+            @include lg {
+                grid-template-columns: 30% auto;
+            }
+
+            #work-gallery-content {
+                grid-area: gallery-content;
+                justify-content: center;
+
+                @include md {
+                    display: grid;
+                    grid-template-columns: 50% 50%;
+                    column-gap: 20px;
+                    // row-gap: 100px;
+                }
+
+                .proj-right {
+                    @include md {
+                        margin-top: 100px;
+                    }
+                }
+
+                .projects {
+                    // width: 80vw;
+                    padding-bottom: 60px;
+                    
+                    .proj-img {
+                        // width: 100vw;
+                        a {
+                            .thumbnail{ 
+                                // width: 80%;
+                                width: 100%;
+
+                                @include md {
+                                    width: 80%;
+                                }
+                            }
+                        }
+                    }
+
+                    .names-descriptions {
+
+                        @include md { 
+                            width: 90%;
+                        }
+
+                        .project-names {
+
+                            margin-top: 10px;
+                            margin-bottom: 10px;
+                            color: $white;
+                            font-size: rem-calc(22);
+                            line-height: rem-calc(30);
+                            font-weight: 700;
+                            font-style: italic;
+
+                            &:hover,
+                            &:active {
+                                color: $yellow;
+                                transition: .5s;
+                            }
+
+                        }
+
+                        .project-des {
+                            // color: $white;
+                        }
+                    }
+                }
+            }
         }
     }
 }

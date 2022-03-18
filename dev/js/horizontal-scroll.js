@@ -22,7 +22,7 @@ gsap.to(
             start: "center 55%", //  Determines the starting position of the ScrollTrigger.
             pin: true, // Pinned during the time that the ScrollTrigger is active
             scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
-            markers: true, // Add markers
+            // markers: true, // Add markers
             snap: 1 / (cards.length - 1),
             onUpdate: self => {
                 let progress = self.progress.toFixed(3);

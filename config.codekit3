@@ -9,6 +9,22 @@
   ],
   "creatorBuild" : "34127",
   "files" : {
+    "\/deploy\/about.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/about.html",
+      "oF" : 0
+    },
+    "\/deploy\/contact.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/contact.html",
+      "oF" : 0
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -216,6 +232,38 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/design\/.idm-222-hbk32-design.fig.icloud",
+      "oF" : 0
+    },
+    "\/dev\/about.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/about.html",
+      "oF" : 2
+    },
+    "\/dev\/contact.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/contact.html",
+      "oF" : 2
+    },
+    "\/dev\/content\/about-content.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/about-content.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/contact-content.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/contact-content.html",
       "oF" : 0
     },
     "\/dev\/content\/index-content.kit" : {
@@ -461,6 +509,20 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/layout\/_header.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_contact-content.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_contact-content.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -1971,7 +2033,7 @@
     "externalServerAddress" : "http:\/\/localhost:8888",
     "gitIgnoreBuildFolder" : 1,
     "hideConfigFile" : 0,
-    "jsCheckerReservedNamesString" : "gsap, $",
+    "jsCheckerReservedNamesString" : "gsap, $, ScrollTrigger",
     "jsHintFlags2" : {
       "asi" : {
         "active" : 0,

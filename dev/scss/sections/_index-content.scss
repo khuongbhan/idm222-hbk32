@@ -216,19 +216,24 @@
     }
 }
 
+/* =============
+    Featured
+============= */
 
 #featured {
     #featured-projects {
         min-height: 60vh;
         overflow: hidden;
-        // display: grid;
-        // grid-template-columns: "10px auto 10px";
-        // grid-template-areas: ". full-area .";
+        display: grid;
+        grid-template-columns: "10px auto 10px";
+        grid-template-areas: ". scroll-1 ."
+        ". horizontal-scroll ."
+        ". scroll-2 .";
         // position: relative; 
         
         #scroll-container-1 {
-            // overflow: hidden;
-            // object-fit: cover;
+            grid-area: scroll-1;
+            overflow: hidden;
 
             #scroll-text-1  {
 
@@ -290,6 +295,7 @@
 
     #horizontal-scroll {
         // display: grid;
+        grid-area: horizontal-scroll;
 
         overflow: hidden;
 
@@ -369,14 +375,31 @@
             z-index: 100;
             // padding: 20px;
 
+            @include md {
+                padding-left: 350px;
+            }
+
+            @include lg {
+                padding-left: 500px;
+            }
+
             li {
-                padding-right: 200px;
+                width: 70vw;
+                padding-right: 120px;
+
+                @include md {
+                    padding-right: 180px;
+                }
+
+                @include lg {
+                    padding-right: 200px;
+                }
 
                 a {
                     text-decoration: none;
 
                     .project-home-image {
-                        height: 60%;
+                        height: 40%;
 
                         @include md {
                             height: 75%;
@@ -408,11 +431,16 @@
                     }
                 }
             }
+
+            // #kmrb-home {
+            //     padding-right: -20px;
+            // }
         }
     }
 
     #scroll-container-2 {
         overflow: hidden;
+        grid-area: scroll-2;
         // margin-top: 80vh;
         // object-fit: cover;
 
