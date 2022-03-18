@@ -6,15 +6,16 @@
 // }
 
 
-figure{
+figure {
     padding: 0;
     margin: 0;
 }
 
-ul{
+ul {
     padding: 0;
     margin: 0;
-    li{
+
+    li {
         list-style: none;
     }
 }
@@ -61,4 +62,177 @@ ul{
 
 .cursor-text:hover {
     cursor: url(https://www.linkpicture.com/q/text-cursor.png), text;
+}
+
+/* =============
+    Project Page
+============= */
+
+.project-hero {
+    .hero-img {
+        height: 100vh;
+        // width: 100%;
+        display: flex;
+        justify-content: center;
+
+        .down-btn-proj {
+            width: 40px;
+
+            @include md {
+                width: 60px;
+            }
+
+            @include lg {
+                width: 70px;
+                padding-bottom: 40px;
+            }
+
+            align-self: flex-end;
+            padding-bottom: 120px;
+        }
+    }
+}
+
+.project-info {
+    margin-top: 40px;
+
+    @include md {
+        margin-top: 0;
+    }
+
+    @include lg {
+        margin-top: 40px;
+    }
+    .project-info-content {
+        .project-header {
+            .header {
+                font-size: rem-calc(30);
+                line-height: rem-calc(40);
+                font-style: italic;
+                // color: $yellow;
+                text-align: center;
+            }
+
+            // .project-name-underlined {
+            //     max-width: 80vw;
+            //     margin-left: 300px;
+            // }
+
+            .description {
+                margin-top: 10px;
+                text-align: center;
+                font-size: rem-calc(16);
+                line-height: rem-calc(24);
+                font-weight: 400;
+            }
+        }
+
+        .project-goals-overview {
+            
+            @include md {
+                display: grid;
+                grid-template-columns: auto 45% 45% auto;
+                grid-template-areas: ". overview goals .";
+                gap: 40px;
+            }
+
+            @include lg {
+                grid-template-columns: auto 40% 40% auto;
+                // gap: 40px;
+            }
+
+            .project-overview {
+                grid-area: overview;
+
+                .overview-name {
+                    color: $yellow;
+                    padding-bottom: 10px;
+
+                    @include md {
+                        font-weight: 400;
+                    }
+                }
+
+                .overview {
+                    line-height: rem-calc(24);
+                    font-weight: 400;
+                }
+
+                @include md {
+                    width: 80%;
+                    margin-left: 5%;
+                }
+            }
+
+            .project-goals {
+                grid-area: goals;
+                padding-top: 30px;
+
+                .goals-name {
+                    color: $yellow;
+                    padding-bottom: 10px;
+
+                    @include md {
+                        font-weight: 400;
+                    }
+                }
+
+                .goals {
+                    line-height: rem-calc(24);
+                    font-weight: 400;
+                }
+
+                @include md {
+                    width: 80%;
+                    padding-top: 0;
+                }
+            }
+        }
+    }
+}
+
+.image-gallery {
+    
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: "5% auto 5%";
+    grid-template-areas: ". content .";
+
+    .img-gallery-content {
+
+        grid-area: content; 
+
+        display: grid;
+        
+        grid-template-rows: repeat(4,400px);
+        grid-template-areas: "1"
+        "2"
+        "3"
+        "4";
+        gap: 10px;
+
+        @include md {
+            grid-template-columns: repeat(2,350px);
+
+        }
+
+        .project-gallery {
+            img {
+                object-fit: cover;
+            }
+        }
+
+        .project-gallery-1 {
+            grid-area: 1;
+        }
+        .project-gallery-2 {
+            grid-area: 2;
+        }
+        .project-gallery-3 {
+            grid-area: 3;
+        }
+        .project-gallery-4 {
+            grid-area: 4;
+        }
+    }
 }

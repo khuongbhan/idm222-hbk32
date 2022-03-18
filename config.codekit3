@@ -17,6 +17,14 @@
       "oAP" : "\/deploy\/about.html",
       "oF" : 0
     },
+    "\/deploy\/across.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/across.html",
+      "oF" : 0
+    },
     "\/deploy\/contact.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -264,6 +272,94 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/project-page\/across\/across-1.png" : {
+      "ft" : 32768,
+      "iS" : 282838,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/across\/across-1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/across\/across-2.png" : {
+      "ft" : 32768,
+      "iS" : 325500,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/across\/across-2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/across\/across-3.png" : {
+      "ft" : 32768,
+      "iS" : 279982,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/across\/across-3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/across\/across-4.png" : {
+      "ft" : 32768,
+      "iS" : 294500,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/across\/across-4.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/across\/across-5.png" : {
+      "ft" : 32768,
+      "iS" : 913801,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/across\/across-5.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/across\/across-hero.png" : {
+      "ft" : 32768,
+      "iS" : 2015752,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/across\/across-hero.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/hero-down-btn.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/project-page\/hero-down-btn.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/projects-all\/across-proj.png" : {
       "ft" : 32768,
       "iS" : 302172,
@@ -476,6 +572,14 @@
       "oAP" : "\/deploy\/about.html",
       "oF" : 2
     },
+    "\/dev\/across.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/across.html",
+      "oF" : 2
+    },
     "\/dev\/contact.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -506,6 +610,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/index-content.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/projects-pages\/across-content.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/projects-pages\/across-content.html",
       "oF" : 0
     },
     "\/dev\/content\/work-content.kit" : {
@@ -799,6 +911,20 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_work-content.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/project-page\/_across-content.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/project-page\/_across-content.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

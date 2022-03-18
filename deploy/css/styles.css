@@ -413,6 +413,150 @@ ul li {
 }
 
 /* =============
+    Project Page
+============= */
+.project-hero .hero-img {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.project-hero .hero-img .down-btn-proj {
+  width: 40px;
+  align-self: flex-end;
+  padding-bottom: 120px;
+}
+@media (min-width: 768px) {
+  .project-hero .hero-img .down-btn-proj {
+    width: 60px;
+  }
+}
+@media (min-width: 992px) {
+  .project-hero .hero-img .down-btn-proj {
+    width: 70px;
+    padding-bottom: 40px;
+  }
+}
+
+.project-info {
+  margin-top: 40px;
+}
+@media (min-width: 768px) {
+  .project-info {
+    margin-top: 0;
+  }
+}
+@media (min-width: 992px) {
+  .project-info {
+    margin-top: 40px;
+  }
+}
+.project-info .project-info-content .project-header .header {
+  font-size: 1.875rem;
+  line-height: 2.5rem;
+  font-style: italic;
+  text-align: center;
+}
+.project-info .project-info-content .project-header .description {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+@media (min-width: 768px) {
+  .project-info .project-info-content .project-goals-overview {
+    display: grid;
+    grid-template-columns: auto 45% 45% auto;
+    grid-template-areas: ". overview goals .";
+    gap: 40px;
+  }
+}
+@media (min-width: 992px) {
+  .project-info .project-info-content .project-goals-overview {
+    grid-template-columns: auto 40% 40% auto;
+  }
+}
+.project-info .project-info-content .project-goals-overview .project-overview {
+  grid-area: overview;
+}
+.project-info .project-info-content .project-goals-overview .project-overview .overview-name {
+  color: #FFF200;
+  padding-bottom: 10px;
+}
+@media (min-width: 768px) {
+  .project-info .project-info-content .project-goals-overview .project-overview .overview-name {
+    font-weight: 400;
+  }
+}
+.project-info .project-info-content .project-goals-overview .project-overview .overview {
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+@media (min-width: 768px) {
+  .project-info .project-info-content .project-goals-overview .project-overview {
+    width: 80%;
+    margin-left: 5%;
+  }
+}
+.project-info .project-info-content .project-goals-overview .project-goals {
+  grid-area: goals;
+  padding-top: 30px;
+}
+.project-info .project-info-content .project-goals-overview .project-goals .goals-name {
+  color: #FFF200;
+  padding-bottom: 10px;
+}
+@media (min-width: 768px) {
+  .project-info .project-info-content .project-goals-overview .project-goals .goals-name {
+    font-weight: 400;
+  }
+}
+.project-info .project-info-content .project-goals-overview .project-goals .goals {
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+@media (min-width: 768px) {
+  .project-info .project-info-content .project-goals-overview .project-goals {
+    width: 80%;
+    padding-top: 0;
+  }
+}
+
+.image-gallery {
+  padding-top: 40px;
+  display: grid;
+  grid-template-columns: "5% auto 5%";
+  grid-template-areas: ". content .";
+}
+.image-gallery .img-gallery-content {
+  grid-area: content;
+  display: grid;
+  grid-template-rows: repeat(4, 400px);
+  grid-template-areas: "1" "2" "3" "4";
+  gap: 10px;
+}
+@media (min-width: 768px) {
+  .image-gallery .img-gallery-content {
+    grid-template-columns: repeat(2, 350px);
+  }
+}
+.image-gallery .img-gallery-content .project-gallery img {
+  object-fit: cover;
+}
+.image-gallery .img-gallery-content .project-gallery-1 {
+  grid-area: 1;
+}
+.image-gallery .img-gallery-content .project-gallery-2 {
+  grid-area: 2;
+}
+.image-gallery .img-gallery-content .project-gallery-3 {
+  grid-area: 3;
+}
+.image-gallery .img-gallery-content .project-gallery-4 {
+  grid-area: 4;
+}
+
+/* =============
     Typography
 ============= */
 body {
@@ -1564,6 +1708,16 @@ footer #footer-container #socials a:visited:active {
     margin-left: -70px;
     grid-area: send;
   }
+}
+
+/* =============
+    Across Hero
+============= */
+#across-hero #hero-image {
+  background-image: url(../img/project-page/across/across-hero.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 body {
