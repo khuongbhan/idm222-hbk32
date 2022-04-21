@@ -97,7 +97,7 @@ ul {
     margin-top: 40px;
 
     @include md {
-        margin-top: 0;
+        margin-top: 40px;
     }
 
     @include lg {
@@ -197,26 +197,29 @@ ul {
     display: grid;
     grid-template-columns: "5% auto 5%";
     grid-template-areas: ". content .";
+    @include md{
+        display: flex;
+        justify-content: center;
+    }
 
     .img-gallery-content {
 
-        grid-area: content; 
-
-        display: grid;
+        grid-area: content;
         
-        grid-template-rows: repeat(4,400px);
-        grid-template-areas: "1"
-        "2"
-        "3"
-        "4";
-        gap: 10px;
+        // grid-template-rows: repeat(4,400px);
+        // grid-template-areas: "1"
+        // "2"
+        // "3"
+        // "4";
+        // gap: 10px;
 
         @include md {
-            // grid-template-columns: repeat(2,350px);
-            // grid-template-rows: repeat(2,350px);
-            // grid-template-areas: "1 2"
-            // "3 4";
-
+            display: grid;
+            grid-template-columns: repeat(2,400px);
+            grid-template-areas: "i1 i2"
+                                 "i3 i4"
+            "i5 i5"
+            "i5 i5";
             
         }
 
@@ -226,31 +229,44 @@ ul {
         //     }
         // }
 
-        // .project-gallery-1 {
-        //     grid-area: 1;
-        //     overflow: hidden;
-        // }
-        // .project-gallery-2 {
-        //     grid-area: 2;
-        //     overflow: hidden;
-        // }
-        // .project-gallery-3 {
-        //     grid-area: 3;
-        //     overflow: hidden;
-        // }
-        // .project-gallery-4 {
-        //     grid-area: 4;
-        //     overflow: hidden;
-        // }
-
         .project-gallery {
+            // height: 400px;
+            margin: 10px 5px;
             overflow: hidden;
-            display: flex;
+            // display: flex;
             justify-content: center;
                 align-items: center;
             img {
                 object-fit: cover;
+                height: 400px;
+                width: 100%;
+
+                @include md {
+                    height: 100%;
+                }
             }
+        }
+
+        .project-gallery-1 {
+            grid-area: i1;
+            // overflow: hidden;
+        }
+        .project-gallery-2 {
+            grid-area: i2;
+            // overflow: hidden;
+        }
+        .project-gallery-3 {
+            grid-area: i3;
+            // overflow: hidden;
+        }
+        .project-gallery-4 {
+            grid-area: i4;
+            // overflow: hidden;
+        }
+
+        .project-gallery-5 {
+            grid-area: i5;
+            object-fit: cover; 
         }
     }
 }
