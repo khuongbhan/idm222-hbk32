@@ -412,6 +412,10 @@ ul li {
   cursor: url(https://www.linkpicture.com/q/text-cursor.png), text;
 }
 
+.cursor-link-white-stroke:hover {
+  cursor: url(https://www.linkpicture.com/q/link-cursor-white-stroke_1.svg), pointer;
+}
+
 /* =============
     Project Page
 ============= */
@@ -577,6 +581,59 @@ ul li {
   object-fit: cover;
 }
 
+.proj-page-bottom-nav {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .proj-page-bottom-nav .proj-nav {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+.proj-page-bottom-nav .proj-nav .prev-proj {
+  margin-bottom: 30px;
+}
+@media (min-width: 768px) {
+  .proj-page-bottom-nav .proj-nav .prev-proj {
+    text-align: left;
+  }
+}
+.proj-page-bottom-nav .proj-nav .prev-proj .prev {
+  font-size: 1.125rem;
+  margin-bottom: 10px;
+}
+.proj-page-bottom-nav .proj-nav .prev-proj .prev-name {
+  font-size: 1.25rem;
+  font-style: italic;
+  font-weight: 700;
+  color: #FFF200;
+  text-decoration: none;
+}
+.proj-page-bottom-nav .proj-nav .prev-proj .prev-name:hover, .proj-page-bottom-nav .proj-nav .prev-proj .prev-name:active {
+  transition: 0.25s;
+  text-decoration: underline;
+}
+@media (min-width: 768px) {
+  .proj-page-bottom-nav .proj-nav .next-proj {
+    text-align: right;
+  }
+}
+.proj-page-bottom-nav .proj-nav .next-proj .next {
+  font-size: 1.125rem;
+  margin-bottom: 10px;
+}
+.proj-page-bottom-nav .proj-nav .next-proj .next-name {
+  font-size: 1.25rem;
+  font-style: italic;
+  font-weight: 700;
+  color: #FFF200;
+  text-decoration: none;
+}
+.proj-page-bottom-nav .proj-nav .next-proj .next-name:hover, .proj-page-bottom-nav .proj-nav .next-proj .next-name:active {
+  transition: 0.25s;
+  text-decoration: underline;
+}
+
 /* =============
     Typography
 ============= */
@@ -615,6 +672,11 @@ p {
 /* =============
     Buttons
 ============= */
+button {
+  outline: none;
+  transition: 0.25s;
+}
+
 /* =============
     Forms
 ============= */
@@ -1718,7 +1780,6 @@ footer #footer-container #socials a:visited:active {
   }
 }
 #contact-container #contact-content #contact-form #contact-form #form section:nth-child(4) .button:hover {
-  transition: 0.25s;
   background-color: #FFF200;
   border: #FFF200;
   color: #000;

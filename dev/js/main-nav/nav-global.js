@@ -13,7 +13,7 @@ console.log(navHeight);
 
 var mainNavTimeline = gsap.timeline({paused:true})
 
-    mainNavTimeline.to("#main-nav", {duration:0.85, y:0})
+    mainNavTimeline.to("#main-nav", {duration:0.5, y:0})
 
 // function to handle the showing and hiding of the main-nav
 

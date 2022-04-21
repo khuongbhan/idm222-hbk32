@@ -64,10 +64,13 @@ ul {
     cursor: url(https://www.linkpicture.com/q/text-cursor.png), text;
 }
 
+.cursor-link-white-stroke:hover {
+    cursor: url(https://www.linkpicture.com/q/link-cursor-white-stroke_1.svg), pointer;
+}
+
 /* =============
     Project Page
 ============= */
-
 .project-hero {
     .hero-img {
         height: 100vh;
@@ -94,6 +97,8 @@ ul {
 }
 
 .project-info {
+    // position: relative;
+    // background-color: $black;
     margin-top: 40px;
 
     @include md {
@@ -103,6 +108,7 @@ ul {
     @include lg {
         margin-top: 40px;
     }
+
     .project-info-content {
         .project-header {
             .header {
@@ -128,7 +134,7 @@ ul {
         }
 
         .project-goals-overview {
-            
+
             @include md {
                 display: grid;
                 grid-template-columns: auto 45% 45% auto;
@@ -192,12 +198,13 @@ ul {
 }
 
 .image-gallery {
-    
+
     padding-top: 40px;
     display: grid;
     grid-template-columns: "5% auto 5%";
     grid-template-areas: ". content .";
-    @include md{
+
+    @include md {
         display: flex;
         justify-content: center;
     }
@@ -205,7 +212,7 @@ ul {
     .img-gallery-content {
 
         grid-area: content;
-        
+
         // grid-template-rows: repeat(4,400px);
         // grid-template-areas: "1"
         // "2"
@@ -215,12 +222,12 @@ ul {
 
         @include md {
             display: grid;
-            grid-template-columns: repeat(2,400px);
+            grid-template-columns: repeat(2, 400px);
             grid-template-areas: "i1 i2"
-                                 "i3 i4"
-            "i5 i5"
-            "i5 i5";
-            
+                "i3 i4"
+                "i5 i5"
+                "i5 i5";
+
         }
 
         // .project-gallery {
@@ -235,7 +242,8 @@ ul {
             overflow: hidden;
             // display: flex;
             justify-content: center;
-                align-items: center;
+            align-items: center;
+
             img {
                 object-fit: cover;
                 height: 400px;
@@ -251,14 +259,17 @@ ul {
             grid-area: i1;
             // overflow: hidden;
         }
+
         .project-gallery-2 {
             grid-area: i2;
             // overflow: hidden;
         }
+
         .project-gallery-3 {
             grid-area: i3;
             // overflow: hidden;
         }
+
         .project-gallery-4 {
             grid-area: i4;
             // overflow: hidden;
@@ -266,7 +277,70 @@ ul {
 
         .project-gallery-5 {
             grid-area: i5;
-            object-fit: cover; 
+            object-fit: cover;
+        }
+    }
+}
+
+.proj-page-bottom-nav {
+    text-align: center;
+
+    .proj-nav {
+        @include md {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .prev-proj {
+            margin-bottom: 30px;
+
+            @include md {
+                text-align: left;
+            }
+
+            .prev {
+                font-size: rem-calc(18);
+                margin-bottom: 10px;
+            }
+
+            .prev-name {
+                font-size: rem-calc(20);
+                font-style: italic;
+                font-weight: 700;
+                color: $yellow;
+                text-decoration: none;
+
+                &:hover,
+                &:active {
+                    transition: 0.25s;
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .next-proj {
+            @include md {
+                text-align: right;
+            }
+
+            .next {
+                font-size: rem-calc(18);
+                margin-bottom: 10px;
+            }
+
+            .next-name {
+                font-size: rem-calc(20);
+                font-style: italic;
+                font-weight: 700;
+                color: $yellow;
+                text-decoration: none;
+
+                &:hover,
+                &:active {
+                    transition: 0.25s;
+                    text-decoration: underline;
+                }
+            }
         }
     }
 }
