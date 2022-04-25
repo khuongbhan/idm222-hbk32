@@ -7,6 +7,6 @@ import {horizontalScroll} from "./horizontal-scroll.js";
 
 reportWindowSize();
 navClick();
-
 heroPinning();
 horizontalScroll();
+

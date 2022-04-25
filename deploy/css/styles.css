@@ -419,6 +419,10 @@ ul li {
 /* =============
     Project Page
 ============= */
+.project-hero {
+  height: 100%;
+  width: 100%;
+}
 .project-hero .hero-img {
   height: 100vh;
   display: flex;
@@ -1801,6 +1805,16 @@ footer #footer-container #socials a:visited:active {
 ============= */
 #across-hero #hero-image {
   background-image: url(../img/project-page/across/across-hero.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* =============
+    Long Story Short Hero
+============= */
+#lts-hero #lts-hero-image {
+  background-image: url(../img/project-page/longstoryshort/lts-hero.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

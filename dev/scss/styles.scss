@@ -20,12 +20,13 @@
 
 // Sections Styles
 @import "sections/_index-content";
-@import "sections/work-content";
-@import "sections/about-content";
-@import "sections/contact-content";
+@import "sections/_work-content";
+@import "sections/_about-content";
+@import "sections/_contact-content";
 
 // Projects Pages
-@import "sections/project-page/across-content";
+@import "sections/project-page/_across-content";
+@import "sections/project-page/_longstoryshort-content";
 
 body {
     background-color: $black;
