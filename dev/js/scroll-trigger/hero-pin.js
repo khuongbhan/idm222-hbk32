@@ -15,7 +15,7 @@ export function heroPinning(){
         start: "top top",
         //end:"100vh",
         pinSpacing: false,
-        markers: true,
+        // markers: true,
         scrub: true
     });
 }
