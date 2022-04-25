@@ -10,9 +10,7 @@ let cards = gsap.utils.toArray('.home-proj-card');
 // Get prescroll text
 const prescrollText = document.getElementById("text-prescroll");
 
-
-// Set SrollTrigger for project cards
-gsap.to(
+export const  horizontalScroll = gsap.to(
     cards,
     {
         xPercent: -100 * (cards.length - 1),
@@ -32,3 +30,5 @@ gsap.to(
         }
     }
 );
+
+

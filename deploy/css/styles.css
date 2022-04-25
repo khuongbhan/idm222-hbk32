@@ -442,16 +442,18 @@ ul li {
 }
 
 .project-info {
-  margin-top: 40px;
+  position: relative;
+  background-color: #000;
+  padding-top: 40px;
 }
 @media (min-width: 768px) {
   .project-info {
-    margin-top: 40px;
+    padding-top: 40px;
   }
 }
 @media (min-width: 992px) {
   .project-info {
-    margin-top: 40px;
+    padding-top: 40px;
   }
 }
 .project-info .project-info-content .project-header .header {
@@ -527,6 +529,8 @@ ul li {
 }
 
 .image-gallery {
+  position: relative;
+  background-color: #000;
   padding-top: 40px;
   display: grid;
   grid-template-columns: "5% auto 5%";

@@ -97,16 +97,16 @@ ul {
 }
 
 .project-info {
-    // position: relative;
-    // background-color: $black;
-    margin-top: 40px;
+    position: relative;
+    background-color: $black;
+    padding-top: 40px;
 
     @include md {
-        margin-top: 40px;
+        padding-top: 40px;
     }
 
     @include lg {
-        margin-top: 40px;
+        padding-top: 40px;
     }
 
     .project-info-content {
@@ -198,8 +198,10 @@ ul {
 }
 
 .image-gallery {
-
+    position: relative;
+    background-color: $black;
     padding-top: 40px;
+    
     display: grid;
     grid-template-columns: "5% auto 5%";
     grid-template-areas: ". content .";
