@@ -692,17 +692,6 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 0
     },
-    "\/deploy\/js\/scripts-min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/deploy\/js\/scripts-min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
     "\/deploy\/kmrb.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -731,9 +720,9 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/mutter-content.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/deploy\/mutter.html" : {
       "cB" : 0,
@@ -900,8 +889,8 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/index.html",
-      "oF" : 2
+      "oAP" : "\/dev\/index.html",
+      "oF" : 0
     },
     "\/dev\/js\/barba\/barba-transitions.js" : {
       "bF" : 4,
@@ -3276,7 +3265,7 @@
     "webpPresets" : {
 
     },
-    "websiteRelativeRoot" : ""
+    "websiteRelativeRoot" : "\/deploy"
   },
   "settingsFileVersion" : "3"
 }
