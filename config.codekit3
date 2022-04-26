@@ -179,14 +179,6 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/main-assets\/.noise.png.icloud" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/main-assets\/.noise.png.icloud",
-      "oF" : 0
-    },
     "\/deploy\/img\/main-assets\/default-cursor.png" : {
       "ft" : 32768,
       "iS" : 1121,
@@ -245,6 +237,19 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/deploy\/img\/main-assets\/noise.png" : {
+      "ft" : 32768,
+      "iS" : 4002367,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/main-assets\/noise.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/img\/main-assets\/text-cursor.png" : {
       "ft" : 32768,
@@ -383,6 +388,19 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/project-page\/kmrb\/kmrb-hero.png" : {
+      "ft" : 32768,
+      "iS" : 1468375,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/kmrb\/kmrb-hero.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/project-page\/longstoryshort\/lts-1.png" : {
       "ft" : 32768,
       "iS" : 250362,
@@ -453,6 +471,19 @@
       "iS" : 1928709,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/longstoryshort\/lts-hero.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/mutter\/mutter-hero.png" : {
+      "ft" : 32768,
+      "iS" : 1953547,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/mutter\/mutter-hero.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -649,12 +680,36 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/deploy\/kmrb.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/kmrb.html",
+      "oF" : 0
+    },
     "\/deploy\/longstoryshort.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/longstoryshort.html",
+      "oF" : 0
+    },
+    "\/deploy\/mutter-content.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/mutter-content.html",
+      "oF" : 0
+    },
+    "\/deploy\/mutter.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/mutter.html",
       "oF" : 0
     },
     "\/deploy\/work.html" : {
@@ -665,12 +720,12 @@
       "oAP" : "\/deploy\/work.html",
       "oF" : 0
     },
-    "\/design\/.idm-222-hbk32-design.fig.icloud" : {
+    "\/design\/idm-222-hbk32-design.fig" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/design\/.idm-222-hbk32-design.fig.icloud",
+      "oAP" : "\/design\/idm-222-hbk32-design.fig",
       "oF" : 0
     },
     "\/dev\/about.kit" : {
@@ -729,6 +784,14 @@
       "oAP" : "\/dev\/content\/projects-pages\/across-content.html",
       "oF" : 0
     },
+    "\/dev\/content\/projects-pages\/kmrb-content.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/projects-pages\/kmrb-content.html",
+      "oF" : 1
+    },
     "\/dev\/content\/projects-pages\/longstoryshort-content.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -736,6 +799,14 @@
       "oA" : 1,
       "oAP" : "\/dev\/content\/projects-pages\/longstoryshort-content.html",
       "oF" : 0
+    },
+    "\/dev\/content\/projects-pages\/mutter-content.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/deploy\/mutter-content.html",
+      "oF" : 3
     },
     "\/dev\/content\/work-content.kit" : {
       "cB" : 0,
@@ -870,12 +941,28 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/dev\/kmrb.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/kmrb.html",
+      "oF" : 2
+    },
     "\/dev\/longstoryshort.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/longstoryshort.html",
+      "oF" : 2
+    },
+    "\/dev\/mutter.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/mutter.html",
       "oF" : 2
     },
     "\/dev\/scss\/base\/_base.scss" : {
@@ -1103,6 +1190,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/sections\/project-page\/_kmrb-content.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/project-page\/_kmrb-content.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/dev\/scss\/sections\/project-page\/_longstoryshort-content.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1113,6 +1215,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/project-page\/_longstoryshort-content.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/project-page\/_mutter-content.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/project-page\/_mutter-content.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

@@ -1820,6 +1820,35 @@ footer #footer-container #socials a:visited:active {
   background-size: cover;
 }
 
+#lts-web-prototype {
+  position: relative;
+  background-color: #000;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* =============
+    Mutter Hero
+============= */
+#mutter-hero #mutter-hero-image {
+  background-image: url(../img/project-page/mutter/mutter-hero.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* =============
+    Komorebi Hero
+============= */
+#kmrb-hero #kmrb-hero-image {
+  background-image: url(../img/project-page/kmrb/kmrb-hero.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 body {
   background-color: #000;
   cursor: url(https://www.linkpicture.com/q/default-cursor_1.png), auto;

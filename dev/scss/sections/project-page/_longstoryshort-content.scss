@@ -10,3 +10,12 @@
         background-size: cover;
     }
 }
+
+#lts-web-prototype {
+    position: relative;
+    background-color: $black;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
