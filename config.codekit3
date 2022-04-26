@@ -123,8 +123,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/homepage\/featured\/mutter-home.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -149,8 +149,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/homepage\/featured\/ray-home.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -388,6 +388,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/project-page\/highland\/anim-gif.gif" : {
+      "ft" : 4194304,
+      "iS" : 524187,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/highland\/anim-gif.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
     "\/deploy\/img\/project-page\/kmrb\/kmrb-hero.png" : {
       "ft" : 32768,
       "iS" : 1468375,
@@ -471,6 +481,19 @@
       "iS" : 1928709,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/longstoryshort\/lts-hero.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/manray\/manray-hero.png" : {
+      "ft" : 32768,
+      "iS" : 1254133,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/manray\/manray-hero.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -628,8 +651,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/projects-all\/mutter-proj.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -694,6 +717,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/longstoryshort.html",
+      "oF" : 0
+    },
+    "\/deploy\/manray.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/manray.html",
       "oF" : 0
     },
     "\/deploy\/mutter-content.html" : {
@@ -799,6 +830,14 @@
       "oA" : 1,
       "oAP" : "\/dev\/content\/projects-pages\/longstoryshort-content.html",
       "oF" : 0
+    },
+    "\/dev\/content\/projects-pages\/manray-content.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/projects-pages\/manray-content.html",
+      "oF" : 1
     },
     "\/dev\/content\/projects-pages\/mutter-content.kit" : {
       "cB" : 0,
@@ -955,6 +994,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/longstoryshort.html",
+      "oF" : 2
+    },
+    "\/dev\/manray.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/manray.html",
       "oF" : 2
     },
     "\/dev\/mutter.kit" : {
@@ -1215,6 +1262,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/project-page\/_longstoryshort-content.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/project-page\/_manray-content.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/project-page\/_manray-content.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

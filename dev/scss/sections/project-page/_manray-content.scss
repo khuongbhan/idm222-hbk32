@@ -1,0 +1,17 @@
+/* =============
+    Man Ray Hero
+============= */
+
+#manray-hero {
+    #manray-hero-image {
+        background-image: url(../img/project-page/manray/manray-hero.png);
+        // background-image: url(../img/project-page/highland/anim-gif.gif);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: cover;
+
+        @include lg {
+            background-position: center;
+        }
+    }
+}
