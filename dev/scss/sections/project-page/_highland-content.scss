@@ -1,0 +1,16 @@
+/* =============
+    Highland Hero
+============= */
+
+#highland-hero {
+    #highland-hero-image {
+        background-image: url(../img/project-page/highland/highland.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        @include lg {
+            background-position: center;
+        }
+    }
+}

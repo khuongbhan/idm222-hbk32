@@ -9,6 +9,7 @@
   "repository": {},
   "private": true,
   "dependencies": {
+    "@fancyapps/ui": "^4.0.26",
     "gsap": "^3.10.4",
     "jquery": "^3.6.0"
   }

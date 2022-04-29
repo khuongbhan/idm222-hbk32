@@ -1,5 +1,6 @@
 @charset 'utf-8';
 
+
 // Helpers Styles
 @import "helpers/_mixins";
 @import "helpers/_variables";
@@ -14,6 +15,10 @@
 @import "components/_forms";
 @import "components/_navigation";
 
+@import "fancy-box.css";
+@import "components/_fancy-box";
+
+
 // Layout Styles
 @import "layout/_header";
 @import "layout/_footer";
@@ -24,12 +29,15 @@
 @import "sections/_about-content";
 @import "sections/_contact-content";
 
+
 // Projects Pages
 @import "sections/project-page/_across-content";
 @import "sections/project-page/_longstoryshort-content";
 @import "sections/project-page/_mutter-content";
 @import "sections/project-page/_kmrb-content";
-@import "sections/project-page/manray-content";
+@import "sections/project-page/_manray-content";
+@import "sections/project-page/_highland-content";
+
 
 body {
     background-color: $black;

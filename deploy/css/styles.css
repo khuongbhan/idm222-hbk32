@@ -1,3 +1,4 @@
+@import "fancy-box.css";
 /* =============
     Mixins
 ============= */
@@ -847,6 +848,24 @@ textarea {
 #main-nav #nav-container #nav-footer ul li a:visited:active {
   color: #FFF200;
   cursor: url(https://www.linkpicture.com/q/link-cursor-yellow.png), pointer;
+}
+
+.fancybox__container {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  --fancybox-bg: rgba(17, 37, 53, 0.85);
+}
+
+.fancybox__caption {
+  max-width: 80%;
+  /* Prevent opacity change when dragging up/down */
+  --fancybox-opacity: 1;
+}
+
+.fancybox__slide {
+  padding: 40px 0;
 }
 
 /* =============
@@ -1860,6 +1879,21 @@ footer #footer-container #socials a:visited:active {
 }
 @media (min-width: 992px) {
   #manray-hero #manray-hero-image {
+    background-position: center;
+  }
+}
+
+/* =============
+    Highland Hero
+============= */
+#highland-hero #highland-hero-image {
+  background-image: url(../img/project-page/highland/highland.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media (min-width: 992px) {
+  #highland-hero #highland-hero-image {
     background-position: center;
   }
 }

@@ -33,6 +33,18 @@
       "oAP" : "\/deploy\/contact.html",
       "oF" : 0
     },
+    "\/deploy\/css\/fancy-box.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/css\/fancy-box-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -44,6 +56,22 @@
       "oAP" : "\/deploy\/css\/styles-min.css",
       "oF" : 0,
       "pg" : 0
+    },
+    "\/deploy\/eye.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/eye.html",
+      "oF" : 0
+    },
+    "\/deploy\/highland.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/highland.html",
+      "oF" : 0
     },
     "\/deploy\/img\/about\/me.png" : {
       "ft" : 32768,
@@ -300,6 +328,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/project-page\/across\/across-1-big.png" : {
+      "ft" : 32768,
+      "iS" : 1568517,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/across\/across-1-big.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/project-page\/across\/across-1.png" : {
       "ft" : 32768,
       "iS" : 282838,
@@ -378,6 +419,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/project-page\/eye\/eye-hero.png" : {
+      "ft" : 32768,
+      "iS" : 1284136,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/eye\/eye-hero.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/project-page\/hero-down-btn.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -388,11 +442,11 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/project-page\/highland\/anim-gif.gif" : {
+    "\/deploy\/img\/project-page\/highland\/highland.gif" : {
       "ft" : 4194304,
-      "iS" : 524187,
+      "iS" : 524244,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/project-page\/highland\/anim-gif.gif",
+      "oAP" : "\/deploy\/img\/project-page\/highland\/highland.gif",
       "oF" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-none",
@@ -692,6 +746,17 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 0
     },
+    "\/deploy\/js\/scripts-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/deploy\/js\/scripts-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/deploy\/kmrb.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -804,6 +869,22 @@
       "oAP" : "\/dev\/content\/projects-pages\/across-content.html",
       "oF" : 0
     },
+    "\/dev\/content\/projects-pages\/eye-content.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/projects-pages\/eye-content.html",
+      "oF" : 1
+    },
+    "\/dev\/content\/projects-pages\/highland-content.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/projects-pages\/highland-content.html",
+      "oF" : 1
+    },
     "\/dev\/content\/projects-pages\/kmrb-content.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -843,6 +924,14 @@
       "oA" : 1,
       "oAP" : "\/dev\/content\/work-content.html",
       "oF" : 0
+    },
+    "\/dev\/from-i-to-eye.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/eye.html",
+      "oF" : 2
     },
     "\/dev\/global\/footer.kit" : {
       "cB" : 0,
@@ -884,6 +973,14 @@
       "oAP" : "\/dev\/global\/scripts.html",
       "oF" : 0
     },
+    "\/dev\/highland.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/highland.html",
+      "oF" : 2
+    },
     "\/dev\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -899,6 +996,17 @@
       "mi" : 1,
       "oA" : 1,
       "oAP" : "\/dev\/js\/barba\/barba-transitions-min.js",
+      "oF" : 1,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/fancy-box\/fancy-box.js" : {
+      "bF" : 4,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/fancy-box\/fancy-box-min.js",
       "oF" : 1,
       "sC" : 3,
       "tS" : 0
@@ -1056,6 +1164,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/components\/_buttons.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/components\/_fancy-box.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/components\/_fancy-box.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -1221,6 +1344,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/project-page\/_across-content.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/project-page\/_highland-content.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/project-page\/_highland-content.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
