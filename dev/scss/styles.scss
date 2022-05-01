@@ -37,11 +37,13 @@
 @import "sections/project-page/_kmrb-content";
 @import "sections/project-page/_manray-content";
 @import "sections/project-page/_highland-content";
+@import "sections/project-page/eye-content";
 
 
 body {
     background-color: $black;
 
-    cursor: url(https://www.linkpicture.com/q/default-cursor_1.png), auto;
+    // cursor: url(https://www.linkpicture.com/q/default-cursor_1.png), auto;
+    cursor: url(https://www.linkpicture.com/q/default-cursor.svg), auto;
     // cursor: wait;
 }

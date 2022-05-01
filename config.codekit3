@@ -220,6 +220,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/main-assets\/default-cursor.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/main-assets\/default-cursor.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/main-assets\/down-arrow.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -301,6 +311,16 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/deploy\/img\/main-assets\/text-cursor.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/main-assets\/text-cursor.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/deploy\/img\/main-assets\/zoom-in-cursor.svg" : {
       "ft" : 2097152,
@@ -462,6 +482,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/project-page\/highland\/highland-small.gif" : {
+      "ft" : 4194304,
+      "iS" : 434548,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/highland\/highland-small.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
     "\/deploy\/img\/project-page\/highland\/highland.gif" : {
       "ft" : 4194304,
       "iS" : 524244,
@@ -621,8 +651,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/projects-all\/exh-proj.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -1078,13 +1108,13 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/js\/scroll-trigger\/hero-pin.js" : {
+    "\/dev\/js\/scroll-trigger\/scroll-trigger.js" : {
       "bF" : 4,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 1,
-      "oAP" : "\/dev\/js\/scroll-trigger\/hero-pin-min.js",
+      "oAP" : "\/dev\/js\/scroll-trigger\/scroll-trigger-min.js",
       "oF" : 1,
       "sC" : 3,
       "tS" : 0
@@ -1356,6 +1386,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/project-page\/_across-content.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/project-page\/_eye-content.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/project-page\/_eye-content.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

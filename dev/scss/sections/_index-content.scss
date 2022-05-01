@@ -28,6 +28,31 @@
         #hello-there {
 
             margin-left: 20px;
+            display:inline-block;
+
+            h6 {
+                overflow: hidden;
+                border-right: .125em solid $magenta;
+                white-space: nowrap;
+                animation: typing 2s steps(30, end) 1.5s forwards, blinking .6s infinite;
+                // font-size: 1.6rem;
+                width: 0;
+            }
+
+            @keyframes typing {
+                from {
+                    width: 0
+                }
+
+                to {
+                    width: 100%
+                }
+            }
+
+            @keyframes blinking {
+                from { border-color: transparent }
+                to { border-color: $magenta; }
+              }
 
             @include lg {
                 margin-left: 25px;
@@ -163,7 +188,7 @@
                 margin-left: -700px;
             }
 
-            @include lg { 
+            @include lg {
                 width: 400px;
                 margin-left: -1050px;
             }
@@ -227,15 +252,15 @@
         display: grid;
         grid-template-columns: "10px auto 10px";
         grid-template-areas: ". scroll-1 ."
-        ". horizontal-scroll ."
-        ". scroll-2 .";
+            ". horizontal-scroll ."
+            ". scroll-2 .";
         // position: relative; 
-        
+
         #scroll-container-1 {
             grid-area: scroll-1;
             overflow: hidden;
 
-            #scroll-text-1  {
+            #scroll-text-1 {
 
                 display: inline-block;
                 white-space: nowrap;
@@ -243,12 +268,12 @@
 
                 @include md {
                     -webkit-text-stroke: 1px $yellow;
-                font-size: rem-calc(55);
+                    font-size: rem-calc(55);
                 }
 
                 @include lg {
                     -webkit-text-stroke: 1.25px $yellow;
-                font-size: rem-calc(60);
+                    font-size: rem-calc(60);
                 }
 
 
@@ -258,6 +283,7 @@
                     color: $yellow;
 
                 }
+
                 -webkit-text-stroke: .5px $yellow;
                 color: $black;
                 font-size: rem-calc(40);
@@ -273,253 +299,267 @@
                 animation: myAnimation 15s linear infinite;
 
                 @-webkit-keyframes myAnimation {
-                    from { -webkit-transform: translateX(100%); }
-                    to { -webkit-transform: translateX(-100%); }
-                }
-                  
-                  @keyframes myAnimation {
                     from {
-                      -moz-transform: translateX(100%);
-                      -webkit-transform: translateX(100%);
-                      transform: translateX(100%);
+                        -webkit-transform: translateX(100%);
                     }
+
                     to {
-                      -moz-transform: translateX(-100%);
-                      -webkit-transform: translateX(-100%);
-                      transform: translateX(-100%);
+                        -webkit-transform: translateX(-100%);
                     }
                 }
-            }
-        }
-    
 
-    #horizontal-scroll {
-        // display: grid;
-        grid-area: horizontal-scroll;
-        height: 100%;
-
-        overflow: hidden;
-
-        // grid-template-columns: 70% auto;
-        // grid-template-areas: "text cards";
-        // column-gap: 50px;
-        // grid-template-columns: 20px auto 20px;
-        // grid-template-areas: ". text ."
-        //                      ". cards .";
-
-        @include md {
-            // grid-template-columns: 1fr 1fr;
-            // grid-template-areas: "text cards";
-        }
-
-        #text-prescroll {
-
-            // grid-area: text;
-            position: absolute;
-            // align-items: center; 
-            justify-self: center;
-            margin-left: 60px;
-            margin-top: 180px;
-
-            h4 {
-                font-size: rem-calc(20);
-                font-weight: 400;
-                padding-bottom: 20px;
-                // justify-self: center;
-            }
-
-            #name-with-doodle {
-                margin-top: 40px;
-
-                h4 {
-                    font-style: italic;
-                    font-weight: 400;
-                }
-
-                #arrow-right {
-                    display: none;
-                    width: 60px;
-
-                    @include md {
-                        display: block !important;
+                @keyframes myAnimation {
+                    from {
+                        -moz-transform: translateX(100%);
+                        -webkit-transform: translateX(100%);
+                        transform: translateX(100%);
                     }
 
-                    @include lg {
-                        margin-left: 240px;
-                        margin-top: -40px;
-                    }
-            
-                }
-
-                #doodle {
-                    width: 250px;
-                    margin-top: -100px;
-                    margin-left: -30px;
-
-                    @include lg {
-                        width: 370px;
-                        margin-top: -60px;
-                        margin-left: -50px;
+                    to {
+                        -moz-transform: translateX(-100%);
+                        -webkit-transform: translateX(-100%);
+                        transform: translateX(-100%);
                     }
                 }
             }
         }
 
-        #projects-home {
-            // grid-area: cards;
+
+        #horizontal-scroll {
+            // display: grid;
+            grid-area: horizontal-scroll;
+            height: 100%;
+
             overflow: hidden;
 
-            display: flex;
-            flex-direction: row;
-            margin-top: 70px;
-            padding-left: 500px;
-            z-index: 100;
-            // padding: 20px;
+            // grid-template-columns: 70% auto;
+            // grid-template-areas: "text cards";
+            // column-gap: 50px;
+            // grid-template-columns: 20px auto 20px;
+            // grid-template-areas: ". text ."
+            //                      ". cards .";
 
             @include md {
-                padding-left: 350px;
+                // grid-template-columns: 1fr 1fr;
+                // grid-template-areas: "text cards";
             }
 
-            @include lg {
-                padding-left: 500px;
-            }
+            #text-prescroll {
 
-            li {
-                width: 70vw;
-                padding-right: 120px;
+                // grid-area: text;
+                position: absolute;
+                // align-items: center; 
+                justify-self: center;
+                margin-left: 60px;
+                margin-top: 180px;
 
-                @include md {
-                    padding-right: 180px;
+                h4 {
+                    font-size: rem-calc(20);
+                    font-weight: 400;
+                    padding-bottom: 20px;
+                    // justify-self: center;
                 }
 
-                @include lg {
-                    padding-right: 200px;
-                }
+                #name-with-doodle {
+                    margin-top: 40px;
 
-                a {
-                    text-decoration: none;
+                    h4 {
+                        font-style: italic;
+                        font-weight: 400;
+                    }
 
-                    .project-home-image {
-                        height: 40%;
+                    #arrow-right {
+                        display: none;
+                        width: 60px;
 
                         @include md {
-                            height: 75%;
+                            display: block !important;
                         }
 
                         @include lg {
-                            height: 80%;
+                            margin-left: 240px;
+                            margin-top: -40px;
                         }
+
                     }
 
-                    .home-proj-name { 
-                        margin-top: 20px;
-                        margin-bottom: 10px;
-                        color: $white;
-                        font-size: rem-calc(22);
-                        font-weight: 700;
-                        font-style: italic;
+                    #doodle {
+                        width: 250px;
+                        margin-top: -100px;
+                        margin-left: -30px;
 
-                        &:hover,
-                        &:active {
-                            color: $yellow;
-                            transition: .5s;
+                        @include lg {
+                            width: 370px;
+                            margin-top: -60px;
+                            margin-left: -50px;
                         }
-                    }
-
-                    .home-proj-dscrpt {
-                        color: $white;
-                        // margin-bottom: 30px;
                     }
                 }
             }
 
-            // #kmrb-home {
-            //     padding-right: -20px;
-            // }
+            #projects-home {
+                // grid-area: cards;
+                overflow: hidden;
+
+                display: flex;
+                flex-direction: row;
+                margin-top: 70px;
+                padding-left: 500px;
+                z-index: 100;
+                // padding: 20px;
+
+                @include md {
+                    padding-left: 350px;
+                }
+
+                @include lg {
+                    padding-left: 500px;
+                }
+
+                li {
+                    width: 70vw;
+                    padding-right: 120px;
+
+                    @include md {
+                        padding-right: 180px;
+                    }
+
+                    @include lg {
+                        padding-right: 200px;
+                    }
+
+                    a {
+                        text-decoration: none;
+
+                        .project-home-image {
+                            height: 40%;
+
+                            @include md {
+                                height: 75%;
+                            }
+
+                            @include lg {
+                                height: 80%;
+                            }
+                        }
+
+                        .home-proj-name {
+                            margin-top: 20px;
+                            margin-bottom: 10px;
+                            color: $white;
+                            font-size: rem-calc(22);
+                            font-weight: 700;
+                            font-style: italic;
+
+                            &:hover,
+                            &:active {
+                                color: $yellow;
+                                transition: .5s;
+                            }
+                        }
+
+                        .home-proj-dscrpt {
+                            color: $white;
+                            // margin-bottom: 30px;
+                        }
+                    }
+                }
+
+                // #kmrb-home {
+                //     padding-right: -20px;
+                // }
+            }
         }
-    }
 
-    #scroll-container-2 {
-        overflow: hidden;
-        grid-area: scroll-2;
-        margin-top: -200px;
-        // object-fit: cover;
-
-        @include md {
-            margin-top: -50px;
-        }
-
-        @include lg {
-            margin-top: 0;
-        }
-
-        #scroll-text-2  {
-
-            display: inline-block;
-            white-space: nowrap;
+        #scroll-container-2 {
             overflow: hidden;
+            grid-area: scroll-2;
+            margin-top: -200px;
+            // object-fit: cover;
 
             @include md {
-                -webkit-text-stroke: 1px $yellow;
-                font-size: rem-calc(55);
+                margin-top: -50px;
             }
 
             @include lg {
-                -webkit-text-stroke: 1.25px $yellow;
-            font-size: rem-calc(60);
+                margin-top: 0;
             }
 
+            #scroll-text-2 {
 
-            &:hover {
-                transition: .25s;
-                font-style: italic;
-                color: $yellow;
+                display: inline-block;
+                white-space: nowrap;
+                overflow: hidden;
 
-            }
-            -webkit-text-stroke: .5px $yellow;
-            color: $black;
-            font-size: rem-calc(40);
-            font-weight: 700;
-            display: inline-block;
-
-            -moz-transform: translateX(100%);
-            -webkit-transform: translateX(100%);
-            transform: translateX(100%);
-
-            -moz-animation: myAnimation2 15s linear infinite;
-            -webkit-animation: myAnimation2 15s linear infinite;
-            animation: myAnimation2 15s linear infinite;
-
-            @-webkit-keyframes myAnimation2 {
-                from { -webkit-transform: translateX(-100%); }
-                to { -webkit-transform: translateX(100%); }
-            }
-              
-              @keyframes myAnimation2 {
-                from {
-                  -moz-transform: translateX(-100%);
-                  -webkit-transform: translateX(-100%);
-                  transform: translateX(-100%);
+                @include md {
+                    -webkit-text-stroke: 1px $yellow;
+                    font-size: rem-calc(55);
                 }
-                to {
-                  -moz-transform: translateX(100%);
-                  -webkit-transform: translateX(100%);
-                  transform: translateX(100%);
+
+                @include lg {
+                    -webkit-text-stroke: 1.25px $yellow;
+                    font-size: rem-calc(60);
+                }
+
+
+                &:hover {
+                    transition: .25s;
+                    font-style: italic;
+                    color: $yellow;
+
+                }
+
+                -webkit-text-stroke: .5px $yellow;
+                color: $black;
+                font-size: rem-calc(40);
+                font-weight: 700;
+                display: inline-block;
+
+                -moz-transform: translateX(100%);
+                -webkit-transform: translateX(100%);
+                transform: translateX(100%);
+
+                -moz-animation: myAnimation2 15s linear infinite;
+                -webkit-animation: myAnimation2 15s linear infinite;
+                animation: myAnimation2 15s linear infinite;
+
+                @-webkit-keyframes myAnimation2 {
+                    from {
+                        -webkit-transform: translateX(-100%);
+                    }
+
+                    to {
+                        -webkit-transform: translateX(100%);
+                    }
+                }
+
+                @keyframes myAnimation2 {
+                    from {
+                        -moz-transform: translateX(-100%);
+                        -webkit-transform: translateX(-100%);
+                        transform: translateX(-100%);
+                    }
+
+                    to {
+                        -moz-transform: translateX(100%);
+                        -webkit-transform: translateX(100%);
+                        transform: translateX(100%);
+                    }
                 }
             }
         }
     }
-}
 }
 
 #home-intouch-container {
     @include md {
         margin-top: 100px;
     }
-    
+
     #home-intouch-content {
         a {
             text-decoration: none;
+
             h1 {
                 color: $black;
                 -webkit-text-stroke: 1px $yellow;

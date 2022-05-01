@@ -414,7 +414,7 @@ ul li {
 }
 
 .cursor-text:hover {
-  cursor: url(https://www.linkpicture.com/q/text-cursor.png), text;
+  cursor: url(https://www.linkpicture.com/q/text-cursor.svg), text;
 }
 
 .cursor-link-white-stroke:hover {
@@ -1045,6 +1045,30 @@ footer #footer-container #socials a:visited:active {
 }
 #index-homepage #landing-screen #hello-there {
   margin-left: 20px;
+  display: inline-block;
+}
+#index-homepage #landing-screen #hello-there h6 {
+  overflow: hidden;
+  border-right: 0.125em solid #FF0097;
+  white-space: nowrap;
+  animation: typing 2s steps(30, end) 1.5s forwards, blinking 0.6s infinite;
+  width: 0;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blinking {
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: #FF0097;
+  }
 }
 @media (min-width: 992px) {
   #index-homepage #landing-screen #hello-there {
@@ -1900,7 +1924,7 @@ footer #footer-container #socials a:visited:active {
     Highland Hero
 ============= */
 #highland-hero #highland-hero-image {
-  background-image: url(../img/project-page/highland/highland.gif);
+  background-image: url(../img/project-page/highland/highland-small.gif);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1911,7 +1935,22 @@ footer #footer-container #socials a:visited:active {
   }
 }
 
+/* =============
+    from i to eye Hero
+============= */
+#eye-hero #eye-hero-image {
+  background-image: url(../img/project-page/eye/eye-hero.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media (min-width: 992px) {
+  #eye-hero #eye-hero-image {
+    background-position: center;
+  }
+}
+
 body {
   background-color: #000;
-  cursor: url(https://www.linkpicture.com/q/default-cursor_1.png), auto;
+  cursor: url(https://www.linkpicture.com/q/default-cursor.svg), auto;
 }
