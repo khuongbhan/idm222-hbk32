@@ -90,14 +90,20 @@ ul {
         justify-content: center;
 
         .down-btn-proj {
-            width: 40px;
+            
+            // width: 20px;
 
-            @include md {
-                width: 60px;
+            img {
+                width: 50px;
+
+                @include md {
+                    width: 70px;
+                }
             }
 
+
             @include lg {
-                width: 70px;
+                // width: 70px;
                 padding-bottom: 40px;
             }
 

@@ -442,18 +442,19 @@ ul li {
   justify-content: center;
 }
 .project-hero .hero-img .down-btn-proj {
-  width: 40px;
   align-self: flex-end;
   padding-bottom: 120px;
 }
+.project-hero .hero-img .down-btn-proj img {
+  width: 50px;
+}
 @media (min-width: 768px) {
-  .project-hero .hero-img .down-btn-proj {
-    width: 60px;
+  .project-hero .hero-img .down-btn-proj img {
+    width: 70px;
   }
 }
 @media (min-width: 992px) {
   .project-hero .hero-img .down-btn-proj {
-    width: 70px;
     padding-bottom: 40px;
   }
 }

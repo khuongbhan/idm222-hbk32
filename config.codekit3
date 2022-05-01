@@ -57,20 +57,20 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/eye.html" : {
+    "\/deploy\/from-i-to-eye.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/eye.html",
+      "oAP" : "\/deploy\/from-i-to-eye.html",
       "oF" : 0
     },
-    "\/deploy\/highland.html" : {
+    "\/deploy\/highland-orchards.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/highland.html",
+      "oAP" : "\/deploy\/highland-orchards.html",
       "oF" : 0
     },
     "\/deploy\/img\/about\/me.png" : {
@@ -777,44 +777,36 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/deploy\/kmrb.html" : {
+    "\/deploy\/komorebi-lemon-mochi.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/kmrb.html",
+      "oAP" : "\/deploy\/komorebi-lemon-mochi.html",
       "oF" : 0
     },
-    "\/deploy\/longstoryshort.html" : {
+    "\/deploy\/long-story-short.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/longstoryshort.html",
+      "oAP" : "\/deploy\/long-story-short.html",
       "oF" : 0
     },
-    "\/deploy\/manray.html" : {
+    "\/deploy\/man-ray.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/manray.html",
+      "oAP" : "\/deploy\/man-ray.html",
       "oF" : 0
     },
-    "\/deploy\/mutter-content.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/deploy\/mutter-content.html",
-      "oF" : 1
-    },
-    "\/deploy\/mutter.html" : {
+    "\/deploy\/mutter-museum.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/mutter.html",
+      "oAP" : "\/deploy\/mutter-museum.html",
       "oF" : 0
     },
     "\/deploy\/work.html" : {
@@ -950,7 +942,7 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/eye.html",
+      "oAP" : "\/deploy\/from-i-to-eye.html",
       "oF" : 2
     },
     "\/dev\/global\/footer.kit" : {
@@ -993,12 +985,12 @@
       "oAP" : "\/dev\/global\/scripts.html",
       "oF" : 0
     },
-    "\/dev\/highland.kit" : {
+    "\/dev\/highland-orchards.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/highland.html",
+      "oAP" : "\/deploy\/highland-orchards.html",
       "oF" : 2
     },
     "\/dev\/index.kit" : {
@@ -1006,8 +998,8 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/index.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 2
     },
     "\/dev\/js\/barba\/barba-transitions.js" : {
       "bF" : 4,
@@ -1097,36 +1089,36 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/kmrb.kit" : {
+    "\/dev\/komorebi-lemon-mochi.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/kmrb.html",
+      "oAP" : "\/deploy\/komorebi-lemon-mochi.html",
       "oF" : 2
     },
-    "\/dev\/longstoryshort.kit" : {
+    "\/dev\/long-story-short.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/longstoryshort.html",
+      "oAP" : "\/deploy\/long-story-short.html",
       "oF" : 2
     },
-    "\/dev\/manray.kit" : {
+    "\/dev\/man-ray.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/manray.html",
+      "oAP" : "\/deploy\/man-ray.html",
       "oF" : 2
     },
-    "\/dev\/mutter.kit" : {
+    "\/dev\/mutter-museum.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/mutter.html",
+      "oAP" : "\/deploy\/mutter-museum.html",
       "oF" : 2
     },
     "\/dev\/scss\/base\/_base.scss" : {
