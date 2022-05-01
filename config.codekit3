@@ -220,6 +220,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/main-assets\/down-arrow.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/main-assets\/down-arrow.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/main-assets\/link-cursor-white-stroke.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -291,6 +301,16 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/deploy\/img\/main-assets\/zoom-in-cursor.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/main-assets\/zoom-in-cursor.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/deploy\/img\/nav\/menu-img.png" : {
       "ft" : 32768,

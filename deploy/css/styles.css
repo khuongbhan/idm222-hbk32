@@ -353,6 +353,10 @@ template {
 /* =============
     Base
 ============= */
+html {
+  scroll-behavior: smooth;
+}
+
 figure {
   padding: 0;
   margin: 0;
@@ -415,6 +419,14 @@ ul li {
 
 .cursor-link-white-stroke:hover {
   cursor: url(https://www.linkpicture.com/q/link-cursor-white-stroke_1.svg), pointer;
+}
+
+.cursor-view:hover {
+  cursor: url(https://www.linkpicture.com/q/zoom-in-cursor.svg), pointer;
+}
+
+.cursor-down:hover {
+  cursor: url(https://www.linkpicture.com/q/down-arrow.svg), pointer;
 }
 
 /* =============
@@ -538,7 +550,7 @@ ul li {
   background-color: #000;
   padding-top: 40px;
   display: grid;
-  grid-template-columns: "5% auto 5%";
+  grid-template-columns: "20px auto 20px";
   grid-template-areas: ". content .";
 }
 @media (min-width: 768px) {
