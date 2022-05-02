@@ -619,6 +619,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/project-page\/prince\/prince-hero.png" : {
+      "ft" : 32768,
+      "iS" : 2577036,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/prince\/prince-hero.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/projects-all\/across-proj.png" : {
       "ft" : 32768,
       "iS" : 302172,
@@ -703,8 +716,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/projects-all\/lpp-proj.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -813,6 +826,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/komorebi-lemon-mochi.html",
+      "oF" : 0
+    },
+    "\/deploy\/le-petit-prince.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/le-petit-prince.html",
       "oF" : 0
     },
     "\/deploy\/long-story-short.html" : {
@@ -958,6 +979,14 @@
       "oA" : 1,
       "oAP" : "\/dev\/content\/projects-pages\/mutter-content.html",
       "oF" : 3
+    },
+    "\/dev\/content\/projects-pages\/prince-content.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/projects-pages\/prince-content.html",
+      "oF" : 1
     },
     "\/dev\/content\/work-content.kit" : {
       "cB" : 0,
@@ -1125,6 +1154,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/komorebi-lemon-mochi.html",
+      "oF" : 2
+    },
+    "\/dev\/le-petit-prince.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/le-petit-prince.html",
       "oF" : 2
     },
     "\/dev\/long-story-short.kit" : {
@@ -1476,6 +1513,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/project-page\/_mutter-content.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/project-page\/_prince-content.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/project-page\/_prince-content.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

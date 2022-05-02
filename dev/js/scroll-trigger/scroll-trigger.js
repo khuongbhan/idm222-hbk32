@@ -25,7 +25,7 @@ export function heroPinning(){
 // ============= */
 
 var projectFadesIn = gsap.timeline();
-var projectFadeTime = .75;
+var projectFadeTime = .5;
 
 projectFadesIn.from("#proj-1",{duration: projectFadeTime,alpha:0,yPercent:-10}, "proj1")
               .from("#proj-2",{duration: projectFadeTime,alpha:0,yPercent:-10}, "proj2")
