@@ -632,6 +632,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/project-page\/sprout\/sprout-hero.png" : {
+      "ft" : 32768,
+      "iS" : 308721,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/sprout\/sprout-hero.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/projects-all\/across-proj.png" : {
       "ft" : 32768,
       "iS" : 302172,
@@ -860,6 +873,14 @@
       "oAP" : "\/deploy\/mutter-museum.html",
       "oF" : 0
     },
+    "\/deploy\/sprout.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/sprout.html",
+      "oF" : 0
+    },
     "\/deploy\/work.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -988,6 +1009,14 @@
       "oAP" : "\/dev\/content\/projects-pages\/prince-content.html",
       "oF" : 1
     },
+    "\/dev\/content\/projects-pages\/sprout-content.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/projects-pages\/sprout-content.html",
+      "oF" : 1
+    },
     "\/dev\/content\/work-content.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -1059,6 +1088,17 @@
       "oA" : 0,
       "oAP" : "\/deploy\/index.html",
       "oF" : 2
+    },
+    "\/dev\/js\/animations\/scroll-trigger.js" : {
+      "bF" : 4,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/animations\/scroll-trigger-min.js",
+      "oF" : 1,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/dev\/js\/barba\/barba-transitions.js" : {
       "bF" : 4,
@@ -1133,17 +1173,6 @@
       "mi" : 1,
       "oA" : 1,
       "oAP" : "\/dev\/js\/scroll-to-min.js",
-      "oF" : 1,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/dev\/js\/scroll-trigger\/scroll-trigger.js" : {
-      "bF" : 4,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/dev\/js\/scroll-trigger\/scroll-trigger-min.js",
       "oF" : 1,
       "sC" : 3,
       "tS" : 0
@@ -1533,6 +1562,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/sections\/project-page\/_sprout-content.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/project-page\/_sprout-content.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/dev\/scss\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1547,6 +1591,14 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/dev\/sprout.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/sprout.html",
+      "oF" : 2
     },
     "\/dev\/work.kit" : {
       "cB" : 0,

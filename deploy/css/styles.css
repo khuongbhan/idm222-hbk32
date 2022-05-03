@@ -1941,7 +1941,7 @@ footer #footer-container #socials a:visited:active {
 #eye-hero #eye-hero-image {
   background-image: url(../img/project-page/eye/eye-hero.png);
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: left;
   background-size: cover;
 }
 @media (min-width: 992px) {
@@ -1956,11 +1956,26 @@ footer #footer-container #socials a:visited:active {
 #prince-hero #prince-hero-image {
   background-image: url(../img/project-page/prince/prince-hero.png);
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: center;
   background-size: cover;
 }
 @media (min-width: 992px) {
   #prince-hero #prince-hero-image {
+    background-position: center;
+  }
+}
+
+/* =============
+    Sprout Hero
+============= */
+#sprout-hero #sprout-hero-image {
+  background-image: url(../img/project-page/sprout/sprout-hero.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media (min-width: 992px) {
+  #sprout-hero #sprout-hero-image {
     background-position: center;
   }
 }
