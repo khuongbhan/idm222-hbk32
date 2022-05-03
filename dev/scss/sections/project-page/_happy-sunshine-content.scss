@@ -1,0 +1,16 @@
+/* =============
+    Happy Sunshine Hero
+============= */
+
+#sunshine-hero {
+    #sunshine-hero-image {
+        background-image: url(../img/project-page/sunshine/sunshine-hero.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        @include lg {
+            background-position: center;
+        }
+    }
+}

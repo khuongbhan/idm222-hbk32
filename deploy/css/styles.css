@@ -1980,6 +1980,21 @@ footer #footer-container #socials a:visited:active {
   }
 }
 
+/* =============
+    Happy Sunshine Hero
+============= */
+#sunshine-hero #sunshine-hero-image {
+  background-image: url(../img/project-page/sunshine/sunshine-hero.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media (min-width: 992px) {
+  #sunshine-hero #sunshine-hero-image {
+    background-position: center;
+  }
+}
+
 body {
   background-color: #000;
   cursor: url(https://www.linkpicture.com/q/default-cursor.svg), auto;
