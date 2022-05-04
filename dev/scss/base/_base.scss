@@ -219,7 +219,7 @@ ul {
 .image-gallery {
     position: relative;
     background-color: $black;
-    padding-top: 40px;
+    padding-top: 10px;
 
     display: grid;
     grid-template-columns: "20px auto 20px";
@@ -229,6 +229,7 @@ ul {
     //     justify-content: center;
 
     @include md {
+        padding-top: 15px;
         display: flex;
         justify-content: center;
     }
@@ -550,6 +551,74 @@ ul {
         }
 
         .gallery-grid-12-vertical-bottom-right {
+            grid-area: i3;
+        }
+    }
+}
+
+// grid with 1 large image on the bottom and 2 on the top 
+.gallery-grid-21-horizontal {
+    display: grid;
+    grid-template-columns: "20px auto 20px";
+    grid-template-areas: ". content .";
+
+    @include md {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    >div {
+        grid-area: content; 
+
+        @include md {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-areas: "i1 i2"
+            "i3 i3"
+            "i3 i3";
+        }
+
+        @include lg {
+            grid-template-columns: repeat(2, 600px);
+        }
+
+        .gallery-grid-21-horizontal-img {
+            margin: 10px 0;
+            overflow: hidden;
+            justify-content: center;
+            align-items: center;
+
+            @include md {
+                margin: 10px;
+            }
+
+            img {
+                object-fit: cover;
+                height: 450px;
+                width: 100%;
+                padding-bottom: 10px;
+
+                @include md {
+                    height: 465px;
+                    padding-bottom: 0;
+                }
+
+                @include lg {
+                    height: 100%;
+                }
+            }
+        }
+
+        .gallery-grid-21-horizontal-top-left {
+            grid-area: i1;
+
+        }
+        .gallery-grid-21-horizontal-top-right {
+            grid-area: i2;
+        }
+
+        .gallery-grid-21-horizontal-large {
             grid-area: i3;
         }
     }
