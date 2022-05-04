@@ -77,6 +77,7 @@ ul {
     cursor: url(https://www.linkpicture.com/q/down-arrow.svg), pointer;
 }
 
+
 /* =============
     Project Page
 ============= */
@@ -91,7 +92,7 @@ ul {
         justify-content: center;
 
         .down-btn-proj {
-            
+
             // width: 20px;
 
             img {
@@ -357,6 +358,43 @@ ul {
                     text-decoration: underline;
                 }
             }
+        }
+    }
+}
+
+
+.project-copy-container {
+    display: grid;
+    grid-template-columns: 5px auto 5px;
+    grid-template-areas: ". copy .";
+
+    @include md {
+        grid-template-columns: 20% auto 20%;
+    }
+
+    @include lg {
+        grid-template-columns: 30% auto 30%;
+    }
+
+    @include xl {
+        grid-template-columns: auto 900px auto;
+    }
+
+    .project-copy {
+        grid-area: copy;
+
+        .proj-copy-section-name {
+            color: $yellow;
+            padding-bottom: 10px;
+
+            @include md {
+                font-weight: 400;
+            }
+        }
+
+        .proj-copy {
+            line-height: rem-calc(24);
+            font-weight: 400;
         }
     }
 }

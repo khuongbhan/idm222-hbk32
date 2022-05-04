@@ -462,6 +462,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/project-page\/across\/brand\/across-banner.png" : {
+      "ft" : 32768,
+      "iS" : 65231,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/across\/brand\/across-banner.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/project-page\/across\/brand\/across-brand-1.png" : {
       "ft" : 32768,
       "iS" : 1020565,
@@ -538,6 +551,87 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/project-page\/across\/gallery-end\/across-gallery-1.png" : {
+      "ft" : 32768,
+      "iS" : 2517290,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/across\/gallery-end\/across-gallery-1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/across\/gallery-end\/across-gallery-2.png" : {
+      "ft" : 32768,
+      "iS" : 2839182,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/across\/gallery-end\/across-gallery-2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/across\/gallery-end\/across-gallery-3.png" : {
+      "ft" : 32768,
+      "iS" : 2651056,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/across\/gallery-end\/across-gallery-3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/across\/gallery-end\/across-gallery-4.png" : {
+      "ft" : 32768,
+      "iS" : 2840617,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/across\/gallery-end\/across-gallery-4.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/across\/gallery-end\/across-gallery-big.png" : {
+      "ft" : 32768,
+      "iS" : 8422764,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/across\/gallery-end\/across-gallery-big.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/across\/interior\/.across-interior-3.png.icloud" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/across\/interior\/.across-interior-3.png.icloud",
+      "oF" : 0
+    },
+    "\/deploy\/img\/project-page\/across\/interior\/.across-interior-4.png.icloud" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/across\/interior\/.across-interior-4.png.icloud",
+      "oF" : 0
+    },
     "\/deploy\/img\/project-page\/across\/interior\/across-interior-1.png" : {
       "ft" : 32768,
       "iS" : 2044735,
@@ -564,11 +658,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/project-page\/across\/interior\/across-interior-3.png" : {
+    "\/deploy\/img\/project-page\/across\/process\/across-process-1.png" : {
       "ft" : 32768,
-      "iS" : 3981433,
+      "iS" : 1358654,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/project-page\/across\/interior\/across-interior-3.png",
+      "oAP" : "\/deploy\/img\/project-page\/across\/process\/across-process-1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -577,11 +671,24 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/project-page\/across\/interior\/across-interior-4.png" : {
+    "\/deploy\/img\/project-page\/across\/process\/across-process-2.png" : {
       "ft" : 32768,
-      "iS" : 15474809,
+      "iS" : 1266736,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/project-page\/across\/interior\/across-interior-4.png",
+      "oAP" : "\/deploy\/img\/project-page\/across\/process\/across-process-2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/across\/process\/across-process-3.png" : {
+      "ft" : 32768,
+      "iS" : 1207197,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/across\/process\/across-process-3.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,

@@ -10,3 +10,67 @@
         background-size: cover;
     }
 }
+
+/* =============
+    Branding
+============= */
+#across-branding {
+
+    position: relative;
+    background-color: $black;
+    padding-top: 20px;
+
+    @include md {
+        padding-top: 40px;
+    }
+
+    #across-branding-banner {
+
+        #across-banner-container {
+
+            display: grid;
+            grid-template-columns: "auto 95% auto";
+            grid-template-areas: ". banner .";
+
+            #across-brand-banner {
+                grid-area: banner;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+
+        #across-branding-copy-container {
+            padding: 30px 0 10px;
+        }
+    }
+
+    #across-branding-gallery {
+
+        #across-brand-gallery-container-1, #across-brand-gallery-container-2, #across-brand-gallery-container-3 {
+
+            display: grid;
+            grid-template-columns: "auto 95% auto";
+            grid-template-areas: ". banner .";
+
+            padding-bottom: 10px;
+
+            @include md {
+                padding-bottom: 20px;
+            }
+
+            a {
+                grid-area: banner;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}

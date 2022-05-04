@@ -1,14 +1,24 @@
 // import $ from "jquery";
-import { Fancybox } from "@fancyapps/ui";
+import {
+    Fancybox
+} from "@fancyapps/ui";
 
-export function fancyBox(){
+export function fancyBox() {
     Fancybox.bind("[data-fancybox]", {
         Toolbar: {
-            display: [
-              { id: "close", position: "right" }
+            display: [{
+                    id: "close",
+                    position: "right"
+                },
+                "zoom",
+                // "slideshow",
+                "fullscreen",
+                // "download",
+                // "thumbs",
+                "close"
             ]
         },
         Thumbs: false
     });
-    
+
 }
