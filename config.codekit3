@@ -215,6 +215,14 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/main-assets\/.noise.png.icloud" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/main-assets\/.noise.png.icloud",
+      "oF" : 0
+    },
     "\/deploy\/img\/main-assets\/default-cursor.png" : {
       "ft" : 32768,
       "iS" : 1121,
@@ -293,19 +301,6 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
-    },
-    "\/deploy\/img\/main-assets\/noise.png" : {
-      "ft" : 32768,
-      "iS" : 4002367,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/main-assets\/noise.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
     },
     "\/deploy\/img\/main-assets\/text-cursor.png" : {
       "ft" : 32768,
@@ -459,6 +454,134 @@
       "iS" : 2015752,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/across\/across-hero.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/across\/brand\/across-brand-1.png" : {
+      "ft" : 32768,
+      "iS" : 1020565,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/across\/brand\/across-brand-1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/across\/brand\/across-brand-2.png" : {
+      "ft" : 32768,
+      "iS" : 644453,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/across\/brand\/across-brand-2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/across\/brand\/across-brand-3.png" : {
+      "ft" : 32768,
+      "iS" : 564823,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/across\/brand\/across-brand-3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/across\/exterior\/.across-exterior-1.png.icloud" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/across\/exterior\/.across-exterior-1.png.icloud",
+      "oF" : 0
+    },
+    "\/deploy\/img\/project-page\/across\/exterior\/.across-exterior-3.png.icloud" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/across\/exterior\/.across-exterior-3.png.icloud",
+      "oF" : 0
+    },
+    "\/deploy\/img\/project-page\/across\/exterior\/.across-exterior-4.png.icloud" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/across\/exterior\/.across-exterior-4.png.icloud",
+      "oF" : 0
+    },
+    "\/deploy\/img\/project-page\/across\/exterior\/across-exterior-2.png" : {
+      "ft" : 32768,
+      "iS" : 2883825,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/across\/exterior\/across-exterior-2.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/across\/interior\/across-interior-1.png" : {
+      "ft" : 32768,
+      "iS" : 2044735,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/across\/interior\/across-interior-1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/across\/interior\/across-interior-2.png" : {
+      "ft" : 32768,
+      "iS" : 4311576,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/across\/interior\/across-interior-2.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/across\/interior\/across-interior-3.png" : {
+      "ft" : 32768,
+      "iS" : 3981433,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/across\/interior\/across-interior-3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/across\/interior\/across-interior-4.png" : {
+      "ft" : 32768,
+      "iS" : 15474809,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/across\/interior\/across-interior-4.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -627,11 +750,19 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/project-page\/prince\/prince-hero.png" : {
-      "ft" : 32768,
-      "iS" : 2577036,
+    "\/deploy\/img\/project-page\/prince\/.prince-hero.png.icloud" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/project-page\/prince\/prince-hero.png",
+      "oAP" : "\/deploy\/img\/project-page\/prince\/.prince-hero.png.icloud",
+      "oF" : 0
+    },
+    "\/deploy\/img\/project-page\/sprout\/sprout-hero.png" : {
+      "ft" : 32768,
+      "iS" : 308721,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/sprout\/sprout-hero.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -640,11 +771,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/project-page\/sprout\/sprout-hero.png" : {
+    "\/deploy\/img\/project-page\/sunshine\/sunshine-hero.png" : {
       "ft" : 32768,
-      "iS" : 308721,
+      "iS" : 1467538,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/project-page\/sprout\/sprout-hero.png",
+      "oAP" : "\/deploy\/img\/project-page\/sunshine\/sunshine-hero.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -711,8 +842,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/projects-all\/hs-proj.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -897,12 +1028,12 @@
       "oAP" : "\/deploy\/work.html",
       "oF" : 0
     },
-    "\/design\/idm-222-hbk32-design.fig" : {
+    "\/design\/.idm-222-hbk32-design.fig.icloud" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/design\/idm-222-hbk32-design.fig",
+      "oAP" : "\/design\/.idm-222-hbk32-design.fig.icloud",
       "oF" : 0
     },
     "\/dev\/about.kit" : {
