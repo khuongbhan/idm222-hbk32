@@ -74,3 +74,14 @@
         }
     }
 }
+
+#across-package-copy-container {
+
+    position: relative;
+    background-color: $black;
+    padding-top: 20px;
+
+    @include md {
+        padding-top: 40px;
+    }
+}

@@ -1952,6 +1952,17 @@ footer #footer-container #socials a:visited:active {
   object-fit: cover;
 }
 
+#across-package-copy-container {
+  position: relative;
+  background-color: #000;
+  padding-top: 20px;
+}
+@media (min-width: 768px) {
+  #across-package-copy-container {
+    padding-top: 40px;
+  }
+}
+
 /* =============
     Long Story Short Hero
 ============= */
