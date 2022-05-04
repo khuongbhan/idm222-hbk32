@@ -50,7 +50,9 @@
 
     #across-branding-gallery {
 
-        #across-brand-gallery-container-1, #across-brand-gallery-container-2, #across-brand-gallery-container-3 {
+        #across-brand-gallery-container-1,
+        #across-brand-gallery-container-2,
+        #across-brand-gallery-container-3 {
 
             display: grid;
             grid-template-columns: "auto 95% auto";
@@ -103,6 +105,7 @@
         h3 {
             text-align: center;
             color: $yellow;
+            font-weight: 400;
         }
     }
 
@@ -116,3 +119,52 @@
     }
 }
 
+#across-package-exterior-1 {
+    padding-top: 40px;
+
+    @include md {
+        padding-top: 60px;
+    }
+
+    h3 {
+        text-align: center;
+        color: $yellow;
+        font-weight: 400;
+    }
+
+    #across-package-exterior-hero {
+        padding-top: 12px;
+
+        @include md {
+            padding-top: 15px;
+        }
+
+        display: grid;
+        grid-template-columns: "auto 95% auto";
+        grid-template-areas: ". banner .";
+
+        padding-bottom: 10px;
+
+        @include md {
+            padding-bottom: 20px;
+        }
+
+        a {
+            grid-area: banner;
+
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+#across-package-exterior-2 {
+    padding-top: 5px;
+
+    @include md {
+        padding-top: 10x;
+    }
+}

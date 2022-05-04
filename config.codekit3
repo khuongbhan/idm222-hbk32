@@ -532,29 +532,18 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/project-page\/across\/exterior\/.across-exterior-1.png.icloud" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
+    "\/deploy\/img\/project-page\/across\/exterior\/across-exterior-1.png" : {
+      "ft" : 32768,
+      "iS" : 7678776,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/project-page\/across\/exterior\/.across-exterior-1.png.icloud",
-      "oF" : 0
-    },
-    "\/deploy\/img\/project-page\/across\/exterior\/.across-exterior-3.png.icloud" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/project-page\/across\/exterior\/.across-exterior-3.png.icloud",
-      "oF" : 0
-    },
-    "\/deploy\/img\/project-page\/across\/exterior\/.across-exterior-4.png.icloud" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/project-page\/across\/exterior\/.across-exterior-4.png.icloud",
-      "oF" : 0
+      "oAP" : "\/deploy\/img\/project-page\/across\/exterior\/across-exterior-1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/img\/project-page\/across\/exterior\/across-exterior-2.png" : {
       "ft" : 32768,
@@ -564,6 +553,32 @@
       "oF" : 0,
       "oIPL" : 1,
       "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/across\/exterior\/across-exterior-3.png" : {
+      "ft" : 32768,
+      "iS" : 3547474,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/across\/exterior\/across-exterior-3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/across\/exterior\/across-exterior-4.png" : {
+      "ft" : 32768,
+      "iS" : 2182172,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/across\/exterior\/across-exterior-4.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -633,22 +648,6 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
-    },
-    "\/deploy\/img\/project-page\/across\/interior\/.across-interior-3.png.icloud" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/project-page\/across\/interior\/.across-interior-3.png.icloud",
-      "oF" : 0
-    },
-    "\/deploy\/img\/project-page\/across\/interior\/.across-interior-4.png.icloud" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/project-page\/across\/interior\/.across-interior-4.png.icloud",
-      "oF" : 0
     },
     "\/deploy\/img\/project-page\/across\/interior\/across-interior-1.png" : {
       "ft" : 32768,
