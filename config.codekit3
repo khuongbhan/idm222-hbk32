@@ -215,14 +215,6 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/main-assets\/.noise.png.icloud" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/main-assets\/.noise.png.icloud",
-      "oF" : 0
-    },
     "\/deploy\/img\/main-assets\/default-cursor.png" : {
       "ft" : 32768,
       "iS" : 1121,
@@ -284,6 +276,32 @@
       "iS" : 716,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/main-assets\/link-cursor-yellow.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/main-assets\/logo-pink-for-browsers.png" : {
+      "ft" : 32768,
+      "iS" : 3371,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/main-assets\/logo-pink-for-browsers.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/main-assets\/logo-pink.png" : {
+      "ft" : 32768,
+      "iS" : 2783,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/main-assets\/logo-pink.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1937,7 +1955,7 @@
     "creationDate" : 614697020.77360106,
     "displayValue" : "idm222-hbk32",
     "displayValueWasSetByUser" : 0,
-    "iconImageName" : "brackets-red",
+    "iconImageName" : "brackets-koamaru",
     "iconImageWasSetByUser" : 0
   },
   "projectSettings" : {

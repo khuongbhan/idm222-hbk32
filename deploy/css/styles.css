@@ -693,6 +693,28 @@ ul li {
   font-weight: 400;
 }
 
+.gallery-grid-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+@media (min-width: 768px) {
+  .gallery-grid-3 {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
+  }
+}
+@media (min-width: 768px) {
+  .gallery-grid-3 a {
+    flex-basis: 32.5%;
+  }
+}
+.gallery-grid-3 a img {
+  height: 100%;
+  width: 100%;
+}
+
 /* =============
     Typography
 ============= */
@@ -902,6 +924,7 @@ textarea {
 
 .fancybox__container {
   font-family: "Space Mono", monospace;
+  text-align: center;
   font-weight: 400;
   font-size: 0.875rem;
   line-height: 1.375rem;
@@ -1955,11 +1978,35 @@ footer #footer-container #socials a:visited:active {
 #across-package-copy-container {
   position: relative;
   background-color: #000;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 @media (min-width: 768px) {
   #across-package-copy-container {
-    padding-top: 40px;
+    padding-top: 35px;
+  }
+}
+
+/* =============
+    Process
+============= */
+#across-package-process {
+  padding-top: 30px;
+}
+@media (min-width: 992px) {
+  #across-package-process {
+    padding-top: 50px;
+  }
+}
+#across-package-process #across-process-name h3 {
+  text-align: center;
+  color: #FFF200;
+}
+#across-package-process #across-package-process-gallery {
+  padding-top: 15px;
+}
+@media (min-width: 768px) {
+  #across-package-process #across-package-process-gallery {
+    padding-top: 20px;
   }
 }
 

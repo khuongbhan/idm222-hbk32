@@ -79,9 +79,40 @@
 
     position: relative;
     background-color: $black;
-    padding-top: 20px;
+    padding-top: 30px;
 
     @include md {
-        padding-top: 40px;
+        padding-top: 35px;
+    }
+
+}
+
+
+/* =============
+    Process
+============= */
+
+#across-package-process {
+    padding-top: 30px;
+
+    @include lg {
+        padding-top: 50px;
+    }
+
+    #across-process-name {
+        h3 {
+            text-align: center;
+            color: $yellow;
+        }
+    }
+
+    #across-package-process-gallery {
+
+        padding-top: 15px;
+
+        @include md {
+            padding-top: 20px;
+        }
     }
 }
+
