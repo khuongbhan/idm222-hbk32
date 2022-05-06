@@ -16,7 +16,7 @@
     Long Story Short overview
 ================================= */
 #lts-banner {
-    position: relative; 
+    position: relative;
     background-color: $black;
     padding-top: 20px;
 
@@ -47,7 +47,7 @@
             padding-top: 30px;
         }
     }
-    
+
 }
 
 #lts-branding-section {
@@ -66,6 +66,67 @@
 
         @include lg {
             padding-top: 35px;
+        }
+    }
+}
+
+/* ====================================
+    Long Story Short chapters
+================================= */
+#lts-chapters-container {
+    padding-top: 20px;
+
+    @include md {
+        padding-top: 40px;
+    }
+}
+
+#lts-chapters-link-container {
+    padding-top: 20px;
+
+    @include lg {
+        padding-top: 40px;
+    }
+
+    >div {
+
+        display: flex;
+        justify-content: center;
+
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+
+        @include md {
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
+
+        a {
+
+            margin: 10px;
+            // flex-wrap: nowrap;
+            text-decoration: none;
+            text-align: center;
+            border: 1px $yellow solid;
+            color: $yellow;
+            padding: 12px 30px;
+            border-radius: 30px;
+
+            &:hover {
+                transition: .25s;
+                background-color: $yellow;
+                border: 1px $yellow solid;
+                color: $black;
+                font-style: italic;
+            }
+
+            @include lg {
+                flex-wrap: nowrap;
+                padding: 12px 30px;
+                border-radius: 50px;
+            }
         }
     }
 }

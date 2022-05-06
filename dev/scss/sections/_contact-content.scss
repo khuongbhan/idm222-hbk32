@@ -184,9 +184,9 @@
                             }
 
                             &:hover {
-                                // transition: .25s;
+                                transition: .25s;
                                 background-color: $yellow;
-                                border: $yellow;
+                                border: 1px $yellow solid;
                                 color: $black;
                                 font-style: italic;
                             }
