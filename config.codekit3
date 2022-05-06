@@ -1027,6 +1027,42 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/project-page\/longstoryshort\/zine-1\/lts-flip-zine-1.gif" : {
+      "ft" : 4194304,
+      "iS" : 12237082,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/longstoryshort\/zine-1\/lts-flip-zine-1.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/longstoryshort\/zine-1\/lts-zine-1-ending.png" : {
+      "ft" : 32768,
+      "iS" : 2109867,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/longstoryshort\/zine-1\/lts-zine-1-ending.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/longstoryshort\/zine-1\/lts-zine1-hero.png" : {
+      "ft" : 32768,
+      "iS" : 1456069,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/longstoryshort\/zine-1\/lts-zine1-hero.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/project-page\/manray\/manray-hero.png" : {
       "ft" : 32768,
       "iS" : 1254133,

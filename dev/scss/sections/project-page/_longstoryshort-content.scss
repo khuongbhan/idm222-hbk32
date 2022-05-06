@@ -130,3 +130,16 @@
         }
     }
 }
+
+#lts-zines {
+    padding-top: 30px;
+    @include lg {
+        padding-top: 50px;
+    }
+}
+
+#lts-zines-hero-sect {
+    @include lg {
+        margin-top: -20px;
+    }
+}

@@ -2397,6 +2397,21 @@ footer #footer-container #socials a:visited:active {
   }
 }
 
+#lts-zines {
+  padding-top: 30px;
+}
+@media (min-width: 992px) {
+  #lts-zines {
+    padding-top: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  #lts-zines-hero-sect {
+    margin-top: -20px;
+  }
+}
+
 /* =============
     Mutter Hero
 ============= */
