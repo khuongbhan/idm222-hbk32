@@ -391,6 +391,7 @@ ul {
         grid-area: copy;
 
         .proj-copy-section-name {
+            text-align: left;
             color: $yellow;
             padding-bottom: 10px;
 
@@ -455,6 +456,67 @@ ul {
                 object-fit: cover;
             }
         }
+    }
+}
+
+
+.full-width-div {
+    padding-top: 12px;
+
+    @include md {
+        padding-top: 15px;
+    }
+
+    display: grid;
+    grid-template-columns: "auto 95% auto";
+    grid-template-areas: ". banner .";
+
+    padding-bottom: 10px;
+
+    @include md {
+        padding-bottom: 20px;
+    }
+
+    a {
+        grid-area: banner;
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+
+.section-with-1-image {
+    >div {
+            padding-top: 12px;
+        
+            @include md {
+                padding-top: 15px;
+            }
+        
+            display: grid;
+            grid-template-columns: "auto 95% auto";
+            grid-template-areas: ". banner .";
+        
+            padding-bottom: 10px;
+        
+            @include md {
+                padding-bottom: 20px;
+            }
+        
+            a {
+                grid-area: banner;
+        
+                img {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+        
     }
 }
 

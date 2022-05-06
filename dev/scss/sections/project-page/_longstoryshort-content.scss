@@ -11,3 +11,61 @@
     }
 }
 
+
+/* ====================================
+    Long Story Short overview
+================================= */
+#lts-banner {
+    position: relative; 
+    background-color: $black;
+    padding-top: 20px;
+
+    @include md {
+        padding-top: 40px;
+    }
+
+    #lts-banner-gif {
+
+        #lts-anim {
+            a {
+                // height: 70%;
+                // width: 100%;
+
+                img {
+
+                    @include lg {
+                        height: 600px;
+                        width: 100vw;
+                    }
+                }
+            }
+        }
+    }
+
+    #lts-deliverables {
+        @include lg {
+            padding-top: 30px;
+        }
+    }
+    
+}
+
+#lts-branding-section {
+    margin-top: -20px;
+
+    @include md {
+        margin-top: -30px;
+    }
+
+    #lts-branding-guidelines {
+        padding-top: 20px;
+
+        @include md {
+            padding-top: 30px;
+        }
+
+        @include lg {
+            padding-top: 35px;
+        }
+    }
+}

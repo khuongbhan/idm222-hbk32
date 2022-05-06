@@ -939,6 +939,42 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/project-page\/longstoryshort\/overview\/lts-banner-gif.gif" : {
+      "ft" : 4194304,
+      "iS" : 935902,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/longstoryshort\/overview\/lts-banner-gif.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/longstoryshort\/overview\/lts-brand.png" : {
+      "ft" : 32768,
+      "iS" : 310346,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/longstoryshort\/overview\/lts-brand.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/longstoryshort\/overview\/lts-deliverables.png" : {
+      "ft" : 32768,
+      "iS" : 1247673,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/longstoryshort\/overview\/lts-deliverables.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/project-page\/longstoryshort\/zine-1\/grid-3\/zine-1-grid-1.png" : {
       "ft" : 32768,
       "iS" : 768488,

@@ -688,6 +688,7 @@ ul li {
   grid-area: copy;
 }
 .project-copy-container .project-copy .proj-copy-section-name {
+  text-align: left;
   color: #FFF200;
   padding-bottom: 10px;
 }
@@ -744,6 +745,58 @@ ul li {
   grid-area: banner;
 }
 .section-hero-container .section-hero-content a img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.full-width-div {
+  padding-top: 12px;
+  display: grid;
+  grid-template-columns: "auto 95% auto";
+  grid-template-areas: ". banner .";
+  padding-bottom: 10px;
+}
+@media (min-width: 768px) {
+  .full-width-div {
+    padding-top: 15px;
+  }
+}
+@media (min-width: 768px) {
+  .full-width-div {
+    padding-bottom: 20px;
+  }
+}
+.full-width-div a {
+  grid-area: banner;
+}
+.full-width-div a img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.section-with-1-image > div {
+  padding-top: 12px;
+  display: grid;
+  grid-template-columns: "auto 95% auto";
+  grid-template-areas: ". banner .";
+  padding-bottom: 10px;
+}
+@media (min-width: 768px) {
+  .section-with-1-image > div {
+    padding-top: 15px;
+  }
+}
+@media (min-width: 768px) {
+  .section-with-1-image > div {
+    padding-bottom: 20px;
+  }
+}
+.section-with-1-image > div a {
+  grid-area: banner;
+}
+.section-with-1-image > div a img {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -2236,6 +2289,53 @@ footer #footer-container #socials a:visited:active {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+/* ====================================
+    Long Story Short overview
+================================= */
+#lts-banner {
+  position: relative;
+  background-color: #000;
+  padding-top: 20px;
+}
+@media (min-width: 768px) {
+  #lts-banner {
+    padding-top: 40px;
+  }
+}
+@media (min-width: 992px) {
+  #lts-banner #lts-banner-gif #lts-anim a img {
+    height: 600px;
+    width: 100vw;
+  }
+}
+@media (min-width: 992px) {
+  #lts-banner #lts-deliverables {
+    padding-top: 30px;
+  }
+}
+
+#lts-branding-section {
+  margin-top: -20px;
+}
+@media (min-width: 768px) {
+  #lts-branding-section {
+    margin-top: -30px;
+  }
+}
+#lts-branding-section #lts-branding-guidelines {
+  padding-top: 20px;
+}
+@media (min-width: 768px) {
+  #lts-branding-section #lts-branding-guidelines {
+    padding-top: 30px;
+  }
+}
+@media (min-width: 992px) {
+  #lts-branding-section #lts-branding-guidelines {
+    padding-top: 35px;
+  }
 }
 
 /* =============
