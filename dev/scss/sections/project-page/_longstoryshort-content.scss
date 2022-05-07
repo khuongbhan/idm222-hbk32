@@ -188,3 +188,61 @@
         margin-top: -20px;
     }
 }
+
+
+/* ====================================
+    Long Story Short App
+================================= */
+#lts-app-hero {
+    padding-top: 20px;
+
+    @include md {
+        padding-top: 25px;
+    }
+
+    @include lg {
+        padding-top: 30px;
+    }
+}
+
+#lts-app-content-container {
+    padding-top: 10px;
+}
+
+#lts-app-link-container {
+    padding-top: 10px;
+    padding-bottom: 15px;
+
+    >div {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        a {
+
+            margin: 10px;
+            text-decoration: none;
+            text-align: center;
+            border: 1px $yellow solid;
+            color: $yellow;
+            padding: 12px 30px;
+            border-radius: 30px;
+
+            &:hover {
+                transition: .25s;
+                background-color: $yellow;
+                border: 1px $yellow solid;
+                color: $black;
+                font-style: italic;
+            }
+
+            @include lg {
+                flex-wrap: nowrap;
+                padding: 12px 30px;
+                border-radius: 50px;
+            }
+        }
+    }
+}

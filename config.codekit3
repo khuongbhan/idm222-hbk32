@@ -796,6 +796,29 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/project-page\/longstoryshort\/app\/lts-app-anim.gif" : {
+      "ft" : 4194304,
+      "iS" : 6838463,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/longstoryshort\/app\/lts-app-anim.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/longstoryshort\/app\/lts-app-hero.png" : {
+      "ft" : 32768,
+      "iS" : 2264651,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/longstoryshort\/app\/lts-app-hero.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/project-page\/longstoryshort\/gallery-end\/lts-gallery-1.png" : {
       "ft" : 32768,
       "iS" : 2394381,

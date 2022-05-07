@@ -2443,6 +2443,60 @@ footer #footer-container #socials a:visited:active {
   }
 }
 
+/* ====================================
+    Long Story Short App
+================================= */
+#lts-app-hero {
+  padding-top: 20px;
+}
+@media (min-width: 768px) {
+  #lts-app-hero {
+    padding-top: 25px;
+  }
+}
+@media (min-width: 992px) {
+  #lts-app-hero {
+    padding-top: 30px;
+  }
+}
+
+#lts-app-content-container {
+  padding-top: 10px;
+}
+
+#lts-app-link-container {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+#lts-app-link-container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#lts-app-link-container > div a {
+  margin: 10px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px #FFF200 solid;
+  color: #FFF200;
+  padding: 12px 30px;
+  border-radius: 30px;
+}
+#lts-app-link-container > div a:hover {
+  transition: 0.25s;
+  background-color: #FFF200;
+  border: 1px #FFF200 solid;
+  color: #000;
+  font-style: italic;
+}
+@media (min-width: 992px) {
+  #lts-app-link-container > div a {
+    flex-wrap: nowrap;
+    padding: 12px 30px;
+    border-radius: 50px;
+  }
+}
+
 /* =============
     Mutter Hero
 ============= */
