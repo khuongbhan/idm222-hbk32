@@ -2377,16 +2377,11 @@ footer #footer-container #socials a:visited:active {
   margin: 10px;
   text-decoration: none;
   text-align: center;
-  border: 1px #FFF200 solid;
-  color: #FFF200;
   padding: 12px 30px;
   border-radius: 30px;
 }
 #lts-chapters-link-container > div a:hover {
   transition: 0.25s;
-  background-color: #FFF200;
-  border: 1px #FFF200 solid;
-  color: #000;
   font-style: italic;
 }
 @media (min-width: 992px) {
@@ -2395,6 +2390,42 @@ footer #footer-container #socials a:visited:active {
     padding: 12px 30px;
     border-radius: 50px;
   }
+}
+#lts-chapters-link-container > div a:nth-child(1) {
+  border: 1px #FFF200 solid;
+  color: #FFF200;
+}
+#lts-chapters-link-container > div a:nth-child(1):hover {
+  background-color: #FFF200;
+  border: 1px #FFF200 solid;
+  color: #000;
+}
+#lts-chapters-link-container > div :nth-child(2) {
+  border: 1px #FF0097 solid;
+  color: #FF0097;
+}
+#lts-chapters-link-container > div :nth-child(2):hover {
+  background-color: #FF0097;
+  border: 1px #FF0097 solid;
+  color: #fff;
+}
+#lts-chapters-link-container > div :nth-child(3) {
+  border: 1px #be1e2d solid;
+  color: #be1e2d;
+}
+#lts-chapters-link-container > div :nth-child(3):hover {
+  background-color: #be1e2d;
+  border: 1px #be1e2d solid;
+  color: #fff;
+}
+#lts-chapters-link-container > div :nth-child(4) {
+  border: 1px #00aeef solid;
+  color: #00aeef;
+}
+#lts-chapters-link-container > div :nth-child(4):hover {
+  background-color: #00aeef;
+  border: 1px #00aeef solid;
+  color: #000;
 }
 
 #lts-zines {
