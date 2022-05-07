@@ -962,6 +962,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/project-page\/longstoryshort\/overview\/lts-all-things.png" : {
+      "ft" : 32768,
+      "iS" : 482543,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/longstoryshort\/overview\/lts-all-things.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/project-page\/longstoryshort\/overview\/lts-banner-gif.gif" : {
       "ft" : 4194304,
       "iS" : 935902,
