@@ -988,6 +988,58 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/project-page\/longstoryshort\/package\/lts-package-gallery-1.png" : {
+      "ft" : 32768,
+      "iS" : 707914,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/longstoryshort\/package\/lts-package-gallery-1.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/longstoryshort\/package\/lts-package-gallery-2.png" : {
+      "ft" : 32768,
+      "iS" : 3117113,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/longstoryshort\/package\/lts-package-gallery-2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/longstoryshort\/package\/lts-package-gallery-3.png" : {
+      "ft" : 32768,
+      "iS" : 3112108,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/longstoryshort\/package\/lts-package-gallery-3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/longstoryshort\/package\/lts-package-hero.png" : {
+      "ft" : 32768,
+      "iS" : 3090143,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/longstoryshort\/package\/lts-package-hero.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/project-page\/longstoryshort\/zine-1\/grid-3\/zine-1-grid-1.png" : {
       "ft" : 32768,
       "iS" : 768488,
