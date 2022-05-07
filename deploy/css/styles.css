@@ -2497,6 +2497,76 @@ footer #footer-container #socials a:visited:active {
   }
 }
 
+#lts-ar-video {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@media (min-width: 768px) {
+  #lts-ar-video {
+    padding-top: 30px;
+  }
+}
+@media (min-width: 992px) {
+  #lts-ar-video {
+    padding-top: 40px;
+  }
+}
+#lts-ar-video > div iframe {
+  height: 30vh;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  #lts-ar-video > div iframe {
+    height: 45vh;
+  }
+}
+@media (min-width: 992px) {
+  #lts-ar-video > div iframe {
+    height: 80vh;
+  }
+}
+
+#lts-web-hero-container {
+  padding-top: 20px;
+}
+
+#lts-web-content-container {
+  margin-top: -20px;
+}
+
+#lts-web-link-container {
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+#lts-web-link-container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#lts-web-link-container > div a {
+  margin: 10px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px #FFF200 solid;
+  color: #FFF200;
+  padding: 12px 30px;
+  border-radius: 30px;
+}
+#lts-web-link-container > div a:hover {
+  transition: 0.25s;
+  background-color: #FFF200;
+  border: 1px #FFF200 solid;
+  color: #000;
+  font-style: italic;
+}
+@media (min-width: 992px) {
+  #lts-web-link-container > div a {
+    flex-wrap: nowrap;
+    padding: 12px 30px;
+    border-radius: 50px;
+  }
+}
+
 /* =============
     Mutter Hero
 ============= */

@@ -1063,6 +1063,29 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/project-page\/longstoryshort\/web\/lts-web-anim.gif" : {
+      "ft" : 4194304,
+      "iS" : 16619366,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/longstoryshort\/web\/lts-web-anim.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/longstoryshort\/web\/lts-web-hero.png" : {
+      "ft" : 32768,
+      "iS" : 212035,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/longstoryshort\/web\/lts-web-hero.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/project-page\/longstoryshort\/zine-1\/grid-3\/zine-1-grid-1.png" : {
       "ft" : 32768,
       "iS" : 768488,
