@@ -17,7 +17,9 @@ barba.init({
                 // Leave animation
                 gsap.to(current.container, {
                     opacity: 0,
-                    duration: 3,
+                    y:"-100%",
+                    ease:"Power2.easeInOut",
+                    duration: 1.25
                 });
                 done();
             },
@@ -26,7 +28,9 @@ barba.init({
                 // Enter animation
                 gsap.from(next.container, {
                     opacity: 0,
-                    duration: 3,
+                    y:"100%",
+                    ease:"Power2.easeInOut",
+                    duration: 1.25
                 });
                 done();
             },
@@ -37,6 +41,6 @@ barba.init({
             async beforeEnter (_) {
                 console.log("ENTERING");  
             }
-        }, 
+        }
     ]
 });    

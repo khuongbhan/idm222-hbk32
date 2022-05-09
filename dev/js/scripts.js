@@ -6,6 +6,7 @@ import {horizontalScroll} from "./horizontal-scroll.js";
 import {fancyBox} from "./fancy-box/fancy-box.js";
 import {} from "./barba/barba-transitions.js";
 
+
 initGlobalNav();
 heroPinning();
 projectsFade();

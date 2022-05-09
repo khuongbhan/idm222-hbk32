@@ -16,7 +16,7 @@ export const horizontalScroll = gsap.to(
         xPercent: -100 * (cards.length - 1),
         ease: "none",
         scrollTrigger: {
-            trigger: "#featured", // Pin element
+            trigger: "#featured", // Pin elements
             start: "center 55%", //  Determines the starting position of the ScrollTrigger.
             pin: true, // Pinned during the time that the ScrollTrigger is active
             scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar

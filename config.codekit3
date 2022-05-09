@@ -2832,7 +2832,7 @@
       "NODE_ENV:::production"
     ],
     "esLintConfigFileHandlingType" : 0,
-    "esLintECMAVersion" : 7,
+    "esLintECMAVersion" : 10,
     "esLintEnvironmentsMask" : 8197,
     "esLintRules" : {
       "accessor-pairs" : {
@@ -3784,7 +3784,7 @@
     "externalServerAddress" : "http:\/\/localhost:8888",
     "gitIgnoreBuildFolder" : 1,
     "hideConfigFile" : 0,
-    "jsCheckerReservedNamesString" : "gsap, $, ScrollTrigger",
+    "jsCheckerReservedNamesString" : "gsap, $, ScrollTrigger, barba",
     "languageDefaultsCOFFEE" : {
       "autoOutputAction" : 0,
       "autoOutputPathFilenamePattern" : "*.js",
