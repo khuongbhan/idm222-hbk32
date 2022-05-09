@@ -1,65 +1,43 @@
 import { gsap } from "gsap";
 import $ from "jquery";
-import {burgerTimeline} from './burger-animation';
+import { burgerTimeline } from './burger-animation';
+import { mainNavTimeline } from './main-nav';
+import { NavigationState } from './nav-state';
 
-export var canISeetheMenu = false;
+// A state holder for navigation panel
+export let navState = new NavigationState($("#burger"), burgerTimeline, mainNavTimeline);
 
-var navHeight = $("#main-nav").outerHeight();
-console.log(navHeight);
-
-//setting nav height
-
- gsap.set("#main-nav",{y:-navHeight});
-
-
- export const  mainNavTimeline = gsap.timeline({paused:true})
-
-    mainNavTimeline.to("#main-nav", {duration:0.5, y:0})
-
-// function to handle the showing and hiding of the main-nav
-
-export function hideShowMainNav(){
-
-    console.log("show me the menu!");
-    console.log(canISeetheMenu + " can you see the menu value");
-
-
-    if(canISeetheMenu === false){
-
-        burgerTimeline.play("burgertoMinus");
-        mainNavTimeline.play();
-        canISeetheMenu = true;
-
-    }
-    else{
-        burgerTimeline.reverse();
-        mainNavTimeline.reverse();
-        canISeetheMenu = false;
-
-    }
-}
-export function navClick(){
-    $("#burger").on("click", hideShowMainNav);
+function hideMainNav() {
+    let navHeight = $("#main-nav").outerHeight();
+    gsap.set("#main-nav",{y:-navHeight}); // TODO: This will create a quick disappearance on the screen. Set it as hide by default somehow?
 }
 
-var menuBackground = document.querySelector("#main-nav");
-export function menuBgSelect() {
-    window.onclick = function (event) {
-    if (event.target == menuBackground) {
-        hideShowMainNav();
-    }
+function onWindowSizeChange() {
+    if (navState || navState.isOpen) {
+        hideMainNav();
     }
 }
 
-//add a listener to the window for every time it's being resized
-
-
-export function reportWindowSize(){
-    if (canISeetheMenu === false){
-        navHeight = $("#main-nav").outerHeight();
-        gsap.set("#main-nav",{y:-navHeight});
+function onWindowClick(event) {
+    if (event.target == $("#main-nav")) {
+        navState.close();
     }
-
-    window.addEventListener('resize', reportWindowSize);
 }
+
+export function initGlobalNav() {
+    console.log("Initializing Global Navigation");
+
+    // Setting navigation panel initial position
+    hideMainNav();
+
+    // Set up listener for click event on burger
+    navState.init();
+
+    // Set listener for navigation panel to close on click
+    window.addEventListener("click", onWindowClick);
+
+    // Add a listener to the window for every time it's being resized
+    window.addEventListener('resize', onWindowSizeChange);
+}
+
 
