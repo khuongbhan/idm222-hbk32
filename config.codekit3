@@ -1919,6 +1919,45 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/project-page\/manray\/spreads\/manray-spreads-1.png" : {
+      "ft" : 32768,
+      "iS" : 4935136,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/manray\/spreads\/manray-spreads-1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/manray\/spreads\/manray-spreads-2.png" : {
+      "ft" : 32768,
+      "iS" : 4885221,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/manray\/spreads\/manray-spreads-2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/manray\/spreads\/manray-spreads-3.png" : {
+      "ft" : 32768,
+      "iS" : 4897705,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/manray\/spreads\/manray-spreads-3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/project-page\/mutter\/all\/mutter-all.png" : {
       "ft" : 32768,
       "iS" : 231248,
