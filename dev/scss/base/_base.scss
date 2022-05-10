@@ -520,6 +520,18 @@ ul {
     }
 }
 
+.new-section {
+    padding-top: 25px;
+
+    @include md {
+        padding-top: 30px;
+    }
+
+    @include lg {
+        padding-top: 45px;
+    }
+}
+
 
 /* =============
     Grid Layouts 
@@ -527,6 +539,7 @@ ul {
 
 // grid with 3 images full vw
 .gallery-grid-3 {
+    padding-top: 20px;
 
     display: flex;
     flex-direction: column;

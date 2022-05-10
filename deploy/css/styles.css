@@ -802,10 +802,25 @@ ul li {
   object-fit: cover;
 }
 
+.new-section {
+  padding-top: 25px;
+}
+@media (min-width: 768px) {
+  .new-section {
+    padding-top: 30px;
+  }
+}
+@media (min-width: 992px) {
+  .new-section {
+    padding-top: 45px;
+  }
+}
+
 /* =============
     Grid Layouts 
 ============= */
 .gallery-grid-3 {
+  padding-top: 20px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -2575,6 +2590,16 @@ footer #footer-container #socials a:visited:active {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+#mutter-banner {
+  position: relative;
+  background-color: #000;
+}
+
+#mutter-branding-copy-container {
+  position: relative;
+  background-color: #000;
 }
 
 /* =============
