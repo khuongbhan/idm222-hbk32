@@ -2588,6 +2588,20 @@ footer #footer-container #socials a:visited:active {
 }
 
 /* =============
+    Komorebi Brand
+============= */
+#kmrb-banner {
+  position: relative;
+  background-color: #000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#kmrb-brand {
+  padding-top: 20px;
+}
+
+/* =============
     Man Ray Hero
 ============= */
 #manray-hero #manray-hero-image {
