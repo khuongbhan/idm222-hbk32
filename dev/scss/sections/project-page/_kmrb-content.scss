@@ -39,6 +39,22 @@
 
 }
 
+#kmrb-package-full-gallery-1 {
+    padding-top: 20px;
+
+    @include lg {
+        padding-top: 30px;
+    }
+
+    #kmrb-package-full-gallery-1-name {
+        padding-bottom: 10px;
+
+        @include lg {
+            padding-bottom: 20px;
+        }
+    }
+}
+
 #kmrb-package-full-gallery-2 {
     padding-top: 20px;
 }
