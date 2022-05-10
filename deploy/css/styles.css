@@ -367,7 +367,7 @@ ul {
   margin: 0;
 }
 ul li {
-  list-style: none;
+  list-style: none !important;
 }
 
 .grid-container {
@@ -1005,6 +1005,37 @@ ul li {
 }
 .gallery-grid-21-horizontal > div .gallery-grid-21-horizontal-large {
   grid-area: i3;
+}
+
+/* =============
+    CSS Anims  
+============= */
+.typewriter-container {
+  display: inline-block;
+  padding-bottom: 20px;
+}
+.typewriter-container .typewriter-text {
+  overflow: hidden;
+  border-right: 0.1em solid #FF0097;
+  white-space: nowrap;
+  animation: typing 2s steps(30, end) 1.5s forwards, blinking 0.6s infinite;
+  width: 0;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blinking {
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: #FF0097;
+  }
 }
 
 /* =============
@@ -2009,10 +2040,6 @@ footer #footer-container #socials a:visited:active {
     font-size: 3rem;
   }
 }
-#about-container-top #about-content #about-me svg {
-  width: 65%;
-  padding-bottom: 15px;
-}
 #about-container-top #about-content #about-me p {
   line-height: 1.5rem;
   margin-bottom: 25px;
@@ -2027,6 +2054,138 @@ footer #footer-container #socials a:visited:active {
   font-style: italic;
   background-color: #FFF200;
   color: #FF0097;
+}
+
+/* =============
+    Resume Section
+============= */
+@media (min-width: 768px) {
+  #resume-container {
+    margin-left: 40px;
+  }
+}
+@media (min-width: 992px) {
+  #resume-container {
+    margin-left: 70px;
+  }
+}
+#resume-container #resume-content #resume-section-name {
+  padding-bottom: 5px;
+}
+#resume-container #resume-content #resume-section-name h2 {
+  font-size: 2.375rem;
+  line-height: 1em;
+  font-weight: 400;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  #resume-container #resume-content #resume-section-name h2 {
+    font-size: 2.5rem;
+    text-align: left;
+    margin-left: 40px;
+  }
+}
+@media (min-width: 992px) {
+  #resume-container #resume-content #resume-section-name h2 {
+    font-size: 3rem;
+    margin-left: 60px;
+  }
+}
+#resume-container #resume-content #resume-section-name span {
+  color: #FF0097;
+}
+#resume-container #resume-content #resume-section-name span .emoji {
+  font-size: 2.125rem;
+}
+@media (min-width: 768px) {
+  #resume-container #resume-content #resume {
+    margin-top: -30px;
+    display: grid;
+    grid-template-columns: "45% 55%";
+    grid-template-areas: "left right";
+  }
+}
+#resume-container #resume-content #resume #resume-left section h5,
+#resume-container #resume-content #resume #resume-right section h5 {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.25rem;
+  color: #FFF200;
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  #resume-container #resume-content #resume #resume-left section h5,
+#resume-container #resume-content #resume #resume-right section h5 {
+    font-size: 1.75rem;
+  }
+}
+#resume-container #resume-content #resume #resume-left section ul li,
+#resume-container #resume-content #resume #resume-right section ul li {
+  font-weight: 400;
+  font-size: 1rem;
+  padding-bottom: 10px;
+  line-height: 1.75rem;
+}
+#resume-container #resume-content #resume #resume-left section ul li span,
+#resume-container #resume-content #resume #resume-right section ul li span {
+  font-weight: 700;
+}
+@media (min-width: 768px) {
+  #resume-container #resume-content #resume #resume-left section ul li,
+#resume-container #resume-content #resume #resume-right section ul li {
+    padding-bottom: 15px;
+    width: 70%;
+  }
+}
+@media (min-width: 768px) {
+  #resume-container #resume-content #resume #resume-left {
+    grid-area: left;
+    margin-left: 40px;
+  }
+}
+@media (min-width: 992px) {
+  #resume-container #resume-content #resume #resume-left {
+    padding-bottom: 20px;
+    width: 70%;
+    margin-left: 60px;
+  }
+}
+@media (min-width: 768px) {
+  #resume-container #resume-content #resume #resume-right {
+    grid-area: right;
+  }
+}
+#resume-container #resume-content #resume #resume-right section h5 {
+  padding-bottom: 10px;
+}
+#resume-container #resume-content #resume #resume-right section ul .link {
+  padding-top: 10px;
+}
+@media (min-width: 992px) {
+  #resume-container #resume-content #resume #resume-right section ul .link {
+    padding-top: 0;
+  }
+}
+#resume-container #resume-content #resume #resume-right section ul .link a {
+  color: #FFF200;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+@media (min-width: 992px) {
+  #resume-container #resume-content #resume #resume-right section ul .link a {
+    font-size: 1.375rem;
+  }
+}
+#resume-container #resume-content #resume #resume-right section ul .link a:hover {
+  transition: 0.25s;
+  font-weight: 700;
+  font-style: italic;
+}
+@media (min-width: 992px) {
+  #resume-container #resume-content #resume #resume-right section ul li {
+    padding-bottom: 45px;
+    width: 80%;
+  }
 }
 
 /* =============

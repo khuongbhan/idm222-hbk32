@@ -1,6 +1,11 @@
 /* =============
     About Section
 ============= */
+// ul {
+//     li {
+//         list-style: none;
+//     }
+// }
 
 #about-container-top {
     margin-top: 100px;
@@ -81,10 +86,10 @@
                 }
             }
 
-            svg {
-                width: 65%;
-                padding-bottom: 15px;
-            }
+            // svg {
+            //     width: 65%;
+            //     padding-bottom: 15px;
+            // }
 
             p {
                 line-height: rem-calc(24);
@@ -103,4 +108,193 @@
             }
         }
     }
+}
+
+
+
+/* =============
+    Resume Section
+============= */
+#resume-container {
+
+    @include md {
+        margin-left: 40px;
+    }
+
+    @include lg {
+        margin-left: 70px;
+    }
+
+    #resume-content {
+
+        #resume-section-name {
+
+
+            // margin-bottom: 10px;
+            padding-bottom: 5px;
+
+            h2 {
+                font-size: rem-calc(38);
+                line-height: 1em;
+                font-weight: 400;
+                text-align: center;
+
+                @include md {
+                    font-size: rem-calc(40);
+                    text-align: left;
+                    margin-left: 40px;
+                }
+
+                @include lg {
+                    font-size: rem-calc(48);
+                    margin-left: 60px;
+                }
+            }
+
+            span {
+                color: $magenta;
+
+                .emoji {
+                    font-size: rem-calc(34);
+                }
+            }
+        }
+
+        #resume {
+
+            @include md {
+                margin-top: -30px;
+
+                display: grid;
+                grid-template-columns: "45% 55%";
+                grid-template-areas: "left right";
+            }
+
+            #resume-left,
+            #resume-right {
+                section {
+                    h5 {
+                        font-weight: 400;
+                        font-style: italic;
+                        font-size: rem-calc(20);
+                        color: $yellow;
+                        margin-bottom: 10px;
+
+                        @include md {
+                            font-size: rem-calc(28);
+                        }
+                    }
+
+                    ul {
+                        li {
+                            font-weight: 400;
+                            font-size: rem-calc(16);
+                            padding-bottom: 10px;
+                            line-height: rem-calc(28);
+
+                            span {
+                                font-weight: 700;
+                            }
+
+                            @include md {
+                                padding-bottom: 15px;
+                                width: 70%;
+                            }
+                        }
+                    }
+                }
+            }
+
+            #resume-left {
+                @include md {
+                    grid-area: left;
+                    margin-left: 40px;
+                }
+
+                @include lg {
+                    padding-bottom: 20px;
+                    width: 70%;
+                    margin-left: 60px;
+                }
+            }
+
+            #resume-right {
+
+
+                @include md {
+                    grid-area: right;
+                }
+
+                section {
+                    h5 {
+                        padding-bottom: 10px;
+                    }
+
+                    ul {
+                        .link {
+                            padding-top: 10px;
+
+                            @include lg {
+                                padding-top: 0;
+                            }
+                            a {
+                                color: $yellow;
+                                text-decoration: none;
+                                font-size: rem-calc(20);
+
+                                @include lg {
+                                    font-size: rem-calc(22);
+                                }
+
+                                &:hover {
+                                    transition: .25s;
+                                    font-weight: 700;
+                                    font-style: italic;
+                                }
+                            }
+                        }
+                        li {
+                            @include lg {
+                                // h5 {
+                                //     padding-bottom: 10px;
+                                // }
+                                padding-bottom: 45px;
+                                width: 80%;
+                            }
+                        }
+                    }
+                }
+
+                // #resume-button {
+                //     a {
+                //         background-color: $black;
+                //         border: 1px $white solid;
+                //         border-radius: 26px;
+                //         color: $white;
+                //         padding: 10px 25px;
+                //         display: block;
+                //         margin-left: auto;
+                //         margin-right: auto;
+
+                //         @include md {
+                //             font-size: rem-calc(20);
+                //             padding: 10px 30px;
+                //             margin-left: 0;
+                //         }
+
+                //         &:hover {
+                //             transition: .25s;
+                //             background-color: $yellow;
+                //             border: 1px $yellow solid;
+                //             color: $black;
+                //             font-style: italic;
+                //         }
+                //     }
+
+                // }
+
+            }
+        }
+    }
+    
 }

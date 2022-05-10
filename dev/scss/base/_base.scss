@@ -16,7 +16,7 @@ ul {
     margin: 0;
 
     li {
-        list-style: none;
+        list-style: none !important;
     }
 }
 
@@ -737,4 +737,47 @@ ul {
             grid-area: i3;
         }
     }
+}
+
+
+
+/* =============
+    CSS Anims  
+============= */
+
+// typewriter
+.typewriter-container {
+
+    // margin-left: 20px;
+    display:inline-block;
+    padding-bottom: 20px;
+
+    .typewriter-text {
+        overflow: hidden;
+        border-right: .1em solid $magenta;
+        white-space: nowrap;
+        animation: typing 2s steps(30, end) 1.5s forwards, blinking .6s infinite;
+        // font-size: 1.6rem;
+        width: 0;
+    }
+
+    @keyframes typing {
+        from {
+            width: 0
+        }
+
+        to {
+            width: 100%
+        }
+    }
+
+    @keyframes blinking {
+        from { border-color: transparent }
+        to { border-color: $magenta; }
+      }
+
+    // @include lg {
+    //     margin-left: 25px;
+    // }
+
 }
