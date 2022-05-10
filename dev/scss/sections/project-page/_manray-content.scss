@@ -14,3 +14,26 @@
         }
     }
 }
+
+/* =============
+    Man Ray Banner
+============= */
+#manray-banner {
+    >div {
+        a {
+            img {
+                @include lg {
+                    height: 80%;
+                }
+            }
+            
+        }
+        
+    }
+}
+
+#manray-exp-gallery-1 {
+    @include lg {
+        margin-top: -180px;
+    }
+}

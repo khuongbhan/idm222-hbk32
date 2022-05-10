@@ -803,6 +803,8 @@ ul li {
 }
 
 .new-section {
+  position: relative;
+  background-color: #000;
   padding-top: 25px;
 }
 @media (min-width: 768px) {
@@ -819,6 +821,41 @@ ul li {
 /* =============
     Grid Layouts 
 ============= */
+.column-2-flex > div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.column-2-flex > div a {
+  flex-basis: 49%;
+  padding-bottom: 5px;
+}
+@media (min-width: 768px) {
+  .column-2-flex > div a {
+    padding-bottom: 15px;
+  }
+}
+@media (min-width: 992px) {
+  .column-2-flex > div a {
+    padding-bottom: 20px;
+  }
+}
+.column-2-flex > div a img {
+  object-fit: cover;
+  height: 20vh;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .column-2-flex > div a img {
+    height: 25vh;
+  }
+}
+@media (min-width: 992px) {
+  .column-2-flex > div a img {
+    height: 55vh;
+  }
+}
+
 .gallery-grid-3 {
   padding-top: 20px;
   display: flex;
@@ -2669,6 +2706,21 @@ footer #footer-container #socials a:visited:active {
 @media (min-width: 992px) {
   #manray-hero #manray-hero-image {
     background-position: center;
+  }
+}
+
+/* =============
+    Man Ray Banner
+============= */
+@media (min-width: 992px) {
+  #manray-banner > div a img {
+    height: 80%;
+  }
+}
+
+@media (min-width: 992px) {
+  #manray-exp-gallery-1 {
+    margin-top: -180px;
   }
 }
 

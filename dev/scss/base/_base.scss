@@ -415,7 +415,7 @@ ul {
 
 /* =============
     Section Hero 
-============= */ 
+============= */
 
 .section-hero-container {
     padding-top: 40px;
@@ -491,36 +491,38 @@ ul {
 
 .section-with-1-image {
     >div {
-            padding-top: 12px;
-        
-            @include md {
-                padding-top: 15px;
+        padding-top: 12px;
+
+        @include md {
+            padding-top: 15px;
+        }
+
+        display: grid;
+        grid-template-columns: "auto 95% auto";
+        grid-template-areas: ". banner .";
+
+        padding-bottom: 10px;
+
+        @include md {
+            padding-bottom: 20px;
+        }
+
+        a {
+            grid-area: banner;
+
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
             }
-        
-            display: grid;
-            grid-template-columns: "auto 95% auto";
-            grid-template-areas: ". banner .";
-        
-            padding-bottom: 10px;
-        
-            @include md {
-                padding-bottom: 20px;
-            }
-        
-            a {
-                grid-area: banner;
-        
-                img {
-                    height: 100%;
-                    width: 100%;
-                    object-fit: cover;
-                }
-            }
-        
+        }
+
     }
 }
 
 .new-section {
+    position: relative;
+    background-color: $black;
     padding-top: 25px;
 
     @include md {
@@ -535,7 +537,43 @@ ul {
 
 /* =============
     Grid Layouts 
-============= */ 
+============= */
+
+// grid with 2 columns (actually flex)
+.column-2-flex {
+    >div {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        a {
+            flex-basis: 49%;
+            padding-bottom: 5px;
+
+            @include md {
+                padding-bottom: 15px;
+            }
+
+            @include lg {
+                padding-bottom: 20px;
+            }
+
+            img {
+                object-fit: cover;
+                height: 20vh;
+                width: 100%;
+
+                @include md {
+                    height: 25vh;
+                }
+
+                @include lg {
+                    height: 55vh;
+                }
+            }
+        }
+    }
+}
 
 // grid with 3 images full vw
 .gallery-grid-3 {
@@ -577,13 +615,13 @@ ul {
     }
 
     >div {
-        grid-area: content; 
+        grid-area: content;
 
         @include md {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             grid-template-areas: "i1 i2"
-            "i1 i3";
+                "i1 i3";
         }
 
         @include lg {
@@ -621,6 +659,7 @@ ul {
             grid-area: i1;
 
         }
+
         .gallery-grid-12-vertical-top-right {
             grid-area: i2;
         }
@@ -644,14 +683,14 @@ ul {
     }
 
     >div {
-        grid-area: content; 
+        grid-area: content;
 
         @include md {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             grid-template-areas: "i1 i2"
-            "i3 i3"
-            "i3 i3";
+                "i3 i3"
+                "i3 i3";
         }
 
         @include lg {
@@ -689,6 +728,7 @@ ul {
             grid-area: i1;
 
         }
+
         .gallery-grid-21-horizontal-top-right {
             grid-area: i2;
         }
