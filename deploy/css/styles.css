@@ -2724,6 +2724,21 @@ footer #footer-container #socials a:visited:active {
   }
 }
 
+#manray-ending {
+  margin-top: -30px;
+  padding-bottom: 20px;
+}
+@media (min-width: 768px) {
+  #manray-ending {
+    margin-top: -40px;
+  }
+}
+@media (min-width: 992px) {
+  #manray-ending {
+    margin-top: -70px;
+  }
+}
+
 /* =============
     Highland Hero
 ============= */
