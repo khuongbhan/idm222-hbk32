@@ -14,3 +14,28 @@
         }
     }
 }
+
+#highland-logo-video {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    @include md {
+        padding-top: 30px;
+    }
+    
+    @include lg {
+        padding-top: 40px;
+    }
+    >div {
+        iframe{
+            height: 30vh;
+            width: 100%;
+            @include md{
+                height: 45vh;
+            }
+            @include lg{
+                height: 80vh;
+            }
+        }
+    }
+}

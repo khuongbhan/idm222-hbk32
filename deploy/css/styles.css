@@ -708,6 +708,35 @@ ul li {
   font-weight: 400;
 }
 
+.youtube-vid {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .youtube-vid {
+    padding-top: 30px;
+  }
+}
+@media (min-width: 992px) {
+  .youtube-vid {
+    padding-top: 40px;
+  }
+}
+.youtube-vid > div iframe {
+  height: 30vh;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .youtube-vid > div iframe {
+    height: 45vh;
+  }
+}
+@media (min-width: 992px) {
+  .youtube-vid > div iframe {
+    height: 80vh;
+  }
+}
+
 /* =============
     Section Hero 
 ============= */
@@ -805,7 +834,7 @@ ul li {
 .new-section {
   position: relative;
   background-color: #000;
-  padding-top: 25px;
+  padding-top: 20px;
 }
 @media (min-width: 768px) {
   .new-section {
@@ -2910,6 +2939,35 @@ footer #footer-container #socials a:visited:active {
 @media (min-width: 992px) {
   #highland-hero #highland-hero-image {
     background-position: center;
+  }
+}
+
+#highland-logo-video {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@media (min-width: 768px) {
+  #highland-logo-video {
+    padding-top: 30px;
+  }
+}
+@media (min-width: 992px) {
+  #highland-logo-video {
+    padding-top: 40px;
+  }
+}
+#highland-logo-video > div iframe {
+  height: 30vh;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  #highland-logo-video > div iframe {
+    height: 45vh;
+  }
+}
+@media (min-width: 992px) {
+  #highland-logo-video > div iframe {
+    height: 80vh;
   }
 }
 
