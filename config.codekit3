@@ -3087,6 +3087,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/projects-all\/srs22-proj.png" : {
+      "ft" : 32768,
+      "iS" : 343733,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/projects-all\/srs22-proj.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
