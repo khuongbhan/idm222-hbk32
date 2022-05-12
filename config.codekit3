@@ -3146,12 +3146,12 @@
       "oAP" : "\/deploy\/mutter-museum.html",
       "oF" : 0
     },
-    "\/deploy\/sprout.html" : {
+    "\/deploy\/senior-showcase-2022.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/sprout.html",
+      "oAP" : "\/deploy\/senior-showcase-2022.html",
       "oF" : 0
     },
     "\/deploy\/work.html" : {
@@ -3290,12 +3290,12 @@
       "oAP" : "\/dev\/content\/projects-pages\/prince-content.html",
       "oF" : 1
     },
-    "\/dev\/content\/projects-pages\/sprout-content.kit" : {
+    "\/dev\/content\/projects-pages\/srs22-content.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/projects-pages\/sprout-content.html",
+      "oAP" : "\/dev\/content\/projects-pages\/srs22-content.html",
       "oF" : 1
     },
     "\/dev\/content\/work-content.kit" : {
@@ -3866,7 +3866,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/project-page\/_sprout-content.scss" : {
+    "\/dev\/scss\/sections\/project-page\/_srs22-content.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -3875,7 +3875,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/project-page\/_sprout-content.css",
+      "oAP" : "\/dev\/scss\/sections\/project-page\/_srs22-content.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -3896,12 +3896,12 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/sprout.kit" : {
+    "\/dev\/senior-showcase-2022.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/sprout.html",
+      "oAP" : "\/deploy\/senior-showcase-2022.html",
       "oF" : 2
     },
     "\/dev\/work.kit" : {
