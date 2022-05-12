@@ -1,6 +1,19 @@
 import { navState } from "../main-nav/nav-global";
 // barba transitions 
 // LifeCycle: https://waelyasmina.com/barba-js-v2-tutorial-for-total-beginners/
+if (history.scrollRestoration) {
+    history.scrollRestoration = 'manual';
+  }
+
+  let scrollX = 0
+let scrollY = 0
+
+barba.hooks.leave(() => {
+  scrollX = barba.history.current.scroll.x;
+  scrollY = barba.history.current.scroll.y;
+});
+
+
 barba.init({
     sync: true,
     transitions: [
@@ -14,6 +27,8 @@ barba.init({
             // },
             async leave({current}) {
                 const done = this.async();
+                scrollX = barba.history.current.scroll.x;
+  scrollY = barba.history.current.scroll.y;
                 // Leave animation
                 gsap.to(current.container, {
                     opacity: 0,
@@ -21,6 +36,8 @@ barba.init({
                     ease:"Power2.easeInOut",
                     duration: 1.25
                 });
+                // window.scrollTo(0, 0);
+                // window.scrollTo(scrollX, scrollY);
                 done();
             },
             async enter({next}) {
@@ -44,3 +61,5 @@ barba.init({
         }
     ]
 });    
+
+window.scrollTo(scrollX, scrollY);
