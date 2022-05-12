@@ -3048,6 +3048,39 @@ footer #footer-container #socials a:visited:active {
   padding-bottom: 0;
 }
 
+#sunshine-prototype-link-container {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+#sunshine-prototype-link-container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#sunshine-prototype-link-container > div a {
+  margin: 10px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px #FFF200 solid;
+  color: #FFF200;
+  padding: 12px 30px;
+  border-radius: 30px;
+}
+#sunshine-prototype-link-container > div a:hover {
+  transition: 0.25s;
+  background-color: #FFF200;
+  border: 1px #FFF200 solid;
+  color: #000;
+  font-style: italic;
+}
+@media (min-width: 992px) {
+  #sunshine-prototype-link-container > div a {
+    flex-wrap: nowrap;
+    padding: 12px 30px;
+    border-radius: 50px;
+  }
+}
+
 body {
   background-color: #000;
   cursor: url(https://www.linkpicture.com/q/default-cursor.svg), auto;
