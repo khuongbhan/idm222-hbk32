@@ -613,6 +613,7 @@ ul li {
 
 .proj-page-bottom-nav {
   text-align: center;
+  padding-bottom: 0;
 }
 @media (min-width: 768px) {
   .proj-page-bottom-nav .proj-nav {

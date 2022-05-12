@@ -932,6 +932,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/project-page\/highland\/application\/highland-web.gif" : {
+      "ft" : 4194304,
+      "iS" : 29437375,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/highland\/application\/highland-web.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
     "\/deploy\/img\/project-page\/highland\/banner\/highland-banner.png" : {
       "ft" : 32768,
       "iS" : 210733,
