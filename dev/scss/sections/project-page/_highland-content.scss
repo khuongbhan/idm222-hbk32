@@ -43,7 +43,12 @@
 #highland-app-1 {
     padding-bottom: 0;
 
-    // @include lg {
-    //     margin-top: -40px
-    // }
+    #highland-app-1-section-name {
+        padding-bottom: 15px;
+
+        @include lg {
+            padding-bottom: 20px;
+        }
+    }
+
 }

@@ -8,6 +8,10 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 
+var heroFades = gsap.timeline();
+
+heroFades.to(".project-hero",{alpha:0})
+
 export function heroPinning(){
     ScrollTrigger.create({
         trigger: ".project-hero",
@@ -15,6 +19,7 @@ export function heroPinning(){
         start: "top top",
         //end:"100vh",
         pinSpacing: false,
+        animation: heroFades,
         // markers: true,
         scrub: true
     });

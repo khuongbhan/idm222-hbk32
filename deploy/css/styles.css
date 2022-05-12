@@ -2974,6 +2974,14 @@ footer #footer-container #socials a:visited:active {
 #highland-app-1 {
   padding-bottom: 0;
 }
+#highland-app-1 #highland-app-1-section-name {
+  padding-bottom: 15px;
+}
+@media (min-width: 992px) {
+  #highland-app-1 #highland-app-1-section-name {
+    padding-bottom: 20px;
+  }
+}
 
 /* =============
     from i to eye Hero
