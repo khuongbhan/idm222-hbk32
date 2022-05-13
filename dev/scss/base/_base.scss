@@ -310,6 +310,7 @@ ul {
     text-align: center;
     padding-bottom: 0;
 
+
     .proj-nav {
         @include md {
             display: flex;
@@ -330,6 +331,7 @@ ul {
 
             .prev-name {
                 font-size: rem-calc(20);
+                line-height: rem-calc(30);
                 font-style: italic;
                 font-weight: 700;
                 color: $yellow;
@@ -355,6 +357,7 @@ ul {
 
             .next-name {
                 font-size: rem-calc(20);
+                line-height: rem-calc(30);
                 font-style: italic;
                 font-weight: 700;
                 color: $yellow;

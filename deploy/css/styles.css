@@ -635,6 +635,7 @@ ul li {
 }
 .proj-page-bottom-nav .proj-nav .prev-proj .prev-name {
   font-size: 1.25rem;
+  line-height: 1.875rem;
   font-style: italic;
   font-weight: 700;
   color: #FFF200;
@@ -655,6 +656,7 @@ ul li {
 }
 .proj-page-bottom-nav .proj-nav .next-proj .next-name {
   font-size: 1.25rem;
+  line-height: 1.875rem;
   font-style: italic;
   font-weight: 700;
   color: #FFF200;
