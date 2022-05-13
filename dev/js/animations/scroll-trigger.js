@@ -130,8 +130,8 @@ export function resumeAnimation(){
 var contactPageAnim = gsap.timeline();
 
 contactPageAnim.from("#talk-more",{duration:largeTextFadeTime,alpha:0,translateY:"-10%",ease:"power1.easeInOut"},"contactLoads")
-.from("#contact-p",{duration:drawOutSVG,alpha:0,translateX:"-7%",ease:"power2.easeInOut"},"contactLoadsDone")
-.from("#contact-mail",{duration:drawOutSVG,alpha:0,translateX:"-7%",ease:"power2.easeInOut"},"-=.5")
+.from("#contact-p",{duration:drawOutSVG,alpha:0,translateX:"-7%",ease:"power2.easeInOut"},"-=.75")
+.from("#contact-mail-p",{duration:drawOutSVG,alpha:0,translateX:"-7%",ease:"power2.easeInOut"},"-=.5")
 .from("#contact-form-p",{duration:drawOutSVG,alpha:0,translateX:"-7%",ease:"power2.easeInOut"},"-=.25")
 .from("#form",{duration:drawOutSVG,alpha:0,translateX:"-7%",ease:"power2.easeInOut"},"-=.05")
 
