@@ -2017,6 +2017,7 @@ footer #footer-container #socials a:visited:active {
 }
 #about-container-top #about-content #photo-area svg {
   position: absolute;
+  z-index: 2;
   left: 280px;
   top: 150px;
   width: 40px;

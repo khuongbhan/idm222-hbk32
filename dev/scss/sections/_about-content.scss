@@ -34,6 +34,7 @@
 
             svg {
                 position: absolute;
+                z-index: 2;
                 left: 280px;
                 top: 150px;
                 width: 40px;
@@ -87,6 +88,7 @@
             }
 
             // svg {
+            //     position: relative;
             //     width: 65%;
             //     padding-bottom: 15px;
             // }

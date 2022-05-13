@@ -62,22 +62,46 @@ export function projectsFade(){
 
 var heroTextFadesIn = gsap.timeline();
 var largeTextFadeTime = 1;
-var drawOutSVG = 1;
+var drawOutSVG = .75;
 
 heroTextFadesIn.from("#large-text",{duration:largeTextFadeTime,alpha: 0,translateX:"-10%",delay:1.75,ease:"power1.out"},"fadeIn")
 .from("#circle-1",{duration:drawOutSVG,drawSVG: "50% 50%",ease:"power2.easeInOut"},"drawOut")
-.from("#circle-2",{duration:drawOutSVG,drawSVG: "50% 50%",ease:"power2.easeInOut"},"drawOut")
-.from("#sketch-brand",{duration:drawOutSVG,drawSVG: 0,ease:"power2.easeInOut"},"drawOut")
-.from("#sketch-dig",{duration:drawOutSVG,drawSVG: 0,ease:"power2.easeInOut"},"drawOut")
-.from("#sketch-front",{duration:drawOutSVG,drawSVG: 0,ease:"power2.easeInOut"},"drawOut")
-.from("#sketch-package",{duration:drawOutSVG,drawSVG: 0,ease:"power2.easeInOut"},"drawOut")
+.from("#circle-2",{duration:drawOutSVG,drawSVG: "50% 50%",ease:"power2.easeInOut"},"-=.25")
+.from("#sketch-brand",{duration:drawOutSVG,drawSVG: 0,ease:"power2.easeInOut"},"-=.45")
+.from("#sketch-dig",{duration:drawOutSVG,drawSVG: 0,ease:"power2.easeInOut"},"-=.45")
+.from("#sketch-front",{duration:drawOutSVG,drawSVG: 0,ease:"power2.easeInOut"},"-=.45")
+.from("#sketch-package",{duration:drawOutSVG,drawSVG: 0,ease:"power2.easeInOut"},"-=.45")
 .from("#rotate-button",{duration:drawOutSVG, alpha: 0,ease:"power2.easeInOut"},"buttonAppears")
 
 export function heroTextFades(){
     ScrollTrigger.create({
         animation: heroTextFadesIn,
         trigger: "#large-text",
-        start: "center 61%",
-        markers: true
+        start: "center 61%"
+        // markers: true
+    });
+}
+
+
+// /* =============
+//     about > fade in
+// ============= */
+
+var aboutPageAnim = gsap.timeline();
+
+aboutPageAnim.from("#portrait-me",{duration:largeTextFadeTime,alpha: 0,delay:1,translateY:"10%",ease:"power1.out"},"typeWriterPlaying")
+.from("#curvy-arrow",{duration:projectFadeTime,drawSVG: 0,alpha: 0,translateY:"10%",ease:"power1.easeInOut"},"typeWriterPlayingDone")
+.from("#parents-text",{duration:projectFadeTime,alpha: 0,translateX:"-10%",ease:"power1.easeInOut"},"typeWriterPlayingDone")
+.from("#about-p1",{duration:drawOutSVG,alpha: 0,translateY:"-3%",ease:"power1.easeInOut"},"-=1")
+.from("#about-p2",{duration:drawOutSVG,alpha: 0,translateY:"-3%",ease:"power1.easeInOut"},"-=.5")
+.from("#about-p3",{duration:drawOutSVG,alpha: 0,translateY:"-3%",ease:"power1.easeInOut"})
+
+
+export function aboutPageAnimation(){
+    ScrollTrigger.create({
+        animation: aboutPageAnim,
+        trigger: "#about-container-top",
+        start: "top 61%"
+        // markers: true
     });
 }
