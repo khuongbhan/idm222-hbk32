@@ -2729,11 +2729,37 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/project-page\/sprout\/sprout-hero.png" : {
+    "\/deploy\/img\/project-page\/srs22\/sprout-hero.png" : {
       "ft" : 32768,
       "iS" : 308721,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/project-page\/sprout\/sprout-hero.png",
+      "oAP" : "\/deploy\/img\/project-page\/srs22\/sprout-hero.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/srs22\/srs22-hero.png" : {
+      "ft" : 32768,
+      "iS" : 1513746,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/srs22\/srs22-hero.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/srs22\/srs22-poster.png" : {
+      "ft" : 32768,
+      "iS" : 2319825,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/srs22\/srs22-poster.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
