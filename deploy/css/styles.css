@@ -1050,7 +1050,7 @@ ul li {
   overflow: hidden;
   border-right: 0.1em solid #FF0097;
   white-space: nowrap;
-  animation: typing 2s steps(30, end) 1.5s forwards, blinking 0.6s infinite;
+  animation: typing 2s steps(30, end) 0.5s forwards, blinking 0.6s infinite;
   width: 0;
 }
 @keyframes typing {

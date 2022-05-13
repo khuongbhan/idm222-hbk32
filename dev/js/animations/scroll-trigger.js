@@ -105,3 +105,19 @@ export function aboutPageAnimation(){
         // markers: true
     });
 }
+
+var resumeAnim = gsap.timeline();
+
+resumeAnim.from("#resume-section-name",{duration: largeTextFadeTime,alpha:0,translateY:"-10%",ease:"power1.out"},"resumeFades")
+.from("#resume-left",{duration: largeTextFadeTime,alpha:0,translateY:"-3%",ease:"power1.out"},"resumeContent")
+.from("#resume-right",{duration: largeTextFadeTime,alpha:0,translateY:"3%",ease:"power1.out"},"resumeContent")
+
+
+export function resumeAnimation(){
+    ScrollTrigger.create({
+        animation: resumeAnim,
+        trigger: "#resume-container",
+        start: "top 90%"
+        // markers: true
+    });
+}

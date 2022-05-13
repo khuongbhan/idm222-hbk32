@@ -787,7 +787,7 @@ ul {
         overflow: hidden;
         border-right: .1em solid $magenta;
         white-space: nowrap;
-        animation: typing 2s steps(30, end) 1.5s forwards, blinking .6s infinite;
+        animation: typing 2s steps(30, end) .5s forwards, blinking .6s infinite;
         // font-size: 1.6rem;
         width: 0;
     }
