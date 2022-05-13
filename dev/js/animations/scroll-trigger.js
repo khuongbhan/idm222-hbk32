@@ -62,7 +62,7 @@ export function projectsFade(){
 
 var heroTextFadesIn = gsap.timeline();
 var largeTextFadeTime = 1;
-var drawOutSVG = .75;
+var drawOutSVG = 1;
 
 heroTextFadesIn.from("#large-text",{duration:largeTextFadeTime,alpha: 0,translateX:"-10%",delay:1.75,ease:"power1.out"},"fadeIn")
 .from("#circle-1",{duration:drawOutSVG,drawSVG: "50% 50%",ease:"power2.easeInOut"},"drawOut")
@@ -71,6 +71,7 @@ heroTextFadesIn.from("#large-text",{duration:largeTextFadeTime,alpha: 0,translat
 .from("#sketch-dig",{duration:drawOutSVG,drawSVG: 0,ease:"power2.easeInOut"},"drawOut")
 .from("#sketch-front",{duration:drawOutSVG,drawSVG: 0,ease:"power2.easeInOut"},"drawOut")
 .from("#sketch-package",{duration:drawOutSVG,drawSVG: 0,ease:"power2.easeInOut"},"drawOut")
+.from("#rotate-button",{duration:drawOutSVG, alpha: 0,ease:"power2.easeInOut"},"buttonAppears")
 
 export function heroTextFades(){
     ScrollTrigger.create({
