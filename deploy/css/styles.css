@@ -2336,7 +2336,12 @@ footer #footer-container #socials a:visited:active {
 }
 @media (min-width: 768px) {
   #contact-container #contact-content #contact-form #contact-form #form section textarea {
-    width: 100%;
+    width: 95%;
+  }
+}
+@media (min-width: 992px) {
+  #contact-container #contact-content #contact-form #contact-form #form section textarea {
+    width: 98%;
   }
 }
 #contact-container #contact-content #contact-form #contact-form #form section ::placeholder {

@@ -124,7 +124,10 @@
                             background-color: $black;
 
                             @include md {
-                                width: 100%;
+                                width: 95%;
+                            }
+                            @include lg {
+                                width: 98%;
                             }
                         }
 
