@@ -753,6 +753,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/project-page\/eye\/process\/eye-sketch.png" : {
+      "ft" : 32768,
+      "iS" : 640392,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/eye\/process\/eye-sketch.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/project-page\/hero-down-btn.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -1367,7 +1380,7 @@
     },
     "\/deploy\/img\/project-page\/kmrb\/process\/kmrb-shelf.png" : {
       "ft" : 32768,
-      "iS" : 7717073,
+      "iS" : 2761292,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/kmrb\/process\/kmrb-shelf.png",
       "oF" : 0,
