@@ -3022,6 +3022,57 @@ footer #footer-container #socials a:visited:active {
   }
 }
 
+#prince-live-link-container > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#prince-live-link-container > div a:link,
+#prince-live-link-container > div a:visited {
+  text-align: center;
+  font-size: 2.25rem;
+  font-weight: 700;
+  -webkit-text-stroke: 1px #FFF200;
+  color: #000;
+  text-decoration: none;
+}
+@media (min-width: 768px) {
+  #prince-live-link-container > div a:link,
+#prince-live-link-container > div a:visited {
+    font-size: 2.875rem;
+  }
+}
+@media (min-width: 992px) {
+  #prince-live-link-container > div a:link,
+#prince-live-link-container > div a:visited {
+    font-size: 3.125rem;
+    -webkit-text-stroke: 1px #FFF200;
+  }
+}
+#prince-live-link-container > div a:active,
+#prince-live-link-container > div a:hover {
+  color: #FF0097;
+  font-style: italic;
+  transition: 0.5s;
+  -webkit-text-stroke: 1px #FF0097;
+  border-bottom: 1.5px solid #FF0097;
+}
+@media (min-width: 992px) {
+  #prince-live-link-container > div a:active,
+#prince-live-link-container > div a:hover {
+    -webkit-text-stroke: 1px #FF0097;
+    border-bottom: 2px solid #FF0097;
+  }
+}
+
+#prince-end-img > div a {
+  display: flex;
+  justify-content: center;
+}
+#prince-end-img > div a img {
+  width: 80%;
+}
+
 /* =============
     Sprout Hero
 ============= */

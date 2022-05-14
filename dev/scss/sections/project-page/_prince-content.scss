@@ -14,3 +14,57 @@
         }
     }
 }
+
+#prince-live-link-container {
+    >div {
+display: flex;
+align-items: center;
+justify-content: center;
+        a:link,
+        a:visited {
+            text-align: center;
+            font-size: rem-calc(36);
+            font-weight: 700;
+            -webkit-text-stroke: 1px $yellow;
+            color: $black;
+            text-decoration: none;
+
+            @include md {
+                font-size: rem-calc(46);
+            }
+
+            @include lg {
+                font-size: rem-calc(50);
+                -webkit-text-stroke: 1px $yellow;
+            }
+        }
+
+        a:active,
+        a:hover {
+            color: $magenta;
+            font-style: italic;
+            // font-weight: 400;
+            transition: .5s;
+            -webkit-text-stroke: 1px $magenta;
+            border-bottom: 1.5px solid $magenta;
+
+            @include lg {
+                -webkit-text-stroke: 1px $magenta;
+                border-bottom: 2px solid $magenta;
+            }
+        }
+    }
+}
+
+#prince-end-img {
+    >div {
+        a {
+            display: flex;
+            justify-content: center;
+            img {
+                width: 80%;
+
+            }
+        }
+    }
+}
