@@ -94,6 +94,14 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/han-resume.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/han-resume.pdf",
+      "oF" : 0
+    },
     "\/deploy\/img\/homepage\/featured\/across-home.png" : {
       "ft" : 32768,
       "iS" : 533076,
