@@ -33,6 +33,8 @@ background-color: $black;
 }
 
 #coming {
+    position: relative;
+background-color: $black;
     >div {
         h1 {
             font-weight: 700;
@@ -42,6 +44,8 @@ background-color: $black;
 }
 
 #srs22-insta-link-container {
+    position: relative;
+background-color: $black;
     padding-top: 10px;
     padding-bottom: 15px;
 

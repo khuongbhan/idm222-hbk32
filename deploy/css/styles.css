@@ -3007,6 +3007,11 @@ footer #footer-container #socials a:visited:active {
   }
 }
 
+#eye-banner {
+  position: relative;
+  background-color: #000;
+}
+
 /* =============
     Le Petit Prince Hero
 ============= */
@@ -3106,12 +3111,18 @@ footer #footer-container #socials a:visited:active {
   }
 }
 
+#coming {
+  position: relative;
+  background-color: #000;
+}
 #coming > div h1 {
   font-weight: 700;
   font-size: 2.5rem;
 }
 
 #srs22-insta-link-container {
+  position: relative;
+  background-color: #000;
   padding-top: 10px;
   padding-bottom: 15px;
 }
