@@ -3055,8 +3055,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/srs22\/srs22-poster.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -3081,8 +3081,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/sunshine\/process\/sunshine-bz-model.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -3094,8 +3094,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/sunshine\/process\/sunshine-journey.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -3120,8 +3120,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/sunshine\/process\/sunshine-moodboard.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -3146,8 +3146,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/sunshine\/process\/sunshine-persona-2.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -3159,8 +3159,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/sunshine\/process\/sunshine-proj-canvas.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -3305,12 +3305,12 @@
     },
     "\/deploy\/img\/projects-all\/kmrb-proj.png" : {
       "ft" : 32768,
-      "iS" : 208626,
+      "iS" : 74855,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/projects-all\/kmrb-proj.png",
       "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
+      "oIPL" : 0,
+      "opt" : 0,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -3413,8 +3413,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/projects-all\/srs22-proj.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -3508,24 +3508,24 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/about.html",
-      "oF" : 2
+      "oAP" : "\/dev\/about.html",
+      "oF" : 0
     },
     "\/dev\/across.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/across.html",
-      "oF" : 2
+      "oAP" : "\/dev\/across.html",
+      "oF" : 0
     },
     "\/dev\/contact.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/contact.html",
-      "oF" : 2
+      "oAP" : "\/dev\/contact.html",
+      "oF" : 0
     },
     "\/dev\/content\/about-content.kit" : {
       "cB" : 0,
@@ -3565,7 +3565,7 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/projects-pages\/eye-content.html",
-      "oF" : 1
+      "oF" : 0
     },
     "\/dev\/content\/projects-pages\/happy-sunshine-content.kit" : {
       "cB" : 0,
@@ -3573,7 +3573,7 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/projects-pages\/happy-sunshine-content.html",
-      "oF" : 1
+      "oF" : 0
     },
     "\/dev\/content\/projects-pages\/highland-content.kit" : {
       "cB" : 0,
@@ -3581,7 +3581,7 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/projects-pages\/highland-content.html",
-      "oF" : 1
+      "oF" : 0
     },
     "\/dev\/content\/projects-pages\/kmrb-content.kit" : {
       "cB" : 0,
@@ -3589,7 +3589,7 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/projects-pages\/kmrb-content.html",
-      "oF" : 1
+      "oF" : 0
     },
     "\/dev\/content\/projects-pages\/longstoryshort-content.kit" : {
       "cB" : 0,
@@ -3605,7 +3605,7 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/projects-pages\/manray-content.html",
-      "oF" : 1
+      "oF" : 0
     },
     "\/dev\/content\/projects-pages\/mutter-content.kit" : {
       "cB" : 0,
@@ -3613,7 +3613,7 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/projects-pages\/mutter-content.html",
-      "oF" : 3
+      "oF" : 0
     },
     "\/dev\/content\/projects-pages\/prince-content.kit" : {
       "cB" : 0,
@@ -3621,7 +3621,7 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/projects-pages\/prince-content.html",
-      "oF" : 1
+      "oF" : 0
     },
     "\/dev\/content\/projects-pages\/srs22-content.kit" : {
       "cB" : 0,
@@ -3644,8 +3644,8 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/from-i-to-eye.html",
-      "oF" : 2
+      "oAP" : "\/dev\/from-i-to-eye.html",
+      "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
       "cB" : 0,
@@ -3692,44 +3692,44 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/happy-sunshine.html",
-      "oF" : 2
+      "oAP" : "\/dev\/happy-sunshine.html",
+      "oF" : 0
     },
     "\/dev\/highland-orchards.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/highland-orchards.html",
-      "oF" : 2
+      "oAP" : "\/dev\/highland-orchards.html",
+      "oF" : 0
     },
     "\/dev\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/index.html",
-      "oF" : 2
+      "oAP" : "\/dev\/index.html",
+      "oF" : 0
     },
     "\/dev\/js\/animations\/scroll-trigger.js" : {
-      "bF" : 4,
+      "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 1,
       "oAP" : "\/dev\/js\/animations\/scroll-trigger-min.js",
-      "oF" : 1,
+      "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
     "\/dev\/js\/barba\/barba-transitions.js" : {
-      "bF" : 4,
+      "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/js\/barba\/barba-transitions-min.js",
-      "oF" : 1,
+      "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
@@ -3745,35 +3745,35 @@
       "tS" : 0
     },
     "\/dev\/js\/horizontal-scroll.js" : {
-      "bF" : 4,
+      "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 1,
       "oAP" : "\/dev\/js\/horizontal-scroll-min.js",
-      "oF" : 1,
+      "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
     "\/dev\/js\/main-nav\/burger-animation.js" : {
-      "bF" : 4,
+      "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 1,
       "oAP" : "\/dev\/js\/main-nav\/burger-animation-min.js",
-      "oF" : 1,
+      "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
     "\/dev\/js\/main-nav\/nav-global.js" : {
-      "bF" : 4,
+      "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 1,
       "oAP" : "\/dev\/js\/main-nav\/nav-global-min.js",
-      "oF" : 1,
+      "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
