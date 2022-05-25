@@ -3508,24 +3508,24 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/about.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/about.html",
+      "oF" : 2
     },
     "\/dev\/across.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/across.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/across.html",
+      "oF" : 2
     },
     "\/dev\/contact.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/contact.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/contact.html",
+      "oF" : 2
     },
     "\/dev\/content\/about-content.kit" : {
       "cB" : 0,
@@ -3644,8 +3644,8 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/from-i-to-eye.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/from-i-to-eye.html",
+      "oF" : 2
     },
     "\/dev\/global\/footer.kit" : {
       "cB" : 0,
@@ -3692,24 +3692,24 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/happy-sunshine.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/happy-sunshine.html",
+      "oF" : 2
     },
     "\/dev\/highland-orchards.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/highland-orchards.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/highland-orchards.html",
+      "oF" : 2
     },
     "\/dev\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/index.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 2
     },
     "\/dev\/js\/animations\/scroll-trigger.js" : {
       "bF" : 0,
