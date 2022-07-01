@@ -4,16 +4,19 @@
 
 #srs22-hero {
     #srs22-hero-image {
-        background-image: url(../img/project-page/srs22/srs22-hero.png);
+        background-image: url(../img/project-page/srs22/srs22-poster.png);
         background-repeat: no-repeat;
-        background-position: left;
+        background-position: center;
         background-size: cover;
 
 @include md {
-    background-position: right;
+    // background-position: right;
+    background-image: url(../img/project-page/srs22/srs22-hero-2.png);
 }
         @include lg {
             background-position: center;
+            
+
         }
     }
 }

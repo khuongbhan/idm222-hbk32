@@ -3082,14 +3082,14 @@ footer #footer-container #socials a:visited:active {
     Sprout Hero
 ============= */
 #srs22-hero #srs22-hero-image {
-  background-image: url(../img/project-page/srs22/srs22-hero.png);
+  background-image: url(../img/project-page/srs22/srs22-poster.png);
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: center;
   background-size: cover;
 }
 @media (min-width: 768px) {
   #srs22-hero #srs22-hero-image {
-    background-position: right;
+    background-image: url(../img/project-page/srs22/srs22-hero-2.png);
   }
 }
 @media (min-width: 992px) {

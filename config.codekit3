@@ -94,6 +94,14 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/cover-letter-template.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/cover-letter-template.pdf",
+      "oF" : 0
+    },
     "\/deploy\/img\/han-resume.pdf" : {
       "cB" : 0,
       "ft" : 8192,
@@ -3036,11 +3044,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/project-page\/srs22\/sprout-hero.png" : {
+    "\/deploy\/img\/project-page\/srs22\/srs22-hero-2.png" : {
       "ft" : 32768,
-      "iS" : 308721,
+      "iS" : 529125,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/project-page\/srs22\/sprout-hero.png",
+      "oAP" : "\/deploy\/img\/project-page\/srs22\/srs22-hero-2.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
