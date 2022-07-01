@@ -3079,7 +3079,7 @@ footer #footer-container #socials a:visited:active {
 }
 
 /* =============
-    Sprout Hero
+    SrS22 Hero
 ============= */
 #srs22-hero #srs22-hero-image {
   background-image: url(../img/project-page/srs22/srs22-poster.png);
@@ -3098,6 +3098,17 @@ footer #footer-container #socials a:visited:active {
   }
 }
 
+#srs22-info-container {
+  position: relative;
+  background-color: #000;
+}
+
+#srs22-banner {
+  padding-top: 30px;
+  position: relative;
+  background-color: #000;
+}
+
 #srs22-message-copy-container {
   position: relative;
   background-color: #000;
@@ -3111,27 +3122,17 @@ footer #footer-container #socials a:visited:active {
   }
 }
 
-#coming {
+#srs22-live-site-link-container {
   position: relative;
   background-color: #000;
+  padding-top: 15px;
 }
-#coming > div h1 {
-  font-weight: 700;
-  font-size: 2.5rem;
-}
-
-#srs22-insta-link-container {
-  position: relative;
-  background-color: #000;
-  padding-top: 10px;
-  padding-bottom: 15px;
-}
-#srs22-insta-link-container > div {
+#srs22-live-site-link-container > div {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#srs22-insta-link-container > div a {
+#srs22-live-site-link-container > div a {
   margin: 10px;
   text-decoration: none;
   text-align: center;
@@ -3140,7 +3141,7 @@ footer #footer-container #socials a:visited:active {
   padding: 12px 30px;
   border-radius: 30px;
 }
-#srs22-insta-link-container > div a:hover {
+#srs22-live-site-link-container > div a:hover {
   transition: 0.25s;
   background-color: #FFF200;
   border: 1px #FFF200 solid;
@@ -3148,7 +3149,7 @@ footer #footer-container #socials a:visited:active {
   font-style: italic;
 }
 @media (min-width: 992px) {
-  #srs22-insta-link-container > div a {
+  #srs22-live-site-link-container > div a {
     flex-wrap: nowrap;
     padding: 12px 30px;
     border-radius: 50px;
