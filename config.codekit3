@@ -102,6 +102,30 @@
       "oAP" : "\/deploy\/img\/cover-letter-template.pdf",
       "oF" : 0
     },
+    "\/deploy\/img\/cover-letter\/khuong-han-bgp-cover-letter-gidesign.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/cover-letter\/khuong-han-bgp-cover-letter-gidesign.pdf",
+      "oF" : 0
+    },
+    "\/deploy\/img\/cover-letter\/khuong-han-bgp-cover-letter-uxui.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/cover-letter\/khuong-han-bgp-cover-letter-uxui.pdf",
+      "oF" : 0
+    },
+    "\/deploy\/img\/cover-letter\/khuong-han-webfx-cover-letter-ogd.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/cover-letter\/khuong-han-webfx-cover-letter-ogd.pdf",
+      "oF" : 0
+    },
     "\/deploy\/img\/han-resume.pdf" : {
       "cB" : 0,
       "ft" : 8192,
@@ -2932,6 +2956,58 @@
       "iS" : 240821,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/mutter\/word\/mutter-word.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/pigeon\/brand\/pigeon-banner-04.png" : {
+      "ft" : 32768,
+      "iS" : 2153513,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/pigeon\/brand\/pigeon-banner-04.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/pigeon\/brand\/pigeon-brand-1-04.png" : {
+      "ft" : 32768,
+      "iS" : 618718,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/pigeon\/brand\/pigeon-brand-1-04.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/pigeon\/brand\/pigeon-brand-2-05.png" : {
+      "ft" : 32768,
+      "iS" : 1210638,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/pigeon\/brand\/pigeon-brand-2-05.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/pigeon\/pigeon-hero.png" : {
+      "ft" : 32768,
+      "iS" : 1562847,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/pigeon\/pigeon-hero.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
