@@ -57,6 +57,14 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/daily-pigeon.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/daily-pigeon.html",
+      "oF" : 0
+    },
     "\/deploy\/from-i-to-eye.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -2988,24 +2996,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/project-page\/pigeon\/brand\/pigeon-banner-04.png" : {
-      "ft" : 32768,
-      "iS" : 2153513,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/project-page\/pigeon\/brand\/pigeon-banner-04.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/project-page\/pigeon\/brand\/pigeon-brand-1-04.png" : {
+    "\/deploy\/img\/project-page\/pigeon\/brand\/pigeon-brand-1.png" : {
       "ft" : 32768,
       "iS" : 618718,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/project-page\/pigeon\/brand\/pigeon-brand-1-04.png",
+      "oAP" : "\/deploy\/img\/project-page\/pigeon\/brand\/pigeon-brand-1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3014,11 +3009,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/project-page\/pigeon\/brand\/pigeon-brand-2-05.png" : {
+    "\/deploy\/img\/project-page\/pigeon\/brand\/pigeon-brand-2.png" : {
       "ft" : 32768,
       "iS" : 1210638,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/project-page\/pigeon\/brand\/pigeon-brand-2-05.png",
+      "oAP" : "\/deploy\/img\/project-page\/pigeon\/brand\/pigeon-brand-2.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3033,8 +3028,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/pigeon\/brand\/pigeon-brand-3.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -3046,8 +3041,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/pigeon\/brand\/pigeon-brand-4.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -3058,6 +3053,32 @@
       "iS" : 208453,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/pigeon\/brand\/pigeon-brand-5.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/pigeon\/brand\/pigeon-brand-banner.png" : {
+      "ft" : 32768,
+      "iS" : 2153513,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/pigeon\/brand\/pigeon-brand-banner.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/pigeon\/pigeon-banner.png" : {
+      "ft" : 32768,
+      "iS" : 44448,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/pigeon\/pigeon-banner.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -4043,6 +4064,14 @@
       "oAP" : "\/dev\/content\/projects-pages\/mutter-content.html",
       "oF" : 0
     },
+    "\/dev\/content\/projects-pages\/pigeon-content.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/projects-pages\/pigeon-content.html",
+      "oF" : 1
+    },
     "\/dev\/content\/projects-pages\/prince-content.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -4066,6 +4095,14 @@
       "oA" : 1,
       "oAP" : "\/dev\/content\/work-content.html",
       "oF" : 0
+    },
+    "\/dev\/daily-pigeon.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/daily-pigeon.html",
+      "oF" : 2
     },
     "\/dev\/from-i-to-eye.kit" : {
       "cB" : 0,
@@ -4607,6 +4644,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/project-page\/_mutter-content.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/project-page\/_pigeon-content.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/project-page\/_pigeon-content.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

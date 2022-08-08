@@ -1,0 +1,36 @@
+/* =============
+    DAILYpigeon Hero
+============= */
+
+#pigeon-hero {
+    #pigeon-hero-image {
+        background-image: url(../img/project-page/pigeon/pigeon-hero.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        @include lg {
+            background-position: center;
+        }
+    }
+}
+
+
+#pigeon-research-copy-container {
+    padding-top: 50px;
+
+    @include lg {
+        padding-top: 70px;
+    }
+position: relative;
+background-color: $black;
+>div {
+    #pigeon-research-p1 {
+        padding-bottom: 10px;
+
+        @include md {
+            padding-bottom: 20px;
+        }
+    }
+}
+}
