@@ -3830,6 +3830,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/projects-all\/pigeon-proj.png" : {
+      "ft" : 32768,
+      "iS" : 117165,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/projects-all\/pigeon-proj.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/projects-all\/place-holder-proj.png" : {
       "ft" : 32768,
       "iS" : 1893,

@@ -45,6 +45,7 @@ projectFadesIn.from("#proj-1",{duration: projectFadeTime,alpha:0,yPercent:-10}, 
               .from("#proj-8",{duration: projectFadeTime,alpha:0,yPercent:-10}, "proj8")
               .from("#proj-9",{duration: projectFadeTime,alpha:0,yPercent:-10}, "proj9")
               .from("#proj-10",{duration: projectFadeTime,alpha:0,yPercent:-10}, "proj10")
+              .from("#proj-11",{duration: projectFadeTime,alpha:0,yPercent:-10}, "proj10")
 
 export function projectsFade(){
     ScrollTrigger.create({
