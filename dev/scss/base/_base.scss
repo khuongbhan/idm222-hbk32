@@ -52,12 +52,12 @@ ul {
 
 .cursor-link:hover {
     transition: opacity 0.5s ease-in 0.5s;
-    cursor: url(https://www.linkpicture.com/q/link-cursor-yellow.png), pointer;
+    cursor: url(https://www.linkpicture.com/q/link-cursor-yellow.svg), pointer;
 }
 
 .cursor-link-white:hover {
     transition: opacity 0.5s ease-in 0.5s;
-    cursor: url(https://www.linkpicture.com/q/link-cursor-white_1.png), pointer;
+    cursor: url(https://www.linkpicture.com/q/link-cursor-white.svg), pointer;
 }
 
 .cursor-text:hover {
@@ -66,7 +66,7 @@ ul {
 }
 
 .cursor-link-white-stroke:hover {
-    cursor: url(https://www.linkpicture.com/q/link-cursor-white-stroke_1.svg), pointer;
+    cursor: url(https://www.linkpicture.com/q/link-cursor-white-stroke.svg), pointer;
 }
 
 .cursor-view:hover {

@@ -1,0 +1,52 @@
+/* =============
+    Man Ray Hero
+============= */
+
+#film-hero {
+    #film-hero-image {
+        background-image: url(../img/project-page/manray/manray-hero.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: cover;
+
+        @include lg {
+            background-position: center;
+        }
+    }
+}
+
+/* =============
+    Man Ray Banner
+============= */
+#film-banner {
+    >div {
+        a {
+            img {
+                @include lg {
+                    height: 80%;
+                }
+            }
+            
+        }
+        
+    }
+}
+
+#film-exp-gallery-1 {
+    @include lg {
+        margin-top: -180px;
+    }
+}
+
+#film-ending {
+    margin-top: -30px;
+    padding-bottom: 20px;
+
+    @include md {
+        margin-top: -40px;
+    }
+
+    @include lg {
+        margin-top: -70px;
+    }
+}

@@ -7,7 +7,7 @@
       "uuidString" : "70BADBF0-E11C-4D1B-AA3C-0C64A7D2BF21"
     }
   ],
-  "creatorBuild" : "34359",
+  "creatorBuild" : "34472",
   "files" : {
     "\/deploy\/about.html" : {
       "cB" : 0,
@@ -94,6 +94,71 @@
       "iS" : 328067,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/about\/me.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/about\/opt1.png" : {
+      "ft" : 32768,
+      "iS" : 2056248,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/about\/opt1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/about\/opt2.png" : {
+      "ft" : 32768,
+      "iS" : 2123821,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/about\/opt2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/about\/opt3.png" : {
+      "ft" : 32768,
+      "iS" : 5240066,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/about\/opt3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/about\/opt4.png" : {
+      "ft" : 32768,
+      "iS" : 4357656,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/about\/opt4.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/about\/opt5.png" : {
+      "ft" : 32768,
+      "iS" : 5854993,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/about\/opt5.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -343,6 +408,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/main-assets\/link-cursor-white.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/main-assets\/link-cursor-white.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/main-assets\/link-cursor-yellow.png" : {
       "ft" : 32768,
       "iS" : 716,
@@ -355,6 +430,16 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/deploy\/img\/main-assets\/link-cursor-yellow.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/main-assets\/link-cursor-yellow.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/deploy\/img\/main-assets\/logo-pink-for-browsers.png" : {
       "ft" : 32768,
@@ -3882,6 +3967,27 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/projects-all\/vff-proj.png" : {
+      "ft" : 32768,
+      "iS" : 1921726,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/projects-all\/vff-proj.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/vff-brandguidelines.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/vff-brandguidelines.pdf",
+      "oF" : 0
+    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -3939,6 +4045,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/mutter-museum.html",
+      "oF" : 0
+    },
+    "\/deploy\/my-ceiling-disappeared.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/my-ceiling-disappeared.html",
       "oF" : 0
     },
     "\/deploy\/senior-showcase-2022.html" : {
@@ -4012,6 +4126,14 @@
       "oA" : 1,
       "oAP" : "\/dev\/content\/index-content.html",
       "oF" : 0
+    },
+    "\/dev\/content\/mine\/my-ceiling-disappeared-content.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/mine\/my-ceiling-disappeared-content.html",
+      "oF" : 1
     },
     "\/dev\/content\/projects-pages\/across-content.kit" : {
       "cB" : 0,
@@ -4317,6 +4439,14 @@
       "oAP" : "\/deploy\/mutter-museum.html",
       "oF" : 2
     },
+    "\/dev\/my-ceiling-disappeared.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/my-ceiling-disappeared.html",
+      "oF" : 2
+    },
     "\/dev\/scss\/base\/_base.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -4537,6 +4667,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_work-content.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/mine\/_my-ceiling-disappeared-content.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/mine\/_my-ceiling-disappeared-content.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -5307,6 +5452,10 @@
         "active" : 0,
         "optionString" : "'always', {exceptAfterSingleLine: false}"
       },
+      "logical-assignment-operators" : {
+        "active" : 0,
+        "optionString" : "'always',  {'enforceForIfStatements': false}"
+      },
       "max-classes-per-file" : {
         "active" : 0,
         "optionString" : "1"
@@ -5467,6 +5616,9 @@
       "no-empty-pattern" : {
         "active" : 1
       },
+      "no-empty-static-block" : {
+        "active" : 0
+      },
       "no-eq-null" : {
         "active" : 0
       },
@@ -5498,7 +5650,8 @@
         "active" : 1
       },
       "no-fallthrough" : {
-        "active" : 1
+        "active" : 1,
+        "optionString" : "{'allowEmptyCase': false}"
       },
       "no-floating-decimal" : {
         "active" : 0
@@ -5606,6 +5759,9 @@
       "no-new-func" : {
         "active" : 0
       },
+      "no-new-native-nonconstructor" : {
+        "active" : 0
+      },
       "no-new-object" : {
         "active" : 0
       },
@@ -5660,7 +5816,8 @@
         "optionString" : "'event', 'fdescribe'"
       },
       "no-restricted-imports" : {
-        "active" : 0
+        "active" : 0,
+        "optionString" : ""
       },
       "no-restricted-properties" : {
         "active" : 0,
@@ -6288,6 +6445,7 @@
       "createDeclarationFile" : 0,
       "jsxMode" : 0,
       "minifierStyle" : 0,
+      "moduleDetectionType" : 0,
       "moduleResolutionType" : 0,
       "moduleType" : 2,
       "removeComments" : 0,
@@ -6344,6 +6502,7 @@
       "ENVIRONMENT:::$NODE_ENV"
     ],
     "rollupTreeshakingEnabled" : 1,
+    "rollupTreeshakingModuleSideEffects" : 1,
     "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
@@ -6418,7 +6577,7 @@
       },
       "comments" : {
         "active" : 0,
-        "flagValue" : -1
+        "flagValue" : 1
       },
       "comparisons" : {
         "active" : 1,
