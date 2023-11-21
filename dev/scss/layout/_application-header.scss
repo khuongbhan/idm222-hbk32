@@ -1,0 +1,109 @@
+/* =============
+    Header
+============= */
+
+#application-site-header {
+    position: fixed;
+    width: 100%;
+    top: 2%;
+    left: 0%;
+    z-index: 1000;
+
+    div {
+        // border: 1px solid red;
+        display: grid;
+        grid-template-columns: 20% 80%;
+
+        #application-logo-container {
+            padding: 20px 20px;
+
+            // @include md {
+            //     padding: 20px;
+            // }
+            a {
+                text-decoration: none;
+
+
+            }
+
+            h3 {
+                // width: 30px;
+                font-family: "swear-display-cilati", sans-serif;
+                font-weight: 600;
+                font-style: normal;
+                color: $magenta;
+                // color: $yellow;
+                text-decoration: none;
+                font-size: rem-calc(28);
+                transition: .25s;
+
+                &:hover {
+                    color: $white;
+                    transition: .25s;
+                }
+
+                @include md {
+
+                    // width: 40px;
+                    font-size: rem-calc(44);
+                }
+
+                @include lg {
+                    // width: 50px;
+                }
+            }
+        }
+
+        #application-nav-container {
+            align-items: center;
+            // border: 1px solid blue;
+            display: flex;
+            justify-content: flex-end;
+            // margin-right: 15px;
+
+            @include md {
+                margin-right: 20px;
+            }
+
+            #application-nav-area {
+                #application-menu-items {
+                    display: flex;
+                    flex-direction: row;
+                    // align-self: center;
+                    gap: 30px;
+
+                    @include md {
+                        gap: 50px;
+                    }
+
+                    a {
+                        color: $white;
+                        text-decoration: none;
+                        // font-weight: 700;
+                        font-size: rem-calc(16);
+
+                        @include md {
+                            font-size: rem-calc(20);
+                        }
+
+                        // @include lg {
+                        //     font-size: rem-calc(20);
+                        // }
+
+                        &:hover {
+                            color: $yellow;
+                            transition: .25s;
+                            // font-style: italic;
+
+                        }
+
+                    }
+                }
+            }
+
+
+        }
+
+    }
+
+}

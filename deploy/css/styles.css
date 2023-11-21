@@ -1408,6 +1408,79 @@ footer #footer-container #socials a:visited:active {
 }
 
 /* =============
+    Header
+============= */
+#application-site-header {
+  position: fixed;
+  width: 100%;
+  top: 2%;
+  left: 0%;
+  z-index: 1000;
+}
+#application-site-header div {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+#application-site-header div #application-logo-container {
+  padding: 20px 20px;
+}
+#application-site-header div #application-logo-container a {
+  text-decoration: none;
+}
+#application-site-header div #application-logo-container h3 {
+  font-family: "swear-display-cilati", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #FF0097;
+  text-decoration: none;
+  font-size: 1.75rem;
+  transition: 0.25s;
+}
+#application-site-header div #application-logo-container h3:hover {
+  color: #fff;
+  transition: 0.25s;
+}
+@media (min-width: 768px) {
+  #application-site-header div #application-logo-container h3 {
+    font-size: 2.75rem;
+  }
+}
+#application-site-header div #application-nav-container {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+@media (min-width: 768px) {
+  #application-site-header div #application-nav-container {
+    margin-right: 20px;
+  }
+}
+#application-site-header div #application-nav-container #application-nav-area #application-menu-items {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+@media (min-width: 768px) {
+  #application-site-header div #application-nav-container #application-nav-area #application-menu-items {
+    gap: 50px;
+  }
+}
+#application-site-header div #application-nav-container #application-nav-area #application-menu-items a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+@media (min-width: 768px) {
+  #application-site-header div #application-nav-container #application-nav-area #application-menu-items a {
+    font-size: 1.25rem;
+  }
+}
+#application-site-header div #application-nav-container #application-nav-area #application-menu-items a:hover {
+  color: #FFF200;
+  transition: 0.25s;
+}
+
+/* =============
     Index Content (fix)
 ============= */
 #index-homepage {
