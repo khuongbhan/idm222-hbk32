@@ -19,10 +19,8 @@ html {
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 html {
-  line-height: 1.15;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
 }
 
 /* Sections
@@ -57,12 +55,9 @@ h1 {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  box-sizing: content-box;
-  /* 1 */
-  height: 0;
-  /* 1 */
-  overflow: visible;
-  /* 2 */
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
 }
 
 /**
@@ -70,10 +65,8 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /* Text-level semantics
@@ -90,12 +83,9 @@ a {
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 abbr[title] {
-  border-bottom: none;
-  /* 1 */
-  text-decoration: underline;
-  /* 2 */
-  text-decoration: underline dotted;
-  /* 2 */
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -113,10 +103,8 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /**
@@ -166,14 +154,10 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  line-height: 1.15;
-  /* 1 */
-  margin: 0;
-  /* 2 */
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
 }
 
 /**
@@ -181,8 +165,7 @@ textarea {
  * 1. Show the overflow in Edge.
  */
 button,
-input {
-  /* 1 */
+input { /* 1 */
   overflow: visible;
 }
 
@@ -191,8 +174,7 @@ input {
  * 1. Remove the inheritance of text transform in Firefox.
  */
 button,
-select {
-  /* 1 */
+select { /* 1 */
   text-transform: none;
 }
 
@@ -241,18 +223,12 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-  box-sizing: border-box;
-  /* 1 */
-  color: inherit;
-  /* 2 */
-  display: table;
-  /* 1 */
-  max-width: 100%;
-  /* 1 */
-  padding: 0;
-  /* 3 */
-  white-space: normal;
-  /* 1 */
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
 }
 
 /**
@@ -275,10 +251,8 @@ textarea {
  */
 [type=checkbox],
 [type=radio] {
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
 }
 
 /**
@@ -294,10 +268,8 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 [type=search] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
 }
 
 /**
@@ -312,10 +284,8 @@ textarea {
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
 }
 
 /* Interactive
@@ -1198,7 +1168,7 @@ textarea {
 }
 @media (min-width: 768px) {
   #main-nav #nav-container #main-menu ul li a:link,
-#main-nav #nav-container #main-menu ul li a:visited {
+  #main-nav #nav-container #main-menu ul li a:visited {
     -webkit-text-stroke: 1px #FFF200;
     font-size: 3.75rem;
   }
@@ -2148,7 +2118,7 @@ footer #footer-container #socials a:visited:active {
 }
 @media (min-width: 768px) {
   #resume-container #resume-content #resume #resume-left section h5,
-#resume-container #resume-content #resume #resume-right section h5 {
+  #resume-container #resume-content #resume #resume-right section h5 {
     font-size: 1.75rem;
   }
 }
@@ -2165,7 +2135,7 @@ footer #footer-container #socials a:visited:active {
 }
 @media (min-width: 768px) {
   #resume-container #resume-content #resume #resume-left section ul li,
-#resume-container #resume-content #resume #resume-right section ul li {
+  #resume-container #resume-content #resume #resume-right section ul li {
     padding-bottom: 15px;
     width: 70%;
   }
@@ -2500,8 +2470,8 @@ footer #footer-container #socials a:visited:active {
 }
 @media (min-width: 768px) {
   #across-branding #across-branding-gallery #across-brand-gallery-container-1,
-#across-branding #across-branding-gallery #across-brand-gallery-container-2,
-#across-branding #across-branding-gallery #across-brand-gallery-container-3 {
+  #across-branding #across-branding-gallery #across-brand-gallery-container-2,
+  #across-branding #across-branding-gallery #across-brand-gallery-container-3 {
     padding-bottom: 20px;
   }
 }
@@ -3088,13 +3058,13 @@ footer #footer-container #socials a:visited:active {
 }
 @media (min-width: 768px) {
   #prince-live-link-container > div a:link,
-#prince-live-link-container > div a:visited {
+  #prince-live-link-container > div a:visited {
     font-size: 2.875rem;
   }
 }
 @media (min-width: 992px) {
   #prince-live-link-container > div a:link,
-#prince-live-link-container > div a:visited {
+  #prince-live-link-container > div a:visited {
     font-size: 3.125rem;
     -webkit-text-stroke: 1px #FFF200;
   }
@@ -3109,7 +3079,7 @@ footer #footer-container #socials a:visited:active {
 }
 @media (min-width: 992px) {
   #prince-live-link-container > div a:active,
-#prince-live-link-container > div a:hover {
+  #prince-live-link-container > div a:hover {
     -webkit-text-stroke: 1px #FF0097;
     border-bottom: 2px solid #FF0097;
   }
@@ -3333,6 +3303,426 @@ footer #footer-container #socials a:visited:active {
 #pigeon-team-copy-container {
   padding-top: 30px;
   padding-bottom: 50px;
+}
+
+/* =============
+    Application Site Index
+============= */
+#index-application {
+  background-color: #000;
+  background-repeat: repeat;
+  margin-top: 60px;
+}
+@media (min-width: 768px) {
+  #index-application {
+    margin-top: 90px;
+  }
+}
+@media (min-width: 992px) {
+  #index-application {
+    margin-top: 90px;
+  }
+}
+#index-application #landing-screen {
+  min-height: 30vh;
+}
+@media (min-width: 992px) {
+  #index-application #landing-screen {
+    min-height: 20vh;
+  }
+}
+#index-application #landing-screen #hello-there {
+  margin-left: 20px;
+  display: inline-block;
+}
+#index-application #landing-screen #hello-there h6 {
+  font-size: 1rem;
+  overflow: hidden;
+  border-right: 0.125em solid #FF0097;
+  white-space: nowrap;
+  animation: typing 2s steps(30, end) 0.75s forwards, blinking 0.6s infinite;
+  width: 0;
+}
+@media (min-width: 768px) {
+  #index-application #landing-screen #hello-there h6 {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 992px) {
+  #index-application #landing-screen #hello-there h6 {
+    font-size: 1.25rem;
+  }
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blinking {
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: #FF0097;
+  }
+}
+@media (min-width: 992px) {
+  #index-application #landing-screen #hello-there {
+    margin-left: 10%;
+  }
+}
+#index-application #landing-screen #large-copy-application {
+  margin-top: -25px;
+  display: grid;
+  grid-template-columns: 20px auto 20px;
+  grid-template-areas: ". large-text .";
+}
+@media (min-width: 768px) {
+  #index-application #landing-screen #large-copy-application {
+    margin-top: -40px;
+  }
+}
+@media (min-width: 992px) {
+  #index-application #landing-screen #large-copy-application {
+    margin-top: -40px;
+    grid-template-columns: 10% auto 20%;
+  }
+}
+#index-application #landing-screen #large-copy-application #large-text-application {
+  font-weight: 400;
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+  grid-area: large-text;
+}
+@media (min-width: 768px) {
+  #index-application #landing-screen #large-copy-application #large-text-application {
+    font-size: 2.375rem;
+    line-height: 3.4375rem;
+  }
+}
+@media (min-width: 992px) {
+  #index-application #landing-screen #large-copy-application #large-text-application {
+    font-size: 1.625rem;
+    line-height: 2.875rem;
+  }
+}
+#index-application #landing-screen #rotate-button-application {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+@media (min-width: 768px) {
+  #index-application #landing-screen #rotate-button-application {
+    margin-top: 40px;
+  }
+}
+@media (min-width: 992px) {
+  #index-application #landing-screen #rotate-button-application {
+    margin-top: 30px;
+    margin-left: 10%;
+    justify-content: start;
+  }
+}
+#index-application #landing-screen #rotate-button-application #image #rt-btn {
+  align-items: center;
+  animation: buttonRotate 25s linear infinite;
+}
+@keyframes buttonRotate {
+  from {
+    transform: rotate(-360deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#index-application #landing-screen #rotate-button-application #arrow #arrow-rotate-button {
+  margin-left: -75px;
+}
+
+/* =============
+    Featured
+============= */
+#featured-application #featured-projects {
+  min-height: 30vh;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: "10px auto 10px";
+  grid-template-areas: ". scroll-1 ." ". horizontal-scroll ." ". scroll-2 .";
+}
+@media (min-width: 768px) {
+  #featured-application #featured-projects {
+    min-height: 60vh;
+  }
+}
+#featured-application #featured-projects #scroll-container-1 {
+  grid-area: scroll-1;
+  overflow: hidden;
+}
+#featured-application #featured-projects #scroll-container-1 #scroll-text-1 {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-text-stroke: 0.5px #FFF200;
+  color: #000;
+  font-size: 2.5rem;
+  font-weight: 700;
+  display: inline-block;
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  -moz-animation: myAnimation 15s linear infinite;
+  -webkit-animation: myAnimation 15s linear infinite;
+  animation: myAnimation 15s linear infinite;
+}
+@media (min-width: 768px) {
+  #featured-application #featured-projects #scroll-container-1 #scroll-text-1 {
+    -webkit-text-stroke: 1px #FFF200;
+    font-size: 3.4375rem;
+  }
+}
+@media (min-width: 992px) {
+  #featured-application #featured-projects #scroll-container-1 #scroll-text-1 {
+    -webkit-text-stroke: 1.25px #FFF200;
+    font-size: 3.75rem;
+  }
+}
+#featured-application #featured-projects #scroll-container-1 #scroll-text-1:hover {
+  transition: 0.25s;
+  font-style: italic;
+  color: #FFF200;
+}
+@-webkit-keyframes myAnimation {
+  from {
+    -webkit-transform: translateX(100%);
+  }
+  to {
+    -webkit-transform: translateX(-100%);
+  }
+}
+@keyframes myAnimation {
+  from {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+#featured-application #featured-projects #application-horizontal-scroll {
+  grid-area: horizontal-scroll;
+  height: 100%;
+  overflow: hidden;
+}
+@media (min-width: 768px) {
+  #featured-application #featured-projects #application-horizontal-scroll {
+    height: 100%;
+  }
+}
+#featured-application #featured-projects #application-horizontal-scroll #application-text-prescroll {
+  position: absolute;
+  justify-self: center;
+  margin-left: 60px;
+  margin-top: 100px;
+}
+#featured-application #featured-projects #application-horizontal-scroll #application-text-prescroll h4 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+#featured-application #featured-projects #application-horizontal-scroll #application-text-prescroll #application-name-with-doodle {
+  margin-top: 40px;
+}
+#featured-application #featured-projects #application-horizontal-scroll #application-text-prescroll #application-name-with-doodle h4 {
+  font-style: italic;
+  font-weight: 400;
+}
+#featured-application #featured-projects #application-horizontal-scroll #application-text-prescroll #application-name-with-doodle #arrow-right {
+  display: none;
+  width: 60px;
+}
+@media (min-width: 768px) {
+  #featured-application #featured-projects #application-horizontal-scroll #application-text-prescroll #application-name-with-doodle #arrow-right {
+    display: block !important;
+  }
+}
+@media (min-width: 992px) {
+  #featured-application #featured-projects #application-horizontal-scroll #application-text-prescroll #application-name-with-doodle #arrow-right {
+    margin-left: 240px;
+    margin-top: -40px;
+  }
+}
+#featured-application #featured-projects #application-horizontal-scroll #application-text-prescroll #application-name-with-doodle #doodle {
+  width: 250px;
+  margin-top: -100px;
+  margin-left: -30px;
+}
+@media (min-width: 992px) {
+  #featured-application #featured-projects #application-horizontal-scroll #application-text-prescroll #application-name-with-doodle #doodle {
+    width: 370px;
+    margin-top: -60px;
+    margin-left: -50px;
+  }
+}
+#featured-application #featured-projects #application-horizontal-scroll #projects-application-index {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  margin-top: 70px;
+  padding-left: 500px;
+  z-index: 100;
+}
+@media (min-width: 768px) {
+  #featured-application #featured-projects #application-horizontal-scroll #projects-application-index {
+    padding-left: 350px;
+  }
+}
+@media (min-width: 992px) {
+  #featured-application #featured-projects #application-horizontal-scroll #projects-application-index {
+    padding-left: 500px;
+  }
+}
+#featured-application #featured-projects #application-horizontal-scroll #projects-application-index li {
+  width: 70vw;
+  padding-right: 120px;
+}
+@media (min-width: 768px) {
+  #featured-application #featured-projects #application-horizontal-scroll #projects-application-index li {
+    padding-right: 180px;
+  }
+}
+@media (min-width: 992px) {
+  #featured-application #featured-projects #application-horizontal-scroll #projects-application-index li {
+    padding-right: 200px;
+  }
+}
+#featured-application #featured-projects #application-horizontal-scroll #projects-application-index li a {
+  text-decoration: none;
+}
+#featured-application #featured-projects #application-horizontal-scroll #projects-application-index li a .project-application-image {
+  height: 40%;
+}
+@media (min-width: 768px) {
+  #featured-application #featured-projects #application-horizontal-scroll #projects-application-index li a .project-application-image {
+    height: 75%;
+  }
+}
+@media (min-width: 992px) {
+  #featured-application #featured-projects #application-horizontal-scroll #projects-application-index li a .project-application-image {
+    height: 80%;
+  }
+}
+#featured-application #featured-projects #application-horizontal-scroll #projects-application-index li a .application-proj-name {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 1.375rem;
+  font-weight: 700;
+  font-style: italic;
+}
+#featured-application #featured-projects #application-horizontal-scroll #projects-application-index li a .application-proj-name:hover, #featured-application #featured-projects #application-horizontal-scroll #projects-application-index li a .application-proj-name:active {
+  color: #FFF200;
+  transition: 0.5s;
+}
+#featured-application #featured-projects #application-horizontal-scroll #projects-application-index li a .application-proj-dscrpt {
+  color: #fff;
+  line-height: 1.5rem;
+}
+#featured-application #featured-projects #scroll-container-2 {
+  overflow: hidden;
+  grid-area: scroll-2;
+  margin-top: -220px;
+}
+@media (min-width: 768px) {
+  #featured-application #featured-projects #scroll-container-2 {
+    margin-top: -50px;
+  }
+}
+@media (min-width: 992px) {
+  #featured-application #featured-projects #scroll-container-2 {
+    margin-top: 0;
+  }
+}
+#featured-application #featured-projects #scroll-container-2 #scroll-text-2 {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-text-stroke: 0.5px #FFF200;
+  color: #000;
+  font-size: 2.5rem;
+  font-weight: 700;
+  display: inline-block;
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  -moz-animation: myAnimation2 15s linear infinite;
+  -webkit-animation: myAnimation2 15s linear infinite;
+  animation: myAnimation2 15s linear infinite;
+}
+@media (min-width: 768px) {
+  #featured-application #featured-projects #scroll-container-2 #scroll-text-2 {
+    -webkit-text-stroke: 1px #FFF200;
+    font-size: 3.4375rem;
+  }
+}
+@media (min-width: 992px) {
+  #featured-application #featured-projects #scroll-container-2 #scroll-text-2 {
+    -webkit-text-stroke: 1.25px #FFF200;
+    font-size: 3.75rem;
+  }
+}
+#featured-application #featured-projects #scroll-container-2 #scroll-text-2:hover {
+  transition: 0.25s;
+  font-style: italic;
+  color: #FFF200;
+}
+@-webkit-keyframes myAnimation2 {
+  from {
+    -webkit-transform: translateX(-100%);
+  }
+  to {
+    -webkit-transform: translateX(100%);
+  }
+}
+@keyframes myAnimation2 {
+  from {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  to {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+}
+
+@media (min-width: 768px) {
+  #home-intouch-container {
+    margin-top: 100px;
+  }
+}
+#home-intouch-container #home-intouch-content a {
+  text-decoration: none;
+}
+#home-intouch-container #home-intouch-content a h1 {
+  color: #000;
+  -webkit-text-stroke: 1px #FFF200;
+  font-size: 3.125rem;
+  line-height: 3.75rem;
+  font-weight: 700;
+  text-align: center;
+}
+#home-intouch-container #home-intouch-content a h1:hover, #home-intouch-container #home-intouch-content a h1:active {
+  transition: 0.25s;
+  color: #FFF200;
+  font-style: italic;
 }
 
 body {

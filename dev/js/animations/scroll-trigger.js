@@ -83,6 +83,25 @@ export function heroTextFades(){
     });
 }
 
+// /* =============
+//     application index > text fades in
+// ============= */ 
+
+var heroTextFadesInApplication = gsap.timeline();
+var largeTextFadeTimeApplication = .75;
+
+heroTextFadesInApplication.from("#large-text-application",{duration:largeTextFadeTimeApplication,alpha: 0,translateX:"-10%",delay:1.75,ease:"power1.out"},"fadeIn")
+.from("#rotate-button-application",{duration:drawOutSVG, alpha: 0,ease:"power2.easeInOut"},"buttonAppears")
+.from("#featured-application",{duration:largeTextFadeTime,translateX:"10%", alpha: 0,ease:"power2.easeInOut"},"afterButton")
+
+export function heroTextFadesApplication(){
+    ScrollTrigger.create({
+        animation: heroTextFadesInApplication,
+        trigger: "#large-text-application",
+        start: "center 61%"
+        // markers: true
+    });
+}
 
 // /* =============
 //     about > fade in

@@ -1,0 +1,624 @@
+/* =============
+    Application Site Index
+============= */
+
+#index-application {
+    background-color: $black;
+    background-repeat: repeat;
+
+    margin-top: 60px;
+
+    @include md {
+        margin-top: 90px;
+
+    }
+
+    @include lg {
+        margin-top: 90px;
+    }
+
+    #landing-screen {
+
+        min-height: 30vh;
+
+        @include lg {
+            min-height: 20vh;
+        }
+
+        // display: grid;
+        // grid-template-columns: 10px auto 10px;
+        // grid-template-areas: ". landing-screen-container .";
+
+        #hello-there {
+
+            margin-left: 20px;
+            display: inline-block;
+
+            h6 {
+                font-size: rem-calc(16);
+                overflow: hidden;
+                border-right: .125em solid $magenta;
+                white-space: nowrap;
+                animation: typing 2s steps(30, end) .75s forwards, blinking .6s infinite;
+                // font-size: 1.6rem;
+                width: 0;
+
+                @include md {
+                    font-size: rem-calc(24);
+                }
+
+                @include lg {
+                    font-size: rem-calc(20);
+                }
+            }
+
+            @keyframes typing {
+                from {
+                    width: 0
+                }
+
+                to {
+                    width: 100%
+                }
+            }
+
+            @keyframes blinking {
+                from {
+                    border-color: transparent
+                }
+
+                to {
+                    border-color: $magenta;
+                }
+            }
+
+            @include lg {
+                margin-left: 10%;
+            }
+
+        }
+
+        #large-copy-application {
+
+            // grid-area: landing-screen-container;
+
+            margin-top: -25px;
+
+            display: grid;
+            grid-template-columns: 20px auto 20px;
+            grid-template-areas: ". large-text .";
+
+            @include md {
+                margin-top: -40px;
+            }
+
+            @include lg {
+
+                margin-top: -40px;
+                grid-template-columns: 10% auto 20%;
+
+            }
+
+            //             .heading-hover {
+            //                     color: $magenta;
+            //                     transition: .25s;
+            //                     font-family: "swear-display-cilati", sans-serif;
+            // font-weight: 700;
+            // font-style: normal;
+            //             }
+
+            #large-text-application {
+
+                font-weight: 400;
+                line-height: rem-calc(40);
+                font-size: rem-calc(24);
+                // font-size: rem-calc(50);
+                grid-area: large-text;
+
+                @include md {
+                    font-size: rem-calc(38);
+                    line-height: rem-calc(55);
+                }
+
+                @include lg {
+                    font-size: rem-calc(26);
+                    line-height: rem-calc(46);
+                }
+
+
+            }
+        }
+
+        // #circle-name {
+        //     height: 55px;
+        //     // width: 190px;
+        //     // height: 100%;
+        //     margin-top: -10px;
+        //     margin-left: -30px;
+
+        //     @include md {
+
+        //         height: 80px;
+        //         margin-top: -10px;
+        //         margin-left: 50px;
+
+        //     }
+
+        //     @include lg {
+
+        //         height: 100px;
+        //         margin-top: -20px;
+        //         margin-left: 130px;
+
+        //     }
+        // }
+
+        // #line-brand {
+
+        //     width: 80px;
+        //     margin-top: 233px;
+        //     margin-left: -330px;
+
+        //     @include md {
+        //         width: 160px;
+        //         margin-top: 220px;
+        //         margin-left: -540px;
+        //     }
+
+        //     @include lg {
+        //         width: 230px;
+        //         margin-top: 205px;
+        //         margin-left: -300px;
+        //     }
+        // }
+
+        // #line-digital {
+        //     width: 100px;
+        //     margin-top: -207px;
+        //     margin-left: 180px;
+        //     // overflow: hidden;
+
+        //     @include md {
+        //         width: 150px;
+        //         margin-top: -170px;
+        //         margin-left: 480px;
+        //     }
+
+        //     @include lg {
+        //         width: 200px;
+        //         margin-top: -145px;
+        //         margin-left: 30px;
+        //     }
+
+        // }
+
+        // #line-front {
+        //     width: 40%;
+        //     margin-top: -120px;
+        //     margin-left: 180px;
+
+        //     @include md {
+        //         // width: 45%;
+        //         margin-top: -55px;
+        //         margin-left: 75px;
+        //     }
+
+        //     @include lg {
+        //         width: 90%;
+        //         margin-top: -70px;
+        //         margin-left: -380px;
+        //     }
+        // }
+
+        // #line-package {
+        //     width: 200px;
+        //     margin-top: -50px;
+        //     margin-left: -300px;
+
+        //     @include md {
+        //         width: 350px;
+        //         margin-top: 0;
+        //         margin-left: -700px;
+        //     }
+
+        //     @include lg {
+        //         width: 400px;
+        //         margin-left: -1050px;
+        //     }
+        // }
+
+        #rotate-button-application {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            margin-top: 30px;
+
+            @include md {
+                margin-top: 40px;
+            }
+
+            @include lg {
+                margin-top: 30px;
+                margin-left: 10%;
+                // align-items: center;
+                justify-content: start;
+            }
+
+            #image {
+
+                // scroll-behavior: smooth;
+                // width: 80px;
+
+                #rt-btn {
+
+                    align-items: center;
+                    animation: buttonRotate 25s linear infinite;
+
+
+                    @keyframes buttonRotate {
+                        from {
+                            transform: rotate(-360deg);
+                        }
+
+                        to {
+                            transform: rotate(360deg);
+                        }
+                    }
+                }
+            }
+
+            #arrow {
+
+                #arrow-rotate-button {
+                    margin-left: -75px;
+                }
+            }
+        }
+    }
+}
+
+/* =============
+    Featured
+============= */
+
+#featured-application {
+    #featured-projects {
+        min-height: 30vh;
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: "10px auto 10px";
+        grid-template-areas: ". scroll-1 ."
+            ". horizontal-scroll ."
+            ". scroll-2 .";
+        // position: relative; 
+
+        @include md {
+            min-height: 60vh;
+        }
+
+        #scroll-container-1 {
+            grid-area: scroll-1;
+            overflow: hidden;
+
+            #scroll-text-1 {
+
+                display: inline-block;
+                white-space: nowrap;
+                overflow: hidden;
+
+                @include md {
+                    -webkit-text-stroke: 1px $yellow;
+                    font-size: rem-calc(55);
+                }
+
+                @include lg {
+                    -webkit-text-stroke: 1.25px $yellow;
+                    font-size: rem-calc(60);
+                }
+
+
+                &:hover {
+                    transition: .25s;
+                    font-style: italic;
+                    color: $yellow;
+
+                }
+
+                -webkit-text-stroke: .5px $yellow;
+                color: $black;
+                font-size: rem-calc(40);
+                font-weight: 700;
+                display: inline-block;
+
+                -moz-transform: translateX(100%);
+                -webkit-transform: translateX(100%);
+                transform: translateX(100%);
+
+                -moz-animation: myAnimation 15s linear infinite;
+                -webkit-animation: myAnimation 15s linear infinite;
+                animation: myAnimation 15s linear infinite;
+
+                @-webkit-keyframes myAnimation {
+                    from {
+                        -webkit-transform: translateX(100%);
+                    }
+
+                    to {
+                        -webkit-transform: translateX(-100%);
+                    }
+                }
+
+                @keyframes myAnimation {
+                    from {
+                        -moz-transform: translateX(100%);
+                        -webkit-transform: translateX(100%);
+                        transform: translateX(100%);
+                    }
+
+                    to {
+                        -moz-transform: translateX(-100%);
+                        -webkit-transform: translateX(-100%);
+                        transform: translateX(-100%);
+                    }
+                }
+            }
+        }
+
+
+        #application-horizontal-scroll {
+            // display: grid;
+            grid-area: horizontal-scroll;
+            height: 100%;
+
+            overflow: hidden;
+
+            // grid-template-columns: 70% auto;
+            // grid-template-areas: "text cards";
+            // column-gap: 50px;
+            // grid-template-columns: 20px auto 20px;
+            // grid-template-areas: ". text ."
+            //                      ". cards .";
+
+            @include md {
+                // grid-template-columns: 1fr 1fr;
+                // grid-template-areas: "text cards";
+                height: 100%;
+            }
+
+            #application-text-prescroll {
+
+                // grid-area: text;
+                position: absolute;
+                // align-items: center; 
+                justify-self: center;
+                margin-left: 60px;
+                margin-top: 100px;
+
+                h4 {
+                    font-size: rem-calc(20);
+                    font-weight: 400;
+                    padding-bottom: 20px;
+                    // justify-self: center;
+                }
+
+                #application-name-with-doodle {
+                    margin-top: 40px;
+
+                    h4 {
+                        font-style: italic;
+                        font-weight: 400;
+                    }
+
+                    #arrow-right {
+                        display: none;
+                        width: 60px;
+
+                        @include md {
+                            display: block !important;
+                        }
+
+                        @include lg {
+                            margin-left: 240px;
+                            margin-top: -40px;
+                        }
+
+                    }
+
+                    #doodle {
+                        width: 250px;
+                        margin-top: -100px;
+                        margin-left: -30px;
+
+                        @include lg {
+                            width: 370px;
+                            margin-top: -60px;
+                            margin-left: -50px;
+                        }
+                    }
+                }
+            }
+
+            #projects-application-index {
+                // grid-area: cards;
+                overflow: hidden;
+
+                display: flex;
+                flex-direction: row;
+                margin-top: 70px;
+                padding-left: 500px;
+                z-index: 100;
+                // padding: 20px;
+
+                @include md {
+                    padding-left: 350px;
+                }
+
+                @include lg {
+                    padding-left: 500px;
+                }
+
+                li {
+                    width: 70vw;
+                    padding-right: 120px;
+
+                    @include md {
+                        padding-right: 180px;
+                    }
+
+                    @include lg {
+                        padding-right: 200px;
+                    }
+
+                    a {
+                        text-decoration: none;
+
+                        .project-application-image {
+                            height: 40%;
+
+                            @include md {
+                                height: 75%;
+                            }
+
+                            @include lg {
+                                height: 80%;
+                            }
+                        }
+
+                        .application-proj-name {
+                            margin-top: 20px;
+                            margin-bottom: 10px;
+                            color: $white;
+                            font-size: rem-calc(22);
+                            font-weight: 700;
+                            font-style: italic;
+
+                            &:hover,
+                            &:active {
+                                color: $yellow;
+                                transition: .5s;
+                            }
+                        }
+
+                        .application-proj-dscrpt {
+                            color: $white;
+                            line-height: rem-calc(24);
+                            // margin-bottom: 30px;
+                        }
+                    }
+                }
+
+                // #kmrb-home {
+                //     padding-right: -20px;
+                // }
+            }
+        }
+
+        #scroll-container-2 {
+            overflow: hidden;
+            grid-area: scroll-2;
+            margin-top: -220px;
+            // object-fit: cover;
+
+            @include md {
+                margin-top: -50px;
+            }
+
+            @include lg {
+                margin-top: 0;
+            }
+
+            #scroll-text-2 {
+
+                display: inline-block;
+                white-space: nowrap;
+                overflow: hidden;
+
+                @include md {
+                    -webkit-text-stroke: 1px $yellow;
+                    font-size: rem-calc(55);
+                }
+
+                @include lg {
+                    -webkit-text-stroke: 1.25px $yellow;
+                    font-size: rem-calc(60);
+                }
+
+
+                &:hover {
+                    transition: .25s;
+                    font-style: italic;
+                    color: $yellow;
+
+                }
+
+                -webkit-text-stroke: .5px $yellow;
+                color: $black;
+                font-size: rem-calc(40);
+                font-weight: 700;
+                display: inline-block;
+
+                -moz-transform: translateX(100%);
+                -webkit-transform: translateX(100%);
+                transform: translateX(100%);
+
+                -moz-animation: myAnimation2 15s linear infinite;
+                -webkit-animation: myAnimation2 15s linear infinite;
+                animation: myAnimation2 15s linear infinite;
+
+                @-webkit-keyframes myAnimation2 {
+                    from {
+                        -webkit-transform: translateX(-100%);
+                    }
+
+                    to {
+                        -webkit-transform: translateX(100%);
+                    }
+                }
+
+                @keyframes myAnimation2 {
+                    from {
+                        -moz-transform: translateX(-100%);
+                        -webkit-transform: translateX(-100%);
+                        transform: translateX(-100%);
+                    }
+
+                    to {
+                        -moz-transform: translateX(100%);
+                        -webkit-transform: translateX(100%);
+                        transform: translateX(100%);
+                    }
+                }
+            }
+        }
+    }
+}
+
+#home-intouch-container {
+    @include md {
+        margin-top: 100px;
+    }
+
+    #home-intouch-content {
+        a {
+            text-decoration: none;
+
+            h1 {
+                color: $black;
+                -webkit-text-stroke: 1px $yellow;
+                font-size: rem-calc(50);
+                line-height: rem-calc(60);
+                font-weight: 700;
+                text-align: center;
+
+                &:hover,
+                &:active {
+                    transition: .25s;
+                    color: $yellow;
+                    font-style: italic;
+                }
+            }
+        }
+    }
+}
