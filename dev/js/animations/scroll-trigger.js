@@ -113,8 +113,9 @@ aboutPageAnim.from("#portrait-me",{duration:largeTextFadeTime,alpha: 0,delay:1,t
 .from("#curvy-arrow",{duration:projectFadeTime,drawSVG: 0,alpha: 0,translateY:"10%",ease:"power1.easeInOut"},"typeWriterPlayingDone")
 .from("#parents-text",{duration:projectFadeTime,alpha: 0,translateX:"-10%",ease:"power1.easeInOut"},"typeWriterPlayingDone")
 .from("#about-p1",{duration:drawOutSVG,alpha: 0,translateY:"-3%",ease:"power1.easeInOut"},"-=1")
-.from("#about-p2",{duration:drawOutSVG,alpha: 0,translateY:"-3%",ease:"power1.easeInOut"},"-=.5")
-.from("#about-p3",{duration:drawOutSVG,alpha: 0,translateY:"-3%",ease:"power1.easeInOut"})
+.from("#about-p2",{duration:drawOutSVG,alpha: 0,translateY:"-3%",ease:"power1.easeInOut"},"-=.75")
+.from("#about-p3",{duration:drawOutSVG,alpha: 0,translateY:"-3%",ease:"power1.easeInOut"},"-=.5")
+.from("#about-spotify",{duration:drawOutSVG,alpha: 0,translateY:"-3%",ease:"power1.easeInOut"},"-=.25")
 
 
 export function aboutPageAnimation(){

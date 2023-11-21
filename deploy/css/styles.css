@@ -3798,6 +3798,238 @@ footer #footer-container #socials a:visited:active {
   font-style: italic;
 }
 
+/* =============
+    About Section
+============= */
+#about-container-top {
+  margin-top: 100px;
+}
+@media (min-width: 768px) {
+  #about-container-top #about-content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "photo text";
+    gap: 40px;
+  }
+}
+#about-container-top #about-content #photo-area {
+  grid-area: photo;
+}
+#about-container-top #about-content #photo-area p {
+  line-height: 1.5625rem;
+  padding-bottom: 20px;
+}
+@media (min-width: 992px) {
+  #about-container-top #about-content #photo-area p {
+    padding-bottom: 40px;
+  }
+}
+#about-container-top #about-content #photo-area svg {
+  position: absolute;
+  z-index: 2;
+  left: 280px;
+  top: 150px;
+  width: 40px;
+}
+@media (min-width: 768px) {
+  #about-container-top #about-content #photo-area svg {
+    left: 280px;
+    top: 130px;
+  }
+}
+@media (min-width: 992px) {
+  #about-container-top #about-content #photo-area svg {
+    left: 440px;
+    top: 150px;
+  }
+}
+#about-container-top #about-content #photo-area img {
+  width: 100%;
+  align-self: center;
+}
+@media (min-width: 768px) {
+  #about-container-top #about-content #photo-area img {
+    width: 90%;
+  }
+}
+#about-container-top #about-content #about-me {
+  grid-area: text;
+  margin-top: 30px;
+}
+@media (min-width: 768px) {
+  #about-container-top #about-content #about-me {
+    margin-top: 0;
+    width: 80%;
+  }
+}
+@media (min-width: 992px) {
+  #about-container-top #about-content #about-me {
+    margin-top: 100px;
+  }
+}
+#about-container-top #about-content #about-me h2 {
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 700;
+}
+@media (min-width: 768px) {
+  #about-container-top #about-content #about-me h2 {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 992px) {
+  #about-container-top #about-content #about-me h2 {
+    font-size: 3rem;
+  }
+}
+#about-container-top #about-content #about-me p {
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+}
+@media (min-width: 992px) {
+  #about-container-top #about-content #about-me p {
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+  }
+}
+#about-container-top #about-content #about-me p span {
+  font-style: italic;
+  background-color: #FFF200;
+  color: #FF0097;
+}
+
+/* =============
+    Resume Section
+============= */
+@media (min-width: 768px) {
+  #resume-container {
+    margin-left: 40px;
+  }
+}
+@media (min-width: 992px) {
+  #resume-container {
+    margin-left: 70px;
+  }
+}
+#resume-container #resume-content #resume-section-name {
+  padding-bottom: 5px;
+}
+#resume-container #resume-content #resume-section-name h2 {
+  font-size: 2.375rem;
+  line-height: 1em;
+  font-weight: 400;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  #resume-container #resume-content #resume-section-name h2 {
+    font-size: 2.5rem;
+    text-align: left;
+    margin-left: 40px;
+  }
+}
+@media (min-width: 992px) {
+  #resume-container #resume-content #resume-section-name h2 {
+    font-size: 3rem;
+    margin-left: 60px;
+  }
+}
+#resume-container #resume-content #resume-section-name span {
+  color: #FF0097;
+}
+#resume-container #resume-content #resume-section-name span .emoji {
+  font-size: 2.125rem;
+}
+@media (min-width: 768px) {
+  #resume-container #resume-content #resume {
+    margin-top: -30px;
+    display: grid;
+    grid-template-columns: "45% 55%";
+    grid-template-areas: "left right";
+  }
+}
+#resume-container #resume-content #resume #resume-left section h5,
+#resume-container #resume-content #resume #resume-right section h5 {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.25rem;
+  color: #FFF200;
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  #resume-container #resume-content #resume #resume-left section h5,
+  #resume-container #resume-content #resume #resume-right section h5 {
+    font-size: 1.75rem;
+  }
+}
+#resume-container #resume-content #resume #resume-left section ul li,
+#resume-container #resume-content #resume #resume-right section ul li {
+  font-weight: 400;
+  font-size: 1rem;
+  padding-bottom: 10px;
+  line-height: 1.75rem;
+}
+#resume-container #resume-content #resume #resume-left section ul li span,
+#resume-container #resume-content #resume #resume-right section ul li span {
+  font-weight: 700;
+}
+@media (min-width: 768px) {
+  #resume-container #resume-content #resume #resume-left section ul li,
+  #resume-container #resume-content #resume #resume-right section ul li {
+    padding-bottom: 15px;
+    width: 70%;
+  }
+}
+@media (min-width: 768px) {
+  #resume-container #resume-content #resume #resume-left {
+    grid-area: left;
+    margin-left: 40px;
+  }
+}
+@media (min-width: 992px) {
+  #resume-container #resume-content #resume #resume-left {
+    padding-bottom: 20px;
+    width: 70%;
+    margin-left: 60px;
+  }
+}
+@media (min-width: 768px) {
+  #resume-container #resume-content #resume #resume-right {
+    grid-area: right;
+  }
+}
+#resume-container #resume-content #resume #resume-right section h5 {
+  padding-bottom: 10px;
+}
+#resume-container #resume-content #resume #resume-right section ul .link {
+  padding-top: 10px;
+}
+@media (min-width: 992px) {
+  #resume-container #resume-content #resume #resume-right section ul .link {
+    padding-top: 0;
+  }
+}
+#resume-container #resume-content #resume #resume-right section ul .link a {
+  color: #FFF200;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+@media (min-width: 992px) {
+  #resume-container #resume-content #resume #resume-right section ul .link a {
+    font-size: 1.375rem;
+  }
+}
+#resume-container #resume-content #resume #resume-right section ul .link a:hover {
+  transition: 0.25s;
+  font-weight: 700;
+  font-style: italic;
+}
+@media (min-width: 992px) {
+  #resume-container #resume-content #resume #resume-right section ul li {
+    padding-bottom: 45px;
+    width: 80%;
+  }
+}
+
 body {
   background-color: #000;
   cursor: url(https://www.linkpicture.com/q/default-cursor.svg), auto;
