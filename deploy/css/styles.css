@@ -3817,11 +3817,23 @@ footer #footer-container #socials a:visited:active {
 }
 #about-container-top #about-content #photo-area p {
   line-height: 1.5625rem;
+  text-align: center;
   padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media (min-width: 768px) {
+  #about-container-top #about-content #photo-area p {
+    text-align: left;
+    padding-left: 0;
+    padding-right: 30px;
+  }
 }
 @media (min-width: 992px) {
   #about-container-top #about-content #photo-area p {
     padding-bottom: 40px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 #about-container-top #about-content #photo-area svg {
@@ -4028,6 +4040,84 @@ footer #footer-container #socials a:visited:active {
     padding-bottom: 45px;
     width: 80%;
   }
+}
+
+/* =============
+    Projects
+============= */
+#application-projects-full {
+  margin-top: 100px;
+}
+#application-projects-full #application-projects-full-container #application-work-gallery-container {
+  display: grid;
+  grid-template-columns: 2% auto 2%;
+  grid-template-areas: ". gallery-content .";
+}
+@media (min-width: 768px) {
+  #application-projects-full #application-projects-full-container #application-work-gallery-container {
+    grid-template-columns: 5% auto 5%;
+  }
+}
+@media (min-width: 992px) {
+  #application-projects-full #application-projects-full-container #application-work-gallery-container {
+    grid-template-columns: 30% auto;
+  }
+}
+#application-projects-full #application-projects-full-container #application-work-gallery-container #application-work-gallery-content {
+  grid-area: gallery-content;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  #application-projects-full #application-projects-full-container #application-work-gallery-container #application-work-gallery-content {
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}
+@media (min-width: 992px) {
+  #application-projects-full #application-projects-full-container #application-work-gallery-container #application-work-gallery-content {
+    margin-left: 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 20px;
+  }
+}
+@media (min-width: 768px) {
+  #application-projects-full #application-projects-full-container #application-work-gallery-container #application-work-gallery-content .proj-right {
+    margin-top: 100px;
+  }
+}
+#application-projects-full #application-projects-full-container #application-work-gallery-container #application-work-gallery-content .projects {
+  padding-bottom: 60px;
+}
+#application-projects-full #application-projects-full-container #application-work-gallery-container #application-work-gallery-content .projects .proj-img a .thumbnail {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  #application-projects-full #application-projects-full-container #application-work-gallery-container #application-work-gallery-content .projects .proj-img a .thumbnail {
+    width: 80%;
+  }
+}
+@media (min-width: 768px) {
+  #application-projects-full #application-projects-full-container #application-work-gallery-container #application-work-gallery-content .projects .names-descriptions {
+    width: 90%;
+  }
+}
+#application-projects-full #application-projects-full-container #application-work-gallery-container #application-work-gallery-content .projects .names-descriptions .project-names {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #fff;
+  font-size: 1.375rem;
+  line-height: 1.875rem;
+  font-weight: 700;
+  font-style: italic;
+}
+#application-projects-full #application-projects-full-container #application-work-gallery-container #application-work-gallery-content .projects .names-descriptions .project-names:hover, #application-projects-full #application-projects-full-container #application-work-gallery-container #application-work-gallery-content .projects .names-descriptions .project-names:active {
+  color: #FFF200;
+  transition: 0.5s;
+}
+#application-projects-full #application-projects-full-container #application-work-gallery-container #application-work-gallery-content .projects .names-descriptions .project-des {
+  line-height: 1.625rem;
 }
 
 body {

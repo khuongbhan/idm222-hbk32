@@ -1,5 +1,5 @@
 // /* =============
-//     parallax
+//     import and register plugins
 // ============= */
 
 import { gsap } from "gsap";
@@ -9,6 +9,11 @@ import { DrawSVGPlugin } from "gsap/DrawSVGPlugin";
 
 gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(DrawSVGPlugin);
+
+
+// /* =============
+//     parallax
+// ============= */
 
 
 var heroFades = gsap.timeline();
@@ -45,13 +50,14 @@ projectFadesIn.from("#proj-1",{duration: projectFadeTime,alpha:0,yPercent:-10}, 
               .from("#proj-8",{duration: projectFadeTime,alpha:0,yPercent:-10}, "proj8")
               .from("#proj-9",{duration: projectFadeTime,alpha:0,yPercent:-10}, "proj9")
               .from("#proj-10",{duration: projectFadeTime,alpha:0,yPercent:-10}, "proj10")
-              .from("#proj-11",{duration: projectFadeTime,alpha:0,yPercent:-10}, "proj10")
+              .from("#proj-11",{duration: projectFadeTime,alpha:0,yPercent:-10}, "proj11")
+              .from("#proj-12",{duration: projectFadeTime,alpha:0,yPercent:-10}, "proj12")
 
 export function projectsFade(){
     ScrollTrigger.create({
         animation: projectFadesIn,
         trigger: "#proj-1",
-        start: "center 61%"
+        start: "center 70%"
         // markers: true
     });
 }

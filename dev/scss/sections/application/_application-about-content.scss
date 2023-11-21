@@ -25,11 +25,24 @@
             p {
                 // font-size: rem-calc(14);
                 line-height: rem-calc(25);
+                text-align: center;
                 padding-bottom: 20px;
+                padding-left: 20px;
+                padding-right: 20px;
+
+                @include md {
+                    text-align: left;
+
+                    padding-left: 0;
+                    padding-right: 30px;
+                }
 
                 @include lg {
                     padding-bottom: 40px;
+                    padding-left: 0;
+                    padding-right: 0;
                 }
+
             }
 
             svg {
@@ -239,6 +252,7 @@
                             @include lg {
                                 padding-top: 0;
                             }
+
                             a {
                                 color: $yellow;
                                 text-decoration: none;
@@ -255,6 +269,7 @@
                                 }
                             }
                         }
+
                         li {
                             @include lg {
                                 // h5 {
@@ -298,5 +313,5 @@
             }
         }
     }
-    
+
 }

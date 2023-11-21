@@ -41,6 +41,14 @@
       "oAP" : "\/deploy\/application-site.html",
       "oF" : 0
     },
+    "\/deploy\/application-work.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/application-work.html",
+      "oF" : 0
+    },
     "\/deploy\/contact.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -4140,6 +4148,14 @@
       "oAP" : "\/deploy\/application-site.html",
       "oF" : 2
     },
+    "\/dev\/application-work.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/application-work.html",
+      "oF" : 2
+    },
     "\/dev\/contact.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -4170,6 +4186,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/application\/application-site-content.html",
+      "oF" : 1
+    },
+    "\/dev\/content\/application\/application-site-work-content.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/application\/application-site-work-content.html",
       "oF" : 1
     },
     "\/dev\/content\/contact-content.kit" : {
@@ -4781,6 +4805,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/application\/_application-site-content.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/application\/_application-work-content.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/application\/_application-work-content.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
