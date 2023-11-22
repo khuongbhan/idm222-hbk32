@@ -4156,6 +4156,15 @@ footer #footer-container #socials a:visited:active {
 
 #application-eye-section-translator {
   overflow-x: hidden;
+  padding-bottom: 20px;
+}
+#application-eye-section-translator #eye-section-translator-section-name {
+  margin-top: -10px;
+}
+@media (min-width: 768px) {
+  #application-eye-section-translator #eye-section-translator-section-name {
+    margin-top: -50px;
+  }
 }
 #application-eye-section-translator #eye-section-translator {
   padding-top: 20px;
@@ -4251,6 +4260,14 @@ footer #footer-container #socials a:visited:active {
   color: #000;
   font-family: "officialBraille";
   font-size: 1.875rem;
+}
+#application-eye-section-translator #eye-section-translator-section-below a {
+  color: #FFF200;
+  transition: 0.25s;
+}
+#application-eye-section-translator #eye-section-translator-section-below a:hover {
+  color: #FF0097;
+  transition: 0.25s;
 }
 
 body {
