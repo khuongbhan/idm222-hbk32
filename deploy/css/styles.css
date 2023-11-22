@@ -4125,7 +4125,7 @@ footer #footer-container #socials a:visited:active {
 }
 
 /* =============
-    application from i to eye Hero
+    application from i to eye hero
 ============= */
 #eye-hero #eye-hero-image {
   background-image: url(../img/project-page/eye/eye-hero.png);
@@ -4144,6 +4144,62 @@ footer #footer-container #socials a:visited:active {
   background-color: #000;
 }
 
+#application-eye-section-translator #eye-section-translator {
+  padding-top: 20px;
+}
+#application-eye-section-translator #eye-section-translator #eye-section-translator-inside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  #application-eye-section-translator #eye-section-translator #eye-section-translator-inside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+#application-eye-section-translator #eye-section-translator #eye-section-translator-inside #eye-section-translator-inside-left #english {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000;
+  border-bottom: 0;
+  border-radius: 0;
+  background-color: #fff;
+  resize: none;
+}
+@media (min-width: 768px) {
+  #application-eye-section-translator #eye-section-translator #eye-section-translator-inside #eye-section-translator-inside-left #english {
+    width: 80%;
+  }
+}
+#application-eye-section-translator #eye-section-translator #eye-section-translator-inside #eye-section-translator-inside-left #english::placeholder {
+  color: #000;
+  opacity: 0.5;
+}
+#application-eye-section-translator #eye-section-translator #eye-section-translator-inside #eye-section-translator-inside-left button {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #000;
+  border-radius: 0;
+  background-color: #FFF200;
+  padding: 12px 20px;
+  color: #000;
+  transition: 0.25s;
+}
+#application-eye-section-translator #eye-section-translator #eye-section-translator-inside #eye-section-translator-inside-left button:hover {
+  background-color: #FF0097;
+  color: #fff;
+  transition: 0.25s;
+}
+@media (min-width: 768px) {
+  #application-eye-section-translator #eye-section-translator #eye-section-translator-inside #eye-section-translator-inside-left button {
+    width: 80%;
+  }
+}
 #application-eye-section-translator #eye-section-translator #eye-section-translator-inside .braille-output {
   font-family: "officialBraille";
   font-size: 2rem;

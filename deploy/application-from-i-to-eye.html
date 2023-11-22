@@ -232,7 +232,7 @@
     <!-- ********************************************** -->
     <section id="application-eye-section-translator" class="new-section section-hero-container">
         <h3 id="eye-section-translator-section-name" class="proj-copy-section-name-justified section-hero-name">— BRAILLE
-            TRANSLATOR</h3>
+            TRANSLATOR DEMO</h3>
         <section id="eye-section-translator" class="grid-container">
             <div id="eye-section-translator-inside">
                 <!-- <a id="eye-section-1-image-file" data-fancybox="gallery-wall"
@@ -244,11 +244,25 @@
                 
                 <!-- THEE NGAUR  -->
     
-                <p>Translate English into Braille</p>
-                <input type="text" name="english" id="english" placeholder="Type English here..." />
-                <button py-click="translate_english">Translate</button>
-                <div id="output1"></div>
-                <div id="output2" class="braille-output"></div>
+                <!-- <p>Translate English into Braille</p> -->
+                <div id="eye-section-translator-inside-left">
+                    <input type="textarea" name="english" id="english" placeholder="type english here..." />
+                    <button py-click="translate_english" class="cursor-link-white">translate to grade 2 braille</button>
+                </div>
+                <!-- <input type="text" name="english" id="english" placeholder="Type English here..." />
+                <button py-click="translate_english">Translate</button> -->
+    
+                <div id="eye-section-translator-inside-right">
+                    <div>
+                        <h6>contraction <span class="braille-output">⠒⠞⠗⠁⠉⠰⠝</span></h6>
+                        <p id="output1"></p>
+                    </div>
+                    <div>
+                        <h6>grade 2 braille <span class="braille-output">⠒⠞⠗⠁⠉⠰⠝</span></h6>
+                        <p id="output2" class="braille-output"></p>
+                    </div>
+                </div>
+                
                 <py-script>
                     from pyscript import document
     
