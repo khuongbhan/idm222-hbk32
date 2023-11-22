@@ -1,0 +1,34 @@
+/* =============
+    application from i to eye Hero
+============= */
+
+#eye-hero {
+    #eye-hero-image {
+        background-image: url(../img/project-page/eye/eye-hero.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: cover;
+
+        @include lg {
+            background-position: center;
+        }
+    }
+}
+
+#eye-banner {
+    position: relative;
+    background-color: $black;
+}
+
+#application-eye-section-translator {
+    #eye-section-translator {
+
+        #eye-section-translator-inside {
+            .braille-output {
+                font-family: "officialBraille";
+                font-size: rem-calc(32);
+            }
+        }
+
+    }
+}

@@ -1,8 +1,12 @@
+@import "fancy-box.css";
+@font-face {
+  font-family: "officialBraille";
+  src: url("deploy/braille-font/officialBraille.ttf");
+}
 /* =============
     Mixins
 ============= */
 /* ---------------- Font Sizing ---------------- */
-@import "fancy-box.css";
 html {
   font-size: 100%;
 }
@@ -4118,6 +4122,31 @@ footer #footer-container #socials a:visited:active {
 }
 #application-projects-full #application-projects-full-container #application-work-gallery-container #application-work-gallery-content .projects .names-descriptions .project-des {
   line-height: 1.625rem;
+}
+
+/* =============
+    application from i to eye Hero
+============= */
+#eye-hero #eye-hero-image {
+  background-image: url(../img/project-page/eye/eye-hero.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+@media (min-width: 992px) {
+  #eye-hero #eye-hero-image {
+    background-position: center;
+  }
+}
+
+#eye-banner {
+  position: relative;
+  background-color: #000;
+}
+
+#application-eye-section-translator #eye-section-translator #eye-section-translator-inside .braille-output {
+  font-family: "officialBraille";
+  font-size: 2rem;
 }
 
 body {
