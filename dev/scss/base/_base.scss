@@ -179,7 +179,7 @@ ul {
                 }
 
                 .overview {
-                    line-height: rem-calc(24);
+                    line-height: 1.5em;
                     font-weight: 400;
                 }
 
@@ -203,7 +203,7 @@ ul {
                 }
 
                 .goals {
-                    line-height: rem-calc(24);
+                    line-height: 1.5em;
                     font-weight: 400;
                 }
 
@@ -398,6 +398,7 @@ ul {
             text-align: left;
             color: $yellow;
             padding-bottom: 10px;
+            line-height: 1.5em;
 
             @include md {
                 font-weight: 400;
@@ -405,7 +406,7 @@ ul {
         }
 
         .proj-copy {
-            line-height: rem-calc(24);
+            line-height: 1.75em;
             font-weight: 400;
         }
     }

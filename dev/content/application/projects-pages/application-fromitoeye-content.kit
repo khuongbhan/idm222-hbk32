@@ -170,34 +170,38 @@
 <!-- *************** BRAILLE TRANSLATOR *************** -->
 <!-- ********************************************** -->
 <section id="application-eye-section-translator" class="new-section section-hero-container">
-    <h3 id="eye-section-translator-section-name" class="proj-copy-section-name-justified section-hero-name">— BRAILLE
-        TRANSLATOR DEMO</h3>
+        <section id="eye-section-translator-section-name" class="new-section grid-container project-copy-container">
+            <div id="eye-section-translator-copy" class="project-copy">
+                <h3 class="proj-copy-section-name overview-name cursor-text">interactive element: braille translator demo —</h3>
+                <p class="proj-copy overview cursor-text">"from i to eye" offers an Interactive Braille Translator for its
+                    audience to learn about grade 2 braille, also known as contracted braille. The literary system of braille
+                    for English, French, and many other languages has evolved to develop an extensive array of "short forms" or
+                    "contractions" for commonly-occurring words or groups of letters. For example, the word "the" is often
+                    represented as a single character.<br><br><span id="try-translator">Try typing an English word or a short English phrase in the text area
+                        below, and see how it can be contracted and spelled out in grade 2 braille.</span>
+                </p>
+            </div>
+        </section>
     <section id="eye-section-translator" class="grid-container">
         <div id="eye-section-translator-inside">
-            <!-- <a id="eye-section-1-image-file" data-fancybox="gallery-wall"
-                data-caption="alternative sight: how people with visual impairments perceive the world"
-                href="img/project-page/eye/section/eye-section-1.png" class="full-width-img-link cursor-view">
-                <img src="img/project-page/eye/section/eye-section-1.png"
-                    alt="from i to eye visual impairments exhibition accessibility inclusive design section 1 alternative sight">
-            </a> -->
             
             <!-- THEE NGAUR  -->
 
             <!-- <p>Translate English into Braille</p> -->
             <div id="eye-section-translator-inside-left">
-                <input type="textarea" name="english" id="english" placeholder="type english here..." />
+                <input type="textarea" name="english" id="english" maxlength="30" placeholder="type english here..." />
                 <button py-click="translate_english" class="cursor-link-white">translate to grade 2 braille</button>
             </div>
             <!-- <input type="text" name="english" id="english" placeholder="Type English here..." />
             <button py-click="translate_english">Translate</button> -->
 
             <div id="eye-section-translator-inside-right">
-                <div>
-                    <h6>contraction <span class="braille-output">⠒⠞⠗⠁⠉⠰⠝</span></h6>
+                <div id="contraction">
+                    <h6>contraction</h6>
                     <p id="output1"></p>
                 </div>
-                <div>
-                    <h6>grade 2 braille <span class="braille-output">⠒⠞⠗⠁⠉⠰⠝</span></h6>
+                <div id="braille">
+                    <h6>grade 2 braille</h6>
                     <p id="output2" class="braille-output"></p>
                 </div>
             </div>
