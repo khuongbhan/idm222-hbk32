@@ -1,0 +1,60 @@
+/* =============
+    Application Komorebi Hero
+============= */
+
+#kmrb-hero {
+    #kmrb-hero-image {
+        background-image: url(../img/project-page/kmrb/kmrb-hero.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+/* =============
+    Komorebi Brand
+============= */
+#kmrb-banner {
+    position: relative;
+    background-color: $black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#kmrb-brand {
+    padding-top: 20px;
+}
+
+#kmrb-package-copy-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#kmrb-package-process {
+
+    #kmrb-package-process-section-name {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+}
+
+#kmrb-package-full-gallery-1 {
+    padding-top: 20px;
+
+    @include lg {
+        padding-top: 30px;
+    }
+
+    #kmrb-package-full-gallery-1-name {
+        padding-bottom: 10px;
+
+        @include lg {
+            padding-bottom: 20px;
+        }
+    }
+}
+
+#kmrb-package-full-gallery-2 {
+    padding-top: 20px;
+}

@@ -33,12 +33,36 @@
       "oAP" : "\/deploy\/application-about.html",
       "oF" : 0
     },
+    "\/deploy\/application-across.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/application-across.html",
+      "oF" : 0
+    },
     "\/deploy\/application-from-i-to-eye.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/application-from-i-to-eye.html",
+      "oF" : 0
+    },
+    "\/deploy\/application-komorebi-lemon-mochi.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/application-komorebi-lemon-mochi.html",
+      "oF" : 0
+    },
+    "\/deploy\/application-long-story-short.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/application-long-story-short.html",
       "oF" : 0
     },
     "\/deploy\/application-site.html" : {
@@ -4164,12 +4188,36 @@
       "oAP" : "\/deploy\/application-about.html",
       "oF" : 2
     },
+    "\/dev\/application-across.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/application-across.html",
+      "oF" : 2
+    },
     "\/dev\/application-from-i-to-eye.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/application-from-i-to-eye.html",
+      "oF" : 2
+    },
+    "\/dev\/application-komorebi-lemon-mochi.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/application-komorebi-lemon-mochi.html",
+      "oF" : 2
+    },
+    "\/dev\/application-long-story-short.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/application-long-story-short.html",
       "oF" : 2
     },
     "\/dev\/application-site.kit" : {
@@ -4228,12 +4276,36 @@
       "oAP" : "\/dev\/content\/application\/application-site-work-content.html",
       "oF" : 1
     },
+    "\/dev\/content\/application\/projects-pages\/application-across-content.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/application\/projects-pages\/application-across-content.html",
+      "oF" : 1
+    },
     "\/dev\/content\/application\/projects-pages\/application-fromitoeye-content.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/application\/projects-pages\/application-fromitoeye-content.html",
+      "oF" : 1
+    },
+    "\/dev\/content\/application\/projects-pages\/application-kmrb-content.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/application\/projects-pages\/application-kmrb-content.html",
+      "oF" : 1
+    },
+    "\/dev\/content\/application\/projects-pages\/application-lts-content.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/application\/projects-pages\/application-lts-content.html",
       "oF" : 1
     },
     "\/dev\/content\/contact-content.kit" : {
@@ -4865,6 +4937,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/sections\/application\/projects-pages\/_application-across-content.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/application\/projects-pages\/_application-across-content.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/dev\/scss\/sections\/application\/projects-pages\/_application-fromitoeye-content.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -4875,6 +4962,36 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/application\/projects-pages\/_application-fromitoeye-content.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/application\/projects-pages\/_application-kmrb-content.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/application\/projects-pages\/_application-kmrb-content.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/application\/projects-pages\/_application-lts-content.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/application\/projects-pages\/_application-lts-content.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

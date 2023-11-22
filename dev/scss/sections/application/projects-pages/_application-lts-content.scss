@@ -1,0 +1,319 @@
+/* =============
+    Application Long Story Short Hero
+============= */
+
+#lts-hero {
+    #lts-hero-image {
+        background-image: url(../img/project-page/longstoryshort/lts-hero.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+
+/* ====================================
+    Long Story Short overview
+================================= */
+#lts-banner {
+    position: relative;
+    background-color: $black;
+    padding-top: 20px;
+
+    @include md {
+        padding-top: 40px;
+    }
+
+    #lts-banner-gif {
+
+        #lts-anim {
+            a {
+                // height: 70%;
+                // width: 100%;
+
+                img {
+
+                    @include lg {
+                        height: 600px;
+                        width: 100vw;
+                    }
+                }
+            }
+        }
+    }
+
+    #lts-deliverables {
+        @include lg {
+            padding-top: 30px;
+        }
+    }
+
+}
+
+#lts-branding-section {
+    margin-top: -20px;
+
+    @include md {
+        margin-top: -30px;
+    }
+
+    #lts-branding-guidelines {
+        padding-top: 20px;
+
+        @include md {
+            padding-top: 30px;
+        }
+
+        @include lg {
+            padding-top: 35px;
+        }
+    }
+}
+
+/* ====================================
+    Long Story Short chapters
+================================= */
+#lts-chapters-container {
+    padding-top: 20px;
+
+    @include md {
+        padding-top: 40px;
+    }
+}
+
+#lts-chapters-link-container {
+    padding-top: 20px;
+
+    @include lg {
+        padding-top: 40px;
+    }
+
+    >div {
+
+        display: flex;
+        justify-content: center;
+
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+
+        @include md {
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
+
+        a {
+
+            margin: 10px;
+            // flex-wrap: nowrap;
+            text-decoration: none;
+            text-align: center;
+            // border: 1px $yellow solid;
+            // color: $yellow;
+            padding: 12px 30px;
+            border-radius: 30px;
+
+            &:hover {
+                transition: .25s;
+                // background-color: $yellow;
+                // border: 1px $yellow solid;
+                // color: $black;
+                font-style: italic;
+            }
+
+            @include lg {
+                flex-wrap: nowrap;
+                padding: 12px 30px;
+                border-radius: 50px;
+            }
+        }
+
+        a:nth-child(1) {
+            border: 1px $yellow solid;
+            color: $yellow;
+
+            &:hover {
+                background-color: $yellow;
+                border: 1px $yellow solid;
+                color: $black;
+            }
+        }
+
+        :nth-child(2) {
+            border: 1px $magenta solid;
+            color: $magenta;
+
+            &:hover {
+                background-color: $magenta;
+                border: 1px $magenta solid;
+                color: $white;
+            }
+        }
+
+        :nth-child(3) {
+            border: 1px $lts-red solid;
+            color: $lts-red;
+
+            &:hover {
+                background-color: $lts-red;
+                border: 1px $lts-red solid;
+                color: $white;
+            }
+        }
+
+        :nth-child(4) {
+            border: 1px $lts-cyan solid;
+            color: $lts-cyan;
+
+            &:hover {
+                background-color: $lts-cyan;
+                border: 1px $lts-cyan solid;
+                color: $black;
+            }
+        }
+    }
+}
+
+#lts-zines {
+    padding-top: 30px;
+
+    @include lg {
+        padding-top: 50px;
+    }
+}
+
+#lts-zines-hero-sect {
+    @include lg {
+        margin-top: -20px;
+    }
+}
+
+
+/* ====================================
+    Long Story Short App
+================================= */
+#lts-app-hero {
+    padding-top: 20px;
+
+    @include md {
+        padding-top: 25px;
+    }
+
+    @include lg {
+        padding-top: 30px;
+    }
+}
+
+#lts-app-content-container {
+    padding-top: 10px;
+}
+
+#lts-app-link-container {
+    padding-top: 10px;
+    padding-bottom: 15px;
+
+    >div {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        a {
+
+            margin: 10px;
+            text-decoration: none;
+            text-align: center;
+            border: 1px $yellow solid;
+            color: $yellow;
+            padding: 12px 30px;
+            border-radius: 30px;
+
+            &:hover {
+                transition: .25s;
+                background-color: $yellow;
+                border: 1px $yellow solid;
+                color: $black;
+                font-style: italic;
+            }
+
+            @include lg {
+                flex-wrap: nowrap;
+                padding: 12px 30px;
+                border-radius: 50px;
+            }
+        }
+    }
+}
+
+#lts-ar-video {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    @include md {
+        padding-top: 30px;
+    }
+    
+    @include lg {
+        padding-top: 40px;
+    }
+    >div {
+        iframe{
+            height: 30vh;
+            width: 100%;
+            @include md{
+                height: 45vh;
+            }
+            @include lg{
+                height: 80vh;
+            }
+        }
+    }
+}
+
+#lts-web-hero-container {
+    padding-top: 20px;
+}
+
+#lts-web-content-container {
+    margin-top: -20px;
+}
+
+#lts-web-link-container {
+    padding-top: 20px;
+    padding-bottom: 15px;
+
+    >div {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        a {
+
+            margin: 10px;
+            text-decoration: none;
+            text-align: center;
+            border: 1px $yellow solid;
+            color: $yellow;
+            padding: 12px 30px;
+            border-radius: 30px;
+
+            &:hover {
+                transition: .25s;
+                background-color: $yellow;
+                border: 1px $yellow solid;
+                color: $black;
+                font-style: italic;
+            }
+
+            @include lg {
+                flex-wrap: nowrap;
+                padding: 12px 30px;
+                border-radius: 50px;
+            }
+        }
+    }
+}

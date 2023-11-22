@@ -4270,6 +4270,471 @@ footer #footer-container #socials a:visited:active {
   transition: 0.25s;
 }
 
+/* =============
+    Application Long Story Short Hero
+============= */
+#lts-hero #lts-hero-image {
+  background-image: url(../img/project-page/longstoryshort/lts-hero.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* ====================================
+    Long Story Short overview
+================================= */
+#lts-banner {
+  position: relative;
+  background-color: #000;
+  padding-top: 20px;
+}
+@media (min-width: 768px) {
+  #lts-banner {
+    padding-top: 40px;
+  }
+}
+@media (min-width: 992px) {
+  #lts-banner #lts-banner-gif #lts-anim a img {
+    height: 600px;
+    width: 100vw;
+  }
+}
+@media (min-width: 992px) {
+  #lts-banner #lts-deliverables {
+    padding-top: 30px;
+  }
+}
+
+#lts-branding-section {
+  margin-top: -20px;
+}
+@media (min-width: 768px) {
+  #lts-branding-section {
+    margin-top: -30px;
+  }
+}
+#lts-branding-section #lts-branding-guidelines {
+  padding-top: 20px;
+}
+@media (min-width: 768px) {
+  #lts-branding-section #lts-branding-guidelines {
+    padding-top: 30px;
+  }
+}
+@media (min-width: 992px) {
+  #lts-branding-section #lts-branding-guidelines {
+    padding-top: 35px;
+  }
+}
+
+/* ====================================
+    Long Story Short chapters
+================================= */
+#lts-chapters-container {
+  padding-top: 20px;
+}
+@media (min-width: 768px) {
+  #lts-chapters-container {
+    padding-top: 40px;
+  }
+}
+
+#lts-chapters-link-container {
+  padding-top: 20px;
+}
+@media (min-width: 992px) {
+  #lts-chapters-link-container {
+    padding-top: 40px;
+  }
+}
+#lts-chapters-link-container > div {
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  #lts-chapters-link-container > div {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+}
+#lts-chapters-link-container > div a {
+  margin: 10px;
+  text-decoration: none;
+  text-align: center;
+  padding: 12px 30px;
+  border-radius: 30px;
+}
+#lts-chapters-link-container > div a:hover {
+  transition: 0.25s;
+  font-style: italic;
+}
+@media (min-width: 992px) {
+  #lts-chapters-link-container > div a {
+    flex-wrap: nowrap;
+    padding: 12px 30px;
+    border-radius: 50px;
+  }
+}
+#lts-chapters-link-container > div a:nth-child(1) {
+  border: 1px #FFF200 solid;
+  color: #FFF200;
+}
+#lts-chapters-link-container > div a:nth-child(1):hover {
+  background-color: #FFF200;
+  border: 1px #FFF200 solid;
+  color: #000;
+}
+#lts-chapters-link-container > div :nth-child(2) {
+  border: 1px #FF0097 solid;
+  color: #FF0097;
+}
+#lts-chapters-link-container > div :nth-child(2):hover {
+  background-color: #FF0097;
+  border: 1px #FF0097 solid;
+  color: #fff;
+}
+#lts-chapters-link-container > div :nth-child(3) {
+  border: 1px #be1e2d solid;
+  color: #be1e2d;
+}
+#lts-chapters-link-container > div :nth-child(3):hover {
+  background-color: #be1e2d;
+  border: 1px #be1e2d solid;
+  color: #fff;
+}
+#lts-chapters-link-container > div :nth-child(4) {
+  border: 1px #00aeef solid;
+  color: #00aeef;
+}
+#lts-chapters-link-container > div :nth-child(4):hover {
+  background-color: #00aeef;
+  border: 1px #00aeef solid;
+  color: #000;
+}
+
+#lts-zines {
+  padding-top: 30px;
+}
+@media (min-width: 992px) {
+  #lts-zines {
+    padding-top: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  #lts-zines-hero-sect {
+    margin-top: -20px;
+  }
+}
+
+/* ====================================
+    Long Story Short App
+================================= */
+#lts-app-hero {
+  padding-top: 20px;
+}
+@media (min-width: 768px) {
+  #lts-app-hero {
+    padding-top: 25px;
+  }
+}
+@media (min-width: 992px) {
+  #lts-app-hero {
+    padding-top: 30px;
+  }
+}
+
+#lts-app-content-container {
+  padding-top: 10px;
+}
+
+#lts-app-link-container {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+#lts-app-link-container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#lts-app-link-container > div a {
+  margin: 10px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px #FFF200 solid;
+  color: #FFF200;
+  padding: 12px 30px;
+  border-radius: 30px;
+}
+#lts-app-link-container > div a:hover {
+  transition: 0.25s;
+  background-color: #FFF200;
+  border: 1px #FFF200 solid;
+  color: #000;
+  font-style: italic;
+}
+@media (min-width: 992px) {
+  #lts-app-link-container > div a {
+    flex-wrap: nowrap;
+    padding: 12px 30px;
+    border-radius: 50px;
+  }
+}
+
+#lts-ar-video {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@media (min-width: 768px) {
+  #lts-ar-video {
+    padding-top: 30px;
+  }
+}
+@media (min-width: 992px) {
+  #lts-ar-video {
+    padding-top: 40px;
+  }
+}
+#lts-ar-video > div iframe {
+  height: 30vh;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  #lts-ar-video > div iframe {
+    height: 45vh;
+  }
+}
+@media (min-width: 992px) {
+  #lts-ar-video > div iframe {
+    height: 80vh;
+  }
+}
+
+#lts-web-hero-container {
+  padding-top: 20px;
+}
+
+#lts-web-content-container {
+  margin-top: -20px;
+}
+
+#lts-web-link-container {
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+#lts-web-link-container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#lts-web-link-container > div a {
+  margin: 10px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px #FFF200 solid;
+  color: #FFF200;
+  padding: 12px 30px;
+  border-radius: 30px;
+}
+#lts-web-link-container > div a:hover {
+  transition: 0.25s;
+  background-color: #FFF200;
+  border: 1px #FFF200 solid;
+  color: #000;
+  font-style: italic;
+}
+@media (min-width: 992px) {
+  #lts-web-link-container > div a {
+    flex-wrap: nowrap;
+    padding: 12px 30px;
+    border-radius: 50px;
+  }
+}
+
+/* =============
+   Application Across Hero
+============= */
+#across-hero #hero-image {
+  background-image: url(../img/project-page/across/across-hero.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* =============
+    Branding
+============= */
+#across-branding {
+  position: relative;
+  background-color: #000;
+  padding-top: 20px;
+}
+@media (min-width: 768px) {
+  #across-branding {
+    padding-top: 40px;
+  }
+}
+#across-branding #across-branding-banner #across-banner-container {
+  display: grid;
+  grid-template-columns: "auto 95% auto";
+  grid-template-areas: ". banner .";
+}
+#across-branding #across-branding-banner #across-banner-container #across-brand-banner {
+  grid-area: banner;
+}
+#across-branding #across-branding-banner #across-banner-container #across-brand-banner img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#across-branding #across-branding-banner #across-branding-copy-container {
+  padding: 30px 0 10px;
+}
+#across-branding #across-branding-gallery #across-brand-gallery-container-1,
+#across-branding #across-branding-gallery #across-brand-gallery-container-2,
+#across-branding #across-branding-gallery #across-brand-gallery-container-3 {
+  display: grid;
+  grid-template-columns: "auto 95% auto";
+  grid-template-areas: ". banner .";
+  padding-bottom: 10px;
+}
+@media (min-width: 768px) {
+  #across-branding #across-branding-gallery #across-brand-gallery-container-1,
+  #across-branding #across-branding-gallery #across-brand-gallery-container-2,
+  #across-branding #across-branding-gallery #across-brand-gallery-container-3 {
+    padding-bottom: 20px;
+  }
+}
+#across-branding #across-branding-gallery #across-brand-gallery-container-1 a,
+#across-branding #across-branding-gallery #across-brand-gallery-container-2 a,
+#across-branding #across-branding-gallery #across-brand-gallery-container-3 a {
+  grid-area: banner;
+}
+#across-branding #across-branding-gallery #across-brand-gallery-container-1 a img,
+#across-branding #across-branding-gallery #across-brand-gallery-container-2 a img,
+#across-branding #across-branding-gallery #across-brand-gallery-container-3 a img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#across-package-copy-container {
+  position: relative;
+  background-color: #000;
+  padding-top: 30px;
+}
+@media (min-width: 768px) {
+  #across-package-copy-container {
+    padding-top: 35px;
+  }
+}
+
+/* =============
+    Process
+============= */
+#across-package-process {
+  padding-top: 30px;
+}
+@media (min-width: 992px) {
+  #across-package-process {
+    padding-top: 50px;
+  }
+}
+#across-package-process #across-process-name h3 {
+  text-align: center;
+  color: #FFF200;
+  font-weight: 400;
+}
+#across-package-process #across-package-process-gallery {
+  padding-top: 15px;
+}
+@media (min-width: 768px) {
+  #across-package-process #across-package-process-gallery {
+    padding-top: 20px;
+  }
+}
+
+/* =============
+    Exterior
+============= */
+#across-package-exterior-2 {
+  padding-top: 5px;
+}
+@media (min-width: 768px) {
+  #across-package-exterior-2 {
+    padding-top: 10x;
+  }
+}
+
+/* =============
+    Across Ending Gallery
+============= */
+#across-ending-gallery-section {
+  padding-bottom: 0;
+}
+#across-ending-gallery-section #across-gallery-container {
+  padding-top: 0;
+}
+
+/* =============
+    Application Komorebi Hero
+============= */
+#kmrb-hero #kmrb-hero-image {
+  background-image: url(../img/project-page/kmrb/kmrb-hero.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* =============
+    Komorebi Brand
+============= */
+#kmrb-banner {
+  position: relative;
+  background-color: #000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#kmrb-brand {
+  padding-top: 20px;
+}
+
+#kmrb-package-copy-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#kmrb-package-process #kmrb-package-process-section-name {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#kmrb-package-full-gallery-1 {
+  padding-top: 20px;
+}
+@media (min-width: 992px) {
+  #kmrb-package-full-gallery-1 {
+    padding-top: 30px;
+  }
+}
+#kmrb-package-full-gallery-1 #kmrb-package-full-gallery-1-name {
+  padding-bottom: 10px;
+}
+@media (min-width: 992px) {
+  #kmrb-package-full-gallery-1 #kmrb-package-full-gallery-1-name {
+    padding-bottom: 20px;
+  }
+}
+
+#kmrb-package-full-gallery-2 {
+  padding-top: 20px;
+}
+
 body {
   background-color: #000;
   cursor: url(https://www.linkpicture.com/q/default-cursor.svg), auto;
