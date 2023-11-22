@@ -33,6 +33,14 @@
       "oAP" : "\/deploy\/application-about.html",
       "oF" : 0
     },
+    "\/deploy\/application-from-i-to-eye.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/application-from-i-to-eye.html",
+      "oF" : 0
+    },
     "\/deploy\/application-site.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -47,6 +55,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/application-work.html",
+      "oF" : 0
+    },
+    "\/deploy\/braille-font\/officialBraille.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/braille-font\/officialBraille.ttf",
       "oF" : 0
     },
     "\/deploy\/contact.html" : {
@@ -4100,6 +4116,14 @@
       "oAP" : "\/deploy\/senior-showcase-2022.html",
       "oF" : 0
     },
+    "\/deploy\/test_code.py" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/test_code.py",
+      "oF" : 0
+    },
     "\/deploy\/work.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -4138,6 +4162,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/application-about.html",
+      "oF" : 2
+    },
+    "\/dev\/application-from-i-to-eye.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/application-from-i-to-eye.html",
       "oF" : 2
     },
     "\/dev\/application-site.kit" : {
@@ -4194,6 +4226,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/application\/application-site-work-content.html",
+      "oF" : 1
+    },
+    "\/dev\/content\/application\/projects-pages\/application-fromitoeye-content.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/application\/projects-pages\/application-fromitoeye-content.html",
       "oF" : 1
     },
     "\/dev\/content\/contact-content.kit" : {
@@ -4820,6 +4860,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/application\/_application-work-content.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/application\/projects-pages\/_application-fromitoeye-content.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/application\/projects-pages\/_application-fromitoeye-content.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
