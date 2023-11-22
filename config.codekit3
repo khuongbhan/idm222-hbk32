@@ -57,6 +57,14 @@
       "oAP" : "\/deploy\/application-work.html",
       "oF" : 0
     },
+    "\/deploy\/braille-font\/officialBraille.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/braille-font\/officialBraille.ttf",
+      "oF" : 0
+    },
     "\/deploy\/contact.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -4852,6 +4860,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/application\/_application-work-content.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/application\/projects-pages\/_application-fromitoeye-content.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/application\/projects-pages\/_application-fromitoeye-content.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

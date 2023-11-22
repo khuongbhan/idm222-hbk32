@@ -1,5 +1,10 @@
 @charset 'utf-8';
 
+@font-face {
+    font-family: "officialBraille";
+    src: url("deploy/braille-font/officialBraille.ttf");
+}
+
 
 // Helpers Styles
 @import "helpers/_mixins";
@@ -53,6 +58,8 @@
 @import "sections/application/_application-about-content";
 @import "sections/application/_application-work-content";
 
+// Application Projects Pages Styles
+@import "sections/application/projects-pages/_application-fromitoeye-content";
 
 body {
     background-color: $black;
