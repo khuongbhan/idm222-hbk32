@@ -49,6 +49,6 @@ def translate_english(event):
 
     output_div1 = document.querySelector("#output1")
     output_div2 = document.querySelector("#output2")
-    output_div1.innerText = "hello"
-    output_div2.innerText = "yeoreobun"
+    output_div1.innerText = res
+    output_div2.innerText = braille
     return('/n')
