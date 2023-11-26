@@ -4947,7 +4947,7 @@ footer #footer-container #socials a:visited:active {
     Application VFF Hero
 ============= */
 #vff-hero #vff-hero-image {
-  background-image: url(../img/project-page/highland/highland-small.gif);
+  background-image: url(../img/project-page/vff23/vff23-hero.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -4958,44 +4958,32 @@ footer #footer-container #socials a:visited:active {
   }
 }
 
-#highland-logo-video {
-  padding-top: 20px;
+#vff-trailer-video {
+  padding-top: 10px;
   padding-bottom: 20px;
 }
 @media (min-width: 768px) {
-  #highland-logo-video {
-    padding-top: 30px;
+  #vff-trailer-video {
+    padding-top: 20px;
   }
 }
 @media (min-width: 992px) {
-  #highland-logo-video {
-    padding-top: 40px;
+  #vff-trailer-video {
+    padding-top: 10px;
   }
 }
-#highland-logo-video > div iframe {
+#vff-trailer-video > div iframe {
   height: 30vh;
   width: 100%;
 }
 @media (min-width: 768px) {
-  #highland-logo-video > div iframe {
+  #vff-trailer-video > div iframe {
     height: 45vh;
   }
 }
 @media (min-width: 992px) {
-  #highland-logo-video > div iframe {
+  #vff-trailer-video > div iframe {
     height: 80vh;
-  }
-}
-
-#highland-app-1 {
-  padding-bottom: 0;
-}
-#highland-app-1 #highland-app-1-section-name {
-  padding-bottom: 15px;
-}
-@media (min-width: 992px) {
-  #highland-app-1 #highland-app-1-section-name {
-    padding-bottom: 20px;
   }
 }
 

@@ -4,7 +4,7 @@
 
 #vff-hero {
     #vff-hero-image {
-        background-image: url(../img/project-page/highland/highland-small.gif);
+        background-image: url(../img/project-page/vff23/vff23-hero.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -15,16 +15,16 @@
     }
 }
 
-#highland-logo-video {
-    padding-top: 20px;
+#vff-trailer-video {
+    padding-top: 10px;
     padding-bottom: 20px;
 
     @include md {
-        padding-top: 30px;
+        padding-top: 20px;
     }
     
     @include lg {
-        padding-top: 40px;
+        padding-top: 10px;
     }
     >div {
         iframe{
@@ -38,17 +38,4 @@
             }
         }
     }
-}
-
-#highland-app-1 {
-    padding-bottom: 0;
-
-    #highland-app-1-section-name {
-        padding-bottom: 15px;
-
-        @include lg {
-            padding-bottom: 20px;
-        }
-    }
-
 }
