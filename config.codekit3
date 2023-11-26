@@ -49,6 +49,14 @@
       "oAP" : "\/deploy\/application-from-i-to-eye.html",
       "oF" : 0
     },
+    "\/deploy\/application-happy-sunshine.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/application-happy-sunshine.html",
+      "oF" : 0
+    },
     "\/deploy\/application-komorebi-lemon-mochi.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -65,12 +73,44 @@
       "oAP" : "\/deploy\/application-long-story-short.html",
       "oF" : 0
     },
+    "\/deploy\/application-man-ray.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/application-man-ray.html",
+      "oF" : 0
+    },
+    "\/deploy\/application-senior-showcase-2022.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/application-senior-showcase-2022.html",
+      "oF" : 0
+    },
     "\/deploy\/application-site.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/application-site.html",
+      "oF" : 0
+    },
+    "\/deploy\/application-viet-film-fest-2023.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/application-viet-film-fest-2023.html",
+      "oF" : 0
+    },
+    "\/deploy\/application-webfolio.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/application-webfolio.html",
       "oF" : 0
     },
     "\/deploy\/application-work.html" : {
@@ -4204,6 +4244,14 @@
       "oAP" : "\/deploy\/application-from-i-to-eye.html",
       "oF" : 2
     },
+    "\/dev\/application-happy-sunshine.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/application-happy-sunshine.html",
+      "oF" : 2
+    },
     "\/dev\/application-komorebi-lemon-mochi.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -4220,12 +4268,44 @@
       "oAP" : "\/deploy\/application-long-story-short.html",
       "oF" : 2
     },
+    "\/dev\/application-man-ray.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/application-man-ray.html",
+      "oF" : 2
+    },
+    "\/dev\/application-senior-showcase-2022.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/application-senior-showcase-2022.html",
+      "oF" : 2
+    },
     "\/dev\/application-site.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/application-site.html",
+      "oF" : 2
+    },
+    "\/dev\/application-viet-film-fest-2023.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/application-viet-film-fest-2023.html",
+      "oF" : 2
+    },
+    "\/dev\/application-webfolio.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/application-webfolio.html",
       "oF" : 2
     },
     "\/dev\/application-work.kit" : {
@@ -4306,6 +4386,46 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/application\/projects-pages\/application-lts-content.html",
+      "oF" : 1
+    },
+    "\/dev\/content\/application\/projects-pages\/application-manray-content.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/application\/projects-pages\/application-manray-content.html",
+      "oF" : 1
+    },
+    "\/dev\/content\/application\/projects-pages\/application-srs22-content.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/application\/projects-pages\/application-srs22-content.html",
+      "oF" : 1
+    },
+    "\/dev\/content\/application\/projects-pages\/application-sunshine-content.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/application\/projects-pages\/application-sunshine-content.html",
+      "oF" : 1
+    },
+    "\/dev\/content\/application\/projects-pages\/application-vff23-content.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/application\/projects-pages\/application-vff23-content.html",
+      "oF" : 1
+    },
+    "\/dev\/content\/application\/projects-pages\/application-webfolio-content.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/application\/projects-pages\/application-webfolio-content.html",
       "oF" : 1
     },
     "\/dev\/content\/contact-content.kit" : {
@@ -4992,6 +5112,66 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/application\/projects-pages\/_application-lts-content.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/application\/projects-pages\/_application-manray-content.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/application\/projects-pages\/_application-manray-content.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/application\/projects-pages\/_application-srs22-content.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/application\/projects-pages\/_application-srs22-content.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/application\/projects-pages\/_application-sunshine-content.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/application\/projects-pages\/_application-sunshine-content.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/application\/projects-pages\/_application-vff23-content.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/application\/projects-pages\/_application-vff23-content.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

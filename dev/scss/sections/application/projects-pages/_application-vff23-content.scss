@@ -1,0 +1,54 @@
+/* =============
+    Application VFF Hero
+============= */
+
+#vff-hero {
+    #vff-hero-image {
+        background-image: url(../img/project-page/highland/highland-small.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        @include lg {
+            background-position: center;
+        }
+    }
+}
+
+#highland-logo-video {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    @include md {
+        padding-top: 30px;
+    }
+    
+    @include lg {
+        padding-top: 40px;
+    }
+    >div {
+        iframe{
+            height: 30vh;
+            width: 100%;
+            @include md{
+                height: 45vh;
+            }
+            @include lg{
+                height: 80vh;
+            }
+        }
+    }
+}
+
+#highland-app-1 {
+    padding-bottom: 0;
+
+    #highland-app-1-section-name {
+        padding-bottom: 15px;
+
+        @include lg {
+            padding-bottom: 20px;
+        }
+    }
+
+}

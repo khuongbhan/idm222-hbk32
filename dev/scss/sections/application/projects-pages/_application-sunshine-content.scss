@@ -1,0 +1,59 @@
+/* =============
+    Application Happy Sunshine Hero
+============= */
+
+#sunshine-hero {
+    #sunshine-hero-image {
+        background-image: url(../img/project-page/sunshine/sunshine-hero.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        @include lg {
+            background-position: center;
+        }
+    }
+}
+
+
+#sunshine-research-process-gallery {
+    padding-bottom: 0;
+}
+
+#sunshine-prototype-link-container {
+    padding-top: 10px;
+    padding-bottom: 15px;
+
+    >div {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        a {
+
+            margin: 10px;
+            text-decoration: none;
+            text-align: center;
+            border: 1px $yellow solid;
+            color: $yellow;
+            padding: 12px 30px;
+            border-radius: 30px;
+
+            &:hover {
+                transition: .25s;
+                background-color: $yellow;
+                border: 1px $yellow solid;
+                color: $black;
+                font-style: italic;
+            }
+
+            @include lg {
+                flex-wrap: nowrap;
+                padding: 12px 30px;
+                border-radius: 50px;
+            }
+        }
+    }
+}
