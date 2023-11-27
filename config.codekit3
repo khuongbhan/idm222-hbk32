@@ -4032,6 +4032,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/project-page\/webfolio\/webfolio-hero.png" : {
+      "ft" : 32768,
+      "iS" : 2255692,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/webfolio\/webfolio-hero.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/projects-all\/across-proj.png" : {
       "ft" : 32768,
       "iS" : 302172,
@@ -5315,6 +5328,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/application\/projects-pages\/_application-vff23-content.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/application\/projects-pages\/_application-webfolio-content.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/application\/projects-pages\/_application-webfolio-content.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

@@ -1,0 +1,56 @@
+/* =============
+    Application Webfolio Hero
+============= */
+
+#webfolio-hero {
+    #webfolio-hero-image {
+        background-image: url(../img/project-page/webfolio/webfolio-hero.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: cover;
+
+        @include lg {
+            background-position: center;
+        }
+    }
+}
+
+
+#pigeon-research-copy-container {
+    padding-top: 50px;
+
+    @include lg {
+        padding-top: 70px;
+    }
+position: relative;
+background-color: $black;
+>div {
+    #pigeon-research-p1 {
+        padding-bottom: 10px;
+
+        @include md {
+            padding-bottom: 20px;
+        }
+    }
+}
+}
+
+
+#pigeon-sketch {
+    #pigeon-sketch-section-name {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+#pigeon-prototype {
+    #pigeon-prototype-section-name {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+}
+
+#pigeon-team-copy-container {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
