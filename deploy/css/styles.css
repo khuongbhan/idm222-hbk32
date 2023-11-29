@@ -5063,15 +5063,44 @@ footer #footer-container #socials a:visited:active {
   }
 }
 
-#webfolio-shades-step3 {
+#webfolio-design-step-3 {
   padding-bottom: 0;
 }
-#webfolio-shades-step3 #webfolio-shades-step3-section-name {
+#webfolio-design-step-3 #webfolio-design-step-3 {
   padding-bottom: 15px;
 }
 @media (min-width: 992px) {
-  #webfolio-shades-step3 #webfolio-shades-step3-section-name {
+  #webfolio-design-step-3 #webfolio-design-step-3 {
     padding-bottom: 20px;
+  }
+}
+
+#webfolio-build-step-4-codepen {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@media (min-width: 768px) {
+  #webfolio-build-step-4-codepen {
+    padding-top: 30px;
+  }
+}
+@media (min-width: 992px) {
+  #webfolio-build-step-4-codepen {
+    padding-top: 40px;
+  }
+}
+#webfolio-build-step-4-codepen > div iframe {
+  height: 40vh;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  #webfolio-build-step-4-codepen > div iframe {
+    height: 45vh;
+  }
+}
+@media (min-width: 992px) {
+  #webfolio-build-step-4-codepen > div iframe {
+    height: 50vh;
   }
 }
 
@@ -5079,19 +5108,27 @@ footer #footer-container #socials a:visited:active {
   object-fit: contain;
 }
 
-#pigeon-sketch #pigeon-sketch-section-name {
-  padding-top: 20px;
-  padding-bottom: 20px;
+#webfolio-build-step-4-copy {
+  padding-bottom: 0;
+}
+#webfolio-build-step-4-copy #webfolio-build-step-4 {
+  padding-bottom: 15px;
+}
+@media (min-width: 992px) {
+  #webfolio-build-step-4-copy #webfolio-build-step-4 {
+    padding-bottom: 20px;
+  }
 }
 
-#pigeon-prototype #pigeon-prototype-section-name {
-  padding-top: 30px;
-  padding-bottom: 10px;
-}
-
-#pigeon-team-copy-container {
+#most-team-copy-container {
   padding-top: 30px;
   padding-bottom: 50px;
+}
+@media (min-width: 768px) {
+  #most-team-copy-container {
+    padding-top: 60px;
+    padding-bottom: 70px;
+  }
 }
 
 body {
