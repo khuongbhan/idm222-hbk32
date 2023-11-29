@@ -5063,6 +5063,22 @@ footer #footer-container #socials a:visited:active {
   }
 }
 
+#webfolio-shades-step3 {
+  padding-bottom: 0;
+}
+#webfolio-shades-step3 #webfolio-shades-step3-section-name {
+  padding-bottom: 15px;
+}
+@media (min-width: 992px) {
+  #webfolio-shades-step3 #webfolio-shades-step3-section-name {
+    padding-bottom: 20px;
+  }
+}
+
+#webfolio-kg-step3 img {
+  object-fit: contain;
+}
+
 #pigeon-sketch #pigeon-sketch-section-name {
   padding-top: 20px;
   padding-bottom: 20px;
