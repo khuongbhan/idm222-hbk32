@@ -15,17 +15,39 @@
     }
 }
 
+#webfolio-banner {
+    @include md {
+        padding: 20px 0 0 0;
+    }
+}
 
-#pigeon-research-copy-container {
-    padding-top: 50px;
+#webfolio-context-copy-container {
+    @include md {
+        padding: 0;
+    }
+}
+
+#webfolio-process-map {
+    @include md {
+        padding: 40px 0;
+    }
+
+    // @include lg {
+    //     margin-top: -70px;
+    // }
+}
+
+
+#webfolio-design-step-12 {
+    // padding-top: 50px;
 
     @include lg {
-        padding-top: 70px;
+        padding-top: 0px;
     }
 position: relative;
 background-color: $black;
 >div {
-    #pigeon-research-p1 {
+    #webfolio-design-step-1 {
         padding-bottom: 10px;
 
         @include md {
@@ -33,6 +55,33 @@ background-color: $black;
         }
     }
 }
+}
+
+
+#webfolio-idos-step12 {
+    padding-bottom: 0;
+
+    #webfolio-idos-step12-section-name {
+        padding-bottom: 15px;
+
+        @include lg {
+            padding-bottom: 20px;
+        }
+    }
+
+}
+
+#webfolio-shades-step12 {
+    padding-bottom: 0;
+
+    #webfolio-shades-step12-section-name {
+        padding-bottom: 15px;
+
+        @include lg {
+            padding-bottom: 20px;
+        }
+    }
+
 }
 
 
