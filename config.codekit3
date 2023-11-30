@@ -1042,7 +1042,7 @@
     },
     "\/deploy\/img\/project-page\/eye\/detail\/eye-detail-1.png" : {
       "ft" : 32768,
-      "iS" : 3198921,
+      "iS" : 1467526,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/eye\/detail\/eye-detail-1.png",
       "oF" : 0,
@@ -1133,7 +1133,7 @@
     },
     "\/deploy\/img\/project-page\/eye\/process\/eye-moodboard.png" : {
       "ft" : 32768,
-      "iS" : 8861334,
+      "iS" : 5813752,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/eye\/process\/eye-moodboard.png",
       "oF" : 0,
@@ -1146,7 +1146,7 @@
     },
     "\/deploy\/img\/project-page\/eye\/process\/eye-option-1.png" : {
       "ft" : 32768,
-      "iS" : 2162239,
+      "iS" : 918892,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/eye\/process\/eye-option-1.png",
       "oF" : 0,
@@ -1159,7 +1159,7 @@
     },
     "\/deploy\/img\/project-page\/eye\/process\/eye-option-2.png" : {
       "ft" : 32768,
-      "iS" : 1781919,
+      "iS" : 800682,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/eye\/process\/eye-option-2.png",
       "oF" : 0,
@@ -1185,7 +1185,7 @@
     },
     "\/deploy\/img\/project-page\/eye\/section\/eye-section-1.png" : {
       "ft" : 32768,
-      "iS" : 7918785,
+      "iS" : 2973287,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/eye\/section\/eye-section-1.png",
       "oF" : 0,
@@ -1198,7 +1198,7 @@
     },
     "\/deploy\/img\/project-page\/eye\/section\/eye-section-2.png" : {
       "ft" : 32768,
-      "iS" : 7965605,
+      "iS" : 5147684,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/eye\/section\/eye-section-2.png",
       "oF" : 0,
@@ -1224,7 +1224,7 @@
     },
     "\/deploy\/img\/project-page\/eye\/wall\/eye-wall-1.png" : {
       "ft" : 32768,
-      "iS" : 6778463,
+      "iS" : 2693650,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/eye\/wall\/eye-wall-1.png",
       "oF" : 0,
@@ -1237,7 +1237,7 @@
     },
     "\/deploy\/img\/project-page\/eye\/wall\/eye-wall-2.png" : {
       "ft" : 32768,
-      "iS" : 3625924,
+      "iS" : 1380640,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/eye\/wall\/eye-wall-2.png",
       "oF" : 0,
@@ -1250,7 +1250,7 @@
     },
     "\/deploy\/img\/project-page\/eye\/wall\/eye-wall-3.png" : {
       "ft" : 32768,
-      "iS" : 3519967,
+      "iS" : 1233349,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/eye\/wall\/eye-wall-3.png",
       "oF" : 0,
@@ -4073,7 +4073,7 @@
     },
     "\/deploy\/img\/project-page\/webfolio\/design\/kg\/kg-vid-1.gif" : {
       "ft" : 4194304,
-      "iS" : 17310849,
+      "iS" : 11933108,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/webfolio\/design\/kg\/kg-vid-1.gif",
       "oF" : 0,
@@ -4083,7 +4083,7 @@
     },
     "\/deploy\/img\/project-page\/webfolio\/design\/kg\/kg-vid-2.gif" : {
       "ft" : 4194304,
-      "iS" : 15203898,
+      "iS" : 11155544,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/webfolio\/design\/kg\/kg-vid-2.gif",
       "oF" : 0,
@@ -4093,7 +4093,7 @@
     },
     "\/deploy\/img\/project-page\/webfolio\/design\/kg\/kg-vid-3.gif" : {
       "ft" : 4194304,
-      "iS" : 13374281,
+      "iS" : 9630192,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/webfolio\/design\/kg\/kg-vid-3.gif",
       "oF" : 0,
@@ -4116,7 +4116,7 @@
     },
     "\/deploy\/img\/project-page\/webfolio\/design\/shades\/shades-vid.gif" : {
       "ft" : 4194304,
-      "iS" : 8982259,
+      "iS" : 6606187,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/webfolio\/design\/shades\/shades-vid.gif",
       "oF" : 0,
@@ -4126,11 +4126,11 @@
     },
     "\/deploy\/img\/project-page\/webfolio\/launch\/enlighten-1.gif" : {
       "ft" : 4194304,
-      "iS" : 10838948,
+      "iS" : 7647044,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/webfolio\/launch\/enlighten-1.gif",
       "oF" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "rq" : 75
     },
@@ -4176,7 +4176,7 @@
     },
     "\/deploy\/img\/project-page\/webfolio\/webfolio-banner.png" : {
       "ft" : 32768,
-      "iS" : 1359548,
+      "iS" : 414663,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/webfolio\/webfolio-banner.png",
       "oF" : 0,
@@ -4239,32 +4239,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/project-page\/webfolio\/wireframes\/idos\/idos-sketch-3.png" : {
-      "ft" : 32768,
-      "iS" : 1849452,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/project-page\/webfolio\/wireframes\/idos\/idos-sketch-3.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/project-page\/webfolio\/wireframes\/idos\/idos-sketch-4.png" : {
-      "ft" : 32768,
-      "iS" : 1814057,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/project-page\/webfolio\/wireframes\/idos\/idos-sketch-4.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/deploy\/img\/project-page\/webfolio\/wireframes\/idos\/idos-wf-1.png" : {
       "ft" : 32768,
       "iS" : 765941,
@@ -4283,32 +4257,6 @@
       "iS" : 414597,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/webfolio\/wireframes\/idos\/idos-wf-2.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/project-page\/webfolio\/wireframes\/idos\/idos-wf-3.png" : {
-      "ft" : 32768,
-      "iS" : 345458,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/project-page\/webfolio\/wireframes\/idos\/idos-wf-3.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/project-page\/webfolio\/wireframes\/idos\/idos-wf-4.png" : {
-      "ft" : 32768,
-      "iS" : 312733,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/project-page\/webfolio\/wireframes\/idos\/idos-wf-4.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
