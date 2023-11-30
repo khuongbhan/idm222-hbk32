@@ -371,6 +371,19 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/homepage\/featured\/eye-home.png" : {
+      "ft" : 32768,
+      "iS" : 518533,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/homepage\/featured\/eye-home.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/homepage\/featured\/hover-doodle.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -441,6 +454,19 @@
       "oF" : 0,
       "oIPL" : 1,
       "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/homepage\/featured\/webfolio-home.png" : {
+      "ft" : 32768,
+      "iS" : 673265,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/homepage\/featured\/webfolio-home.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
