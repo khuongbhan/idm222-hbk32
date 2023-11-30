@@ -1273,7 +1273,7 @@
     },
     "\/deploy\/img\/project-page\/highland\/application\/highland-ad-1.png" : {
       "ft" : 32768,
-      "iS" : 735655,
+      "iS" : 123436,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/highland\/application\/highland-ad-1.png",
       "oF" : 0,
@@ -1286,7 +1286,7 @@
     },
     "\/deploy\/img\/project-page\/highland\/application\/highland-ad-2.png" : {
       "ft" : 32768,
-      "iS" : 567077,
+      "iS" : 165109,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/highland\/application\/highland-ad-2.png",
       "oF" : 0,
@@ -1299,7 +1299,7 @@
     },
     "\/deploy\/img\/project-page\/highland\/application\/highland-bz-card.png" : {
       "ft" : 32768,
-      "iS" : 1449006,
+      "iS" : 310876,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/highland\/application\/highland-bz-card.png",
       "oF" : 0,
@@ -1325,7 +1325,7 @@
     },
     "\/deploy\/img\/project-page\/highland\/application\/highland-invoice.png" : {
       "ft" : 32768,
-      "iS" : 497686,
+      "iS" : 38856,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/highland\/application\/highland-invoice.png",
       "oF" : 0,
@@ -1390,12 +1390,12 @@
     },
     "\/deploy\/img\/project-page\/highland\/application\/highland-package-3.png" : {
       "ft" : 32768,
-      "iS" : 1268194,
+      "iS" : 785233,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/highland\/application\/highland-package-3.png",
       "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
+      "oIPL" : 0,
+      "opt" : 0,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -1423,6 +1423,19 @@
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/project-page\/highland\/application\/highland-signage-3.jpg" : {
+      "ft" : 16384,
+      "iS" : 214882,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/highland\/application\/highland-signage-3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3018,7 +3031,7 @@
     },
     "\/deploy\/img\/project-page\/mutter\/applications\/mutter-cards.png" : {
       "ft" : 32768,
-      "iS" : 1308425,
+      "iS" : 171568,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/mutter\/applications\/mutter-cards.png",
       "oF" : 0,
@@ -3031,7 +3044,7 @@
     },
     "\/deploy\/img\/project-page\/mutter\/applications\/mutter-tickets-1.png" : {
       "ft" : 32768,
-      "iS" : 1753009,
+      "iS" : 481333,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/mutter\/applications\/mutter-tickets-1.png",
       "oF" : 0,
@@ -3044,7 +3057,7 @@
     },
     "\/deploy\/img\/project-page\/mutter\/applications\/mutter-tickets-2.png" : {
       "ft" : 32768,
-      "iS" : 1609548,
+      "iS" : 428424,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/mutter\/applications\/mutter-tickets-2.png",
       "oF" : 0,
