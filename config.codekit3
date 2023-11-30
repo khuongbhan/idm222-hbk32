@@ -3395,7 +3395,7 @@
     },
     "\/deploy\/img\/project-page\/pigeon\/pigeon-hero.png" : {
       "ft" : 32768,
-      "iS" : 1562847,
+      "iS" : 282887,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/pigeon\/pigeon-hero.png",
       "oF" : 0,
@@ -3408,7 +3408,7 @@
     },
     "\/deploy\/img\/project-page\/pigeon\/prototype\/pigeon-prototype-1.gif" : {
       "ft" : 4194304,
-      "iS" : 7100592,
+      "iS" : 5906117,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/pigeon\/prototype\/pigeon-prototype-1.gif",
       "oF" : 0,
@@ -3418,7 +3418,7 @@
     },
     "\/deploy\/img\/project-page\/pigeon\/prototype\/pigeon-prototype-2.gif" : {
       "ft" : 4194304,
-      "iS" : 19792057,
+      "iS" : 15598272,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/pigeon\/prototype\/pigeon-prototype-2.gif",
       "oF" : 0,
@@ -3428,7 +3428,7 @@
     },
     "\/deploy\/img\/project-page\/pigeon\/prototype\/pigeon-prototype-3.png" : {
       "ft" : 32768,
-      "iS" : 335876,
+      "iS" : 100368,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/pigeon\/prototype\/pigeon-prototype-3.png",
       "oF" : 0,
@@ -3441,7 +3441,7 @@
     },
     "\/deploy\/img\/project-page\/pigeon\/prototype\/pigeon-prototype-4.png" : {
       "ft" : 32768,
-      "iS" : 760575,
+      "iS" : 176126,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/pigeon\/prototype\/pigeon-prototype-4.png",
       "oF" : 0,
@@ -3506,7 +3506,7 @@
     },
     "\/deploy\/img\/project-page\/prince\/content\/prince-banner.png" : {
       "ft" : 32768,
-      "iS" : 2367811,
+      "iS" : 394308,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/prince\/content\/prince-banner.png",
       "oF" : 0,
@@ -3519,12 +3519,12 @@
     },
     "\/deploy\/img\/project-page\/prince\/content\/prince-desktop.png" : {
       "ft" : 32768,
-      "iS" : 805912,
+      "iS" : 186980,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/prince\/content\/prince-desktop.png",
       "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
+      "oIPL" : 0,
+      "opt" : 0,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -3532,7 +3532,7 @@
     },
     "\/deploy\/img\/project-page\/prince\/content\/prince-end.png" : {
       "ft" : 32768,
-      "iS" : 375135,
+      "iS" : 70016,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/prince\/content\/prince-end.png",
       "oF" : 0,
@@ -3545,7 +3545,7 @@
     },
     "\/deploy\/img\/project-page\/prince\/content\/prince-mobile.png" : {
       "ft" : 32768,
-      "iS" : 860812,
+      "iS" : 226478,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/prince\/content\/prince-mobile.png",
       "oF" : 0,
@@ -3571,7 +3571,7 @@
     },
     "\/deploy\/img\/project-page\/prince\/content\/prince-tablet.png" : {
       "ft" : 32768,
-      "iS" : 3161610,
+      "iS" : 1140976,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/prince\/content\/prince-tablet.png",
       "oF" : 0,
@@ -3584,7 +3584,7 @@
     },
     "\/deploy\/img\/project-page\/prince\/content\/prince-ui-kit.png" : {
       "ft" : 32768,
-      "iS" : 305875,
+      "iS" : 124155,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/prince\/content\/prince-ui-kit.png",
       "oF" : 0,
@@ -3597,7 +3597,7 @@
     },
     "\/deploy\/img\/project-page\/prince\/prince-hero.png" : {
       "ft" : 32768,
-      "iS" : 2577036,
+      "iS" : 854856,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/project-page\/prince\/prince-hero.png",
       "oF" : 0,
