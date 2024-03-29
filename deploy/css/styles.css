@@ -1505,18 +1505,34 @@ footer #footer-container #socials a:visited:active {
   }
 }
 #index-homepage #landing-screen {
-  min-height: 60vh;
+  min-height: 30vh;
+}
+@media (min-width: 992px) {
+  #index-homepage #landing-screen {
+    min-height: 20vh;
+  }
 }
 #index-homepage #landing-screen #hello-there {
   margin-left: 20px;
   display: inline-block;
 }
 #index-homepage #landing-screen #hello-there h6 {
+  font-size: 1rem;
   overflow: hidden;
   border-right: 0.125em solid #FF0097;
   white-space: nowrap;
   animation: typing 2s steps(30, end) 0.75s forwards, blinking 0.6s infinite;
   width: 0;
+}
+@media (min-width: 768px) {
+  #index-homepage #landing-screen #hello-there h6 {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 992px) {
+  #index-homepage #landing-screen #hello-there h6 {
+    font-size: 1.25rem;
+  }
 }
 @keyframes typing {
   from {
@@ -1536,18 +1552,24 @@ footer #footer-container #socials a:visited:active {
 }
 @media (min-width: 992px) {
   #index-homepage #landing-screen #hello-there {
-    margin-left: 25px;
+    margin-left: 10%;
   }
 }
 #index-homepage #landing-screen #large-copy {
-  margin-top: -15px;
+  margin-top: -25px;
   display: grid;
   grid-template-columns: 20px auto 20px;
   grid-template-areas: ". large-text .";
 }
+@media (min-width: 768px) {
+  #index-homepage #landing-screen #large-copy {
+    margin-top: -40px;
+  }
+}
 @media (min-width: 992px) {
   #index-homepage #landing-screen #large-copy {
-    margin-top: -30px;
+    margin-top: -40px;
+    grid-template-columns: 10% auto 20%;
   }
 }
 #index-homepage #landing-screen #large-copy #large-text {
@@ -1564,108 +1586,15 @@ footer #footer-container #socials a:visited:active {
 }
 @media (min-width: 992px) {
   #index-homepage #landing-screen #large-copy #large-text {
-    font-size: 3.125rem;
-    line-height: 4.375rem;
-  }
-}
-#index-homepage #landing-screen #circle-name {
-  height: 55px;
-  margin-top: -10px;
-  margin-left: -30px;
-}
-@media (min-width: 768px) {
-  #index-homepage #landing-screen #circle-name {
-    height: 80px;
-    margin-top: -10px;
-    margin-left: 50px;
-  }
-}
-@media (min-width: 992px) {
-  #index-homepage #landing-screen #circle-name {
-    height: 100px;
-    margin-top: -20px;
-    margin-left: 130px;
-  }
-}
-#index-homepage #landing-screen #line-brand {
-  width: 80px;
-  margin-top: 233px;
-  margin-left: -330px;
-}
-@media (min-width: 768px) {
-  #index-homepage #landing-screen #line-brand {
-    width: 160px;
-    margin-top: 220px;
-    margin-left: -540px;
-  }
-}
-@media (min-width: 992px) {
-  #index-homepage #landing-screen #line-brand {
-    width: 230px;
-    margin-top: 205px;
-    margin-left: -300px;
-  }
-}
-#index-homepage #landing-screen #line-digital {
-  width: 100px;
-  margin-top: -207px;
-  margin-left: 180px;
-}
-@media (min-width: 768px) {
-  #index-homepage #landing-screen #line-digital {
-    width: 150px;
-    margin-top: -170px;
-    margin-left: 480px;
-  }
-}
-@media (min-width: 992px) {
-  #index-homepage #landing-screen #line-digital {
-    width: 200px;
-    margin-top: -145px;
-    margin-left: 30px;
-  }
-}
-#index-homepage #landing-screen #line-front {
-  width: 40%;
-  margin-top: -120px;
-  margin-left: 180px;
-}
-@media (min-width: 768px) {
-  #index-homepage #landing-screen #line-front {
-    margin-top: -55px;
-    margin-left: 75px;
-  }
-}
-@media (min-width: 992px) {
-  #index-homepage #landing-screen #line-front {
-    width: 90%;
-    margin-top: -70px;
-    margin-left: -380px;
-  }
-}
-#index-homepage #landing-screen #line-package {
-  width: 200px;
-  margin-top: -50px;
-  margin-left: -300px;
-}
-@media (min-width: 768px) {
-  #index-homepage #landing-screen #line-package {
-    width: 350px;
-    margin-top: 0;
-    margin-left: -700px;
-  }
-}
-@media (min-width: 992px) {
-  #index-homepage #landing-screen #line-package {
-    width: 400px;
-    margin-left: -1050px;
+    font-size: 1.625rem;
+    line-height: 2.875rem;
   }
 }
 #index-homepage #landing-screen #rotate-button {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 @media (min-width: 768px) {
   #index-homepage #landing-screen #rotate-button {
@@ -1674,7 +1603,9 @@ footer #footer-container #socials a:visited:active {
 }
 @media (min-width: 992px) {
   #index-homepage #landing-screen #rotate-button {
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-left: 10%;
+    justify-content: start;
   }
 }
 #index-homepage #landing-screen #rotate-button #image #rt-btn {
@@ -2070,6 +2001,7 @@ footer #footer-container #socials a:visited:active {
   left: 280px;
   top: 150px;
   width: 40px;
+  transform: rotate(-20deg);
 }
 @media (min-width: 768px) {
   #about-container-top #about-content #photo-area svg {
