@@ -1579,14 +1579,27 @@ footer #footer-container #socials a:visited:active {
 }
 #index-homepage #landing-screen {
   min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 @media (min-width: 992px) {
   #index-homepage #landing-screen {
     min-height: 20vh;
+    flex-direction: row;
+  }
+}
+#index-homepage #landing-screen #smiski #smiski-photo {
+  width: 300px;
+}
+@media (min-width: 992px) {
+  #index-homepage #landing-screen #smiski #smiski-photo {
+    width: 500px;
   }
 }
 #index-homepage #landing-screen #hello-there {
-  margin-left: 20px;
+  margin-top: -20px;
   display: inline-block;
 }
 #index-homepage #landing-screen #hello-there h6 {
@@ -1604,7 +1617,7 @@ footer #footer-container #socials a:visited:active {
 }
 @media (min-width: 992px) {
   #index-homepage #landing-screen #hello-there h6 {
-    font-size: 1.25rem;
+    font-size: 1.75rem;
   }
 }
 @keyframes typing {
@@ -1625,14 +1638,11 @@ footer #footer-container #socials a:visited:active {
 }
 @media (min-width: 992px) {
   #index-homepage #landing-screen #hello-there {
-    margin-left: 10%;
+    margin-top: 0px;
   }
 }
 #index-homepage #landing-screen #large-copy {
   margin-top: -25px;
-  display: grid;
-  grid-template-columns: 20px auto 20px;
-  grid-template-areas: ". large-text .";
 }
 @media (min-width: 768px) {
   #index-homepage #landing-screen #large-copy {
@@ -1642,7 +1652,6 @@ footer #footer-container #socials a:visited:active {
 @media (min-width: 992px) {
   #index-homepage #landing-screen #large-copy {
     margin-top: -40px;
-    grid-template-columns: 10% auto 20%;
   }
 }
 #index-homepage #landing-screen #large-copy #large-text {
@@ -1662,39 +1671,6 @@ footer #footer-container #socials a:visited:active {
     font-size: 1.625rem;
     line-height: 2.875rem;
   }
-}
-#index-homepage #landing-screen #rotate-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 30px;
-}
-@media (min-width: 768px) {
-  #index-homepage #landing-screen #rotate-button {
-    margin-top: 40px;
-  }
-}
-@media (min-width: 992px) {
-  #index-homepage #landing-screen #rotate-button {
-    margin-top: 30px;
-    margin-left: 10%;
-    justify-content: start;
-  }
-}
-#index-homepage #landing-screen #rotate-button #image #rt-btn {
-  align-items: center;
-  animation: buttonRotate 25s linear infinite;
-}
-@keyframes buttonRotate {
-  from {
-    transform: rotate(-360deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-#index-homepage #landing-screen #rotate-button #arrow #arrow-rotate-button {
-  margin-left: -75px;
 }
 
 /* =============

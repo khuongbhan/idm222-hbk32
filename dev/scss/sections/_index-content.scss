@@ -19,19 +19,35 @@
 
     #landing-screen {
 
+
         min-height: 30vh;
 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
         @include lg {
             min-height: 20vh;
+            flex-direction: row;
         }
 
-        // display: grid;
-        // grid-template-columns: 10px auto 10px;
-        // grid-template-areas: ". landing-screen-container .";
+        #smiski {
+            #smiski-photo {
+
+                width: 300px;
+
+                @include lg {
+                    width: 500px;
+                }
+                
+            }
+        }
 
         #hello-there {
+            // grid-area: text;
 
-            margin-left: 20px;
+            margin-top: -20px;
             display: inline-block;
 
             h6 {
@@ -48,17 +64,17 @@
                 }
 
                 @include lg {
-                    font-size: rem-calc(20);
+                    font-size: rem-calc(28);
                 }
             }
 
             @keyframes typing {
                 from {
-                    width: 0
+                    width: 0;
                 }
 
                 to {
-                    width: 100%
+                    width: 100%;
                 }
             }
 
@@ -73,7 +89,8 @@
             }
 
             @include lg {
-                margin-left: 10%;
+                // margin-left: 10%;
+                margin-top: 0px;
             }
 
         }
@@ -84,9 +101,9 @@
 
             margin-top: -25px;
 
-            display: grid;
-            grid-template-columns: 20px auto 20px;
-            grid-template-areas: ". large-text .";
+            // display: grid;
+            // grid-template-columns: 20px auto 20px;
+            // grid-template-areas: ". large-text .";
 
             @include md {
                 margin-top: -40px;
@@ -95,7 +112,7 @@
             @include lg {
 
                 margin-top: -40px;
-                grid-template-columns: 10% auto 20%;
+                // grid-template-columns: 10% auto 20%;
 
             }
 
@@ -129,153 +146,57 @@
             }
         }
 
-        // #circle-name {
-        //     height: 55px;
-        //     // width: 190px;
-        //     // height: 100%;
-        //     margin-top: -10px;
-        //     margin-left: -30px;
+
+
+        // #rotate-button {
+
+        //     display: flex;
+        //     align-items: center;
+        //     justify-content: center;
+
+        //     margin-top: 30px;
 
         //     @include md {
-
-        //         height: 80px;
-        //         margin-top: -10px;
-        //         margin-left: 50px;
-
+        //         margin-top: 40px;
         //     }
 
         //     @include lg {
+        //         margin-top: 30px;
+        //         margin-left: 10%;
+        //         // align-items: center;
+        //         justify-content: start;
+        //     }
 
-        //         height: 100px;
-        //         margin-top: -20px;
-        //         margin-left: 130px;
+        //     #image {
 
+        //         // scroll-behavior: smooth;
+        //         // width: 80px;
+
+        //         #rt-btn {
+
+        //             align-items: center;
+        //             animation: buttonRotate 25s linear infinite;
+
+
+        //             @keyframes buttonRotate {
+        //                 from {
+        //                     transform: rotate(-360deg);
+        //                 }
+
+        //                 to {
+        //                     transform: rotate(360deg);
+        //                 }
+        //             }
+        //         }
+        //     }
+
+        //     #arrow {
+
+        //         #arrow-rotate-button {
+        //             margin-left: -75px;
+        //         }
         //     }
         // }
-
-        // #line-brand {
-
-        //     width: 80px;
-        //     margin-top: 233px;
-        //     margin-left: -330px;
-
-        //     @include md {
-        //         width: 160px;
-        //         margin-top: 220px;
-        //         margin-left: -540px;
-        //     }
-
-        //     @include lg {
-        //         width: 230px;
-        //         margin-top: 205px;
-        //         margin-left: -300px;
-        //     }
-        // }
-
-        // #line-digital {
-        //     width: 100px;
-        //     margin-top: -207px;
-        //     margin-left: 180px;
-        //     // overflow: hidden;
-
-        //     @include md {
-        //         width: 150px;
-        //         margin-top: -170px;
-        //         margin-left: 480px;
-        //     }
-
-        //     @include lg {
-        //         width: 200px;
-        //         margin-top: -145px;
-        //         margin-left: 30px;
-        //     }
-
-        // }
-
-        // #line-front {
-        //     width: 40%;
-        //     margin-top: -120px;
-        //     margin-left: 180px;
-
-        //     @include md {
-        //         // width: 45%;
-        //         margin-top: -55px;
-        //         margin-left: 75px;
-        //     }
-
-        //     @include lg {
-        //         width: 90%;
-        //         margin-top: -70px;
-        //         margin-left: -380px;
-        //     }
-        // }
-
-        // #line-package {
-        //     width: 200px;
-        //     margin-top: -50px;
-        //     margin-left: -300px;
-
-        //     @include md {
-        //         width: 350px;
-        //         margin-top: 0;
-        //         margin-left: -700px;
-        //     }
-
-        //     @include lg {
-        //         width: 400px;
-        //         margin-left: -1050px;
-        //     }
-        // }
-
-        #rotate-button {
-
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-            margin-top: 30px;
-
-            @include md {
-                margin-top: 40px;
-            }
-
-            @include lg {
-                margin-top: 30px;
-                margin-left: 10%;
-                // align-items: center;
-                justify-content: start;
-            }
-
-            #image {
-
-                // scroll-behavior: smooth;
-                // width: 80px;
-
-                #rt-btn {
-
-                    align-items: center;
-                    animation: buttonRotate 25s linear infinite;
-
-
-                    @keyframes buttonRotate {
-                        from {
-                            transform: rotate(-360deg);
-                        }
-
-                        to {
-                            transform: rotate(360deg);
-                        }
-                    }
-                }
-            }
-
-            #arrow {
-
-                #arrow-rotate-button {
-                    margin-left: -75px;
-                }
-            }
-        }
     }
 }
 
