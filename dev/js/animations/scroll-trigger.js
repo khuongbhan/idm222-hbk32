@@ -68,23 +68,16 @@ export function projectsFade(){
 // ============= */
 
 var heroTextFadesIn = gsap.timeline();
-var largeTextFadeTime = 1;
+var largeTextFadeTime =1;
 var drawOutSVG = .75;
 
-heroTextFadesIn.from("#large-text",{duration:largeTextFadeTime,alpha: 0,translateX:"-10%",delay:1.75,ease:"power1.out"},"fadeIn")
-.from("#circle-1",{duration:drawOutSVG,drawSVG: "50% 50%",ease:"power2.easeInOut"},"drawOut")
-.from("#circle-2",{duration:drawOutSVG,drawSVG: "50% 50%",ease:"power2.easeInOut"},"drawOut")
-.from("#sketch-brand",{duration:drawOutSVG,drawSVG: 0,ease:"power2.easeInOut"},"drawOut")
-.from("#sketch-dig",{duration:drawOutSVG,drawSVG: 0,ease:"power2.easeInOut"},"drawOut")
-.from("#sketch-front",{duration:drawOutSVG,drawSVG: 0,ease:"power2.easeInOut"},"drawOut")
-.from("#sketch-package",{duration:drawOutSVG,drawSVG: 0,ease:"power2.easeInOut"},"drawOut")
-.from("#rotate-button",{duration:drawOutSVG, alpha: 0,ease:"power2.easeInOut"},"buttonAppears")
+heroTextFadesIn.from("#large-text",{duration:largeTextFadeTime,delay:.75,alpha: 0,translateX:"-10%",ease:"power1.out"},"fadeIn")
 
 export function heroTextFades(){
     ScrollTrigger.create({
         animation: heroTextFadesIn,
         trigger: "#large-text",
-        start: "center 61%"
+        start: "center 81%"
         // markers: true
     });
 }
@@ -96,7 +89,7 @@ export function heroTextFades(){
 var heroTextFadesInApplication = gsap.timeline();
 var largeTextFadeTimeApplication = .75;
 
-heroTextFadesInApplication.from("#large-text-application",{duration:largeTextFadeTimeApplication,alpha: 0,translateX:"-10%",delay:1.75,ease:"power1.out"},"fadeIn")
+heroTextFadesInApplication.from("#large-text-application",{duration:largeTextFadeTimeApplication,alpha: 0,translateX:"-10%",ease:"power1.out"},"fadeIn")
 .from("#rotate-button-application",{duration:drawOutSVG, alpha: 0,ease:"power2.easeInOut"},"buttonAppears")
 .from("#featured-application",{duration:largeTextFadeTime,translateX:"10%", alpha: 0,ease:"power2.easeInOut"},"afterButton")
 
@@ -104,7 +97,7 @@ export function heroTextFadesApplication(){
     ScrollTrigger.create({
         animation: heroTextFadesInApplication,
         trigger: "#large-text-application",
-        start: "center 61%"
+        start: "center 60%"
         // markers: true
     });
 }

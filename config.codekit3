@@ -4280,6 +4280,19 @@
       "ou" : "lpckwebp-none",
       "rq" : 75
     },
+    "\/deploy\/img\/project-page\/webfolio\/design\/shades\/shades-design.png" : {
+      "ft" : 32768,
+      "iS" : 518867,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/project-page\/webfolio\/design\/shades\/shades-design.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/project-page\/webfolio\/design\/shades\/shades-vid.gif" : {
       "ft" : 4194304,
       "iS" : 6606187,
@@ -4769,6 +4782,14 @@
       "oAP" : "\/deploy\/test_code.py",
       "oF" : 0
     },
+    "\/deploy\/webfolio.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/webfolio.html",
+      "oF" : 0
+    },
     "\/deploy\/work.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -5119,6 +5140,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/projects-pages\/srs22-content.html",
+      "oF" : 1
+    },
+    "\/dev\/content\/projects-pages\/webfolio-content.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/projects-pages\/webfolio-content.html",
       "oF" : 1
     },
     "\/dev\/content\/work-content.kit" : {
@@ -5997,6 +6026,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/senior-showcase-2022.html",
+      "oF" : 2
+    },
+    "\/dev\/webfolio.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/webfolio.html",
       "oF" : 2
     },
     "\/dev\/work.kit" : {
