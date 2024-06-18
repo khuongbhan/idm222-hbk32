@@ -5142,6 +5142,14 @@
       "oAP" : "\/dev\/content\/projects-pages\/srs22-content.html",
       "oF" : 1
     },
+    "\/dev\/content\/projects-pages\/vff23-content.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/projects-pages\/vff23-content.html",
+      "oF" : 1
+    },
     "\/dev\/content\/projects-pages\/webfolio-content.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -6005,6 +6013,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/sections\/project-page\/_vff23-content.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/project-page\/_vff23-content.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/dev\/scss\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -6026,6 +6049,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/senior-showcase-2022.html",
+      "oF" : 2
+    },
+    "\/dev\/viet-film-fest-2023.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/viet-film-fest-2023.html",
       "oF" : 2
     },
     "\/dev\/webfolio.kit" : {

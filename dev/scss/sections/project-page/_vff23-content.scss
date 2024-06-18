@@ -1,0 +1,41 @@
+/* =============
+    Application VFF Hero
+============= */
+
+#vff-hero {
+    #vff-hero-image {
+        background-image: url(../img/project-page/vff23/vff23-hero.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        @include lg {
+            background-position: center;
+        }
+    }
+}
+
+#vff-trailer-video {
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+    @include md {
+        padding-top: 20px;
+    }
+    
+    @include lg {
+        padding-top: 10px;
+    }
+    >div {
+        iframe{
+            height: 30vh;
+            width: 100%;
+            @include md{
+                height: 45vh;
+            }
+            @include lg{
+                height: 80vh;
+            }
+        }
+    }
+}
