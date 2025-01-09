@@ -113,6 +113,16 @@
                     color: $magenta;
                 }
             }
+
+            a:link, a:visited {
+                color: $yellow;
+                text-decoration: none;
+
+                &:hover, &:active {
+                    color: $magenta;
+                    transition: .25s;
+                }
+            }
         }
     }
 }

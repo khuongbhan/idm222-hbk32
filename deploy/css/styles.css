@@ -2123,6 +2123,14 @@ footer #footer-container #socials a:visited:active {
   background-color: #FFF200;
   color: #FF0097;
 }
+#about-container-top #about-content #about-me a:link, #about-container-top #about-content #about-me a:visited {
+  color: #FFF200;
+  text-decoration: none;
+}
+#about-container-top #about-content #about-me a:link:hover, #about-container-top #about-content #about-me a:link:active, #about-container-top #about-content #about-me a:visited:hover, #about-container-top #about-content #about-me a:visited:active {
+  color: #FF0097;
+  transition: 0.25s;
+}
 
 /* =============
     Resume Section
